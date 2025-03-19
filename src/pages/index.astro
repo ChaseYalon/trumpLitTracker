@@ -1,0 +1,139 @@
+---
+import SelectCase from "../components/SelectCase.astro";
+import { tCase, Event } from "../source/main.ts";
+
+const caseData = [
+	new tCase(
+		"J.G.G. v. Trump",
+		"James Emanuel Boasberg",
+		"President Trump issued a presidential proclamation purporting to invoke the Alien Enemies Act to allow for summary removal of alleged members of the Venezuelan Tren de Aragua (TdA) gang. Plaintiffs filed a class action lawsuit arguing the 1798 statute does not apply to these circumstances, and the judge provisionally agreed issuing a temporary block to any removals until further hearings.",
+		"Barack Obama",
+		true,
+		17,
+		[
+			new Event(
+				"The government submitted a notice of appeal to the D.C. Circuit.",
+				new Date(2025, 2, 15)
+			)
+		],
+		0.7,
+		new Date(2025, 2, 14)
+	),
+	new tCase(
+		"State of New Jersey et al v. Donald J. Trump et al",
+		"Leo Theodore Sorokin",
+		"A broad coalition of states sued President Donald Trump alleging his Executive Order (EO) revoking birthright citizenship for children of undocumented immigrants and others is unconstitutional. A federal court temporarily blocked the EO while the lawsuit is pending on the basis that it likely violates the Fourteenth Amendment; and the Fourth Circuit denied the defendants motion for a stay.",
+		"Barrak Obama",
+		true,
+		11,
+		[
+			new Event(
+				"Leo T. Sorokin issued an opinion granting a preliminary injunction enjoining the government from implementing and enforcing Executive Order No. 14,160, Protecting the Meaning and Value of American Citizenship.",
+				new Date(
+					2025,
+					1,
+					13
+				)
+			),
+			new Event (
+				"the Defendants submitted a notice of appeal to the First Circuit, and a motion to stay the district court order on appeal.",
+				new Date (
+					2025,
+					1,
+					13
+				)
+			),
+			new Event (
+				"Judge Sorokin denied defendants motion to stay the preliminary injunction pending resolution of their appeal.",
+				new Date (
+					2025,
+					1,
+					26
+				)
+			),
+			new Event (
+				"the First Circuit denied the governments motion for a stay.",
+				new Date (
+					2025,
+					2,
+					11
+				)
+			),
+			new Event (
+				"the Defendants appealed to the U.S. Supreme Court for a partial stay of the district courts injunction.",
+				new Date (
+					2025,
+					2,
+					13
+				)
+			)
+		],
+		0.99,
+		new Date (
+			2025,
+			0,
+			21
+		)
+
+	),
+	new tCase(
+		"Casa v. Donald Trump",
+		"Deborah L. Boardman",
+		" CASA and Asylum Seeker Advocacy Project (two immigrant rights organizations) and a group of noncitizen pregnant women whose unborn children stand to have their citizenship revoked under President Donald Trumps Executive Order (EO) ending birthright citizenship sued Trump alleging the EO is unconstitutional. A federal court temporarily blocked the EO while the lawsuit is pending on the basis that it likely violates the Fourteenth Amendment.",
+		"Joe Biden",
+		true,
+		4,
+		[
+			new Event (
+				"Judge Deborah Boardman issued an opinion granting the plaintiffs motion for a preliminary nationwide injunction blocking implementation of the birthright citizenship Executive Order.",
+				new Date (
+					2025,
+					1,
+					5
+				)
+			),
+			new Event (
+				"the Defendants submitted a notice of appeal to the Fourth Circuit.",
+				new Date (
+					2025,
+					1,
+					13
+				)
+			),
+			new Event (
+				"the Fourth Circuit denied Defendants request for a partial stay of the district courts injunction.",
+				new Date (
+					2025,
+					1,
+					28
+				)
+			),
+			new Event (
+				"the Defendants appealed to the U.S. Supreme Court for a partial stay of the district courts injunction.",
+				new Date (
+					2025,
+					2,
+					13
+				)
+			)
+		],
+		0.99,
+		new Date(
+			2025,
+			0,
+			21
+		)
+	)
+];
+---
+
+<html>
+	<head>
+		<title>Trump Litigation tracker</title>
+	</head>
+    <body>
+        <SelectCase iCase={caseData[0]} />
+		<SelectCase iCase={caseData[1]} />
+		<SelectCase iCase={caseData[2]} />
+    </body>
+</html>
