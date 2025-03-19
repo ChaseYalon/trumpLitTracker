@@ -1,6 +1,5 @@
 ---
-import { tCase, Event } from "../source/main.ts";
-
+import { tCase, Event } from "../source/main.mts";
 const { iCase } = Astro.props;
 const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
 ---
@@ -23,36 +22,39 @@ const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
             .main {
                 padding-bottom: 1rem;
                 padding-top: 1rem;
-                padding-left:1rem;
-                padding-right:1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
                 margin-left: 10rem;
                 margin-right: 10rem;
-                margin-bottom:2rem;
-                border-radius:5rem;
+                margin-bottom: 2rem;
+                border-radius: 5rem;
             }
             .textBlob {
                 padding-left: 2rem;
             }
             .democrat {
-                color:rgb(40, 53, 90)
+                color: rgb(40, 53, 90);
             }
             .republican {
-                color:rgb(155, 72, 72)
+                color: rgb(155, 72, 72);
             }
         </style>
     </head>
     <body>
-        <div class="main" style={{backgroundColor: backgroundColor}}>
+
+
+        <div class="main" style={`background-color: ${backgroundColor}`}>
             <h2 class="center">{iCase.name}</h2>
             <h4 class="center">
-                Filed on {iCase.dateFiled.toLocaleDateString()} in the court of <p class={iCase.party ? "democrat" : "republican"}>{iCase.judge}</p>
+                Filed on {iCase.dateFiled.toLocaleDateString()} in the court of 
+                <p class={iCase.party ? "democrat" : "republican"}>{iCase.judge}</p>
                 ({iCase.party ? "Democrat" : "Republican"}, appointed by {iCase.appointee})
             </h4>
             <div class="container">
                 <div class="textBlob">
                     <p class="center">{iCase.summary}</p>
                 </div>
-                <p>Likelihood of Success: {iCase.likelihoodOfSuccess*100}%</p>
+                <p>Likelihood of Success: {iCase.likelihoodOfSuccess * 100}%</p>
             </div>
             <ol class="center">
                 {iCase.events.map((event: Event) => (
