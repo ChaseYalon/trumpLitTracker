@@ -2,7 +2,7 @@
 import { tCase, Event } from "../source/main.mts";
 const { iCase } = Astro.props;
 const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
-
+const fIcase = iCase;
 ---
 
 <html>
@@ -60,9 +60,9 @@ const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
     </head>
     <body>
 
-            <button id={`show_button-${iCase.name}`} class="center"autofocus style={`background-color: ${backgroundColor}`}>{iCase.name}</button>
+        <button id={`show_button-${iCase.name}`} class="center"autofocus style={`background-color: ${backgroundColor}`}>{iCase.name}</button>
         <!-- Dialog Content -->
-        <dialog id={`dialog-${iCase.name}`}>
+        <dialog id={`dialog-${iCase.name}`} >
             <div class="main" style={`background-color: ${backgroundColor}`}>
                 <h2 class="center">{iCase.name}</h2>
                 <h4 class="center">
@@ -84,19 +84,24 @@ const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
             </div>
             <button class="center" id={`close_button-${iCase.name}`}>Close</button>
         </dialog>
-        <script>
-            const showButton = document.getElementById(`show_button-${iCase.name}`);
-            const closeButton = document.getElementById(`close_button-${iCase.name}`)
-            const dialog = document.getElementById(`dialog-${iCase.name}`);
-                if(showButton!=null&&closeButton!=null&&dialog!=null){
-                    showButton.addEventListener("click",()=>{
-                    dialog.showModal();
-                })
-                closeButton.addEventListener("click",()=>{
-                    dialog.close();
-                })
-            }
+        <script define:vars={{iCase}}>
+                console.log(iCase);
+                const showButton = document.getElementById(`show_button-${iCase.name}`);
+                const closeButton = document.getElementById(`close_button-${iCase.name}`)
+                const dialog = document.getElementById(`dialog-${iCase.name}`);
+
+                    if(showButton!=null&&closeButton!=null&&dialog!=null){
+                        showButton.addEventListener("click",()=>{
+                        dialog.showModal();
+                    })
+                    closeButton.addEventListener("click",()=>{
+                        dialog.close();
+                    })
+                }
+            
+            
 
         </script>
+        <br>
     </body>
 </html>
