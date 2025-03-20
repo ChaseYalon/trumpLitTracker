@@ -10,7 +10,7 @@ import caseData from "../source/caseList.mts"
 	</head>
     <body>
 		{caseData.map((iCase) => (
-			<SelectCase iCase={iCase} />
+			<SelectCase client:load iCase={iCase} />
 		))}
     </body>
 </html>

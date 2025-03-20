@@ -2,6 +2,7 @@
 import { tCase, Event } from "../source/main.mts";
 const { iCase } = Astro.props;
 const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
+
 ---
 
 <html>
@@ -38,29 +39,64 @@ const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
             .republican {
                 color: rgb(155, 72, 72);
             }
+            button {
+                font-size: 3.5rem;
+                border: 2px solid black;
+                border-radius: 2rem;
+            }
+            ::backdrop {
+                background-image: linear-gradient(
+                  45deg,
+                  magenta,
+                  rebeccapurple,
+                  dodgerblue,
+                  green
+                );
+                opacity: 0.75;
+            }
         </style>
+        <!-- Ensure that the script is loaded after the page is rendered -->
+
     </head>
     <body>
 
-
-        <div class="main" style={`background-color: ${backgroundColor}`}>
-            <h2 class="center">{iCase.name}</h2>
-            <h4 class="center">
-                Filed on {iCase.dateFiled.toLocaleDateString()} in the court of 
-                <p class={iCase.party ? "democrat" : "republican"}>{iCase.judge}</p>
-                ({iCase.party ? "Democrat" : "Republican"}, appointed by {iCase.appointee})
-            </h4>
-            <div class="container">
-                <div class="textBlob">
-                    <p class="center">{iCase.summary}</p>
+            <button id={`show_button-${iCase.name}`} class="center"autofocus style={`background-color: ${backgroundColor}`}>{iCase.name}</button>
+        <!-- Dialog Content -->
+        <dialog id={`dialog-${iCase.name}`}>
+            <div class="main" style={`background-color: ${backgroundColor}`}>
+                <h2 class="center">{iCase.name}</h2>
+                <h4 class="center">
+                    Filed on {iCase.dateFiled.toLocaleDateString()} in the court of 
+                    <p class={iCase.party ? "democrat" : "republican"}>{iCase.judge}</p>
+                    ({iCase.party ? "Democrat" : "Republican"}, appointed by {iCase.appointee})
+                </h4>
+                <div class="container">
+                    <div class="textBlob">
+                        <p class="center">{iCase.summary}</p>
+                    </div>
+                    <p>Likelihood of Success: {iCase.likelihoodOfSuccess * 100}%</p>
                 </div>
-                <p>Likelihood of Success: {iCase.likelihoodOfSuccess * 100}%</p>
+                <ol>
+                    {iCase.events.map((event: Event) => (
+                        <li>{event.text} (Date: {event.date.toLocaleDateString()})</li>
+                    ))}
+                </ol>
             </div>
-            <ol class="center">
-                {iCase.events.map((event: Event) => (
-                    <li>{event.text} (Date: {event.date.toLocaleDateString()})</li>
-                ))}
-            </ol>
-        </div>
+            <button class="center" id={`close_button-${iCase.name}`}>Close</button>
+        </dialog>
+        <script>
+            const showButton = document.getElementById(`show_button-${iCase.name}`);
+            const closeButton = document.getElementById(`close_button-${iCase.name}`)
+            const dialog = document.getElementById(`dialog-${iCase.name}`);
+                if(showButton!=null&&closeButton!=null&&dialog!=null){
+                    showButton.addEventListener("click",()=>{
+                    dialog.showModal();
+                })
+                closeButton.addEventListener("click",()=>{
+                    dialog.close();
+                })
+            }
+
+        </script>
     </body>
 </html>

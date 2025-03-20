@@ -20,7 +20,7 @@ const caseData = [
     new tCase(
         "New Hampshire Indonesian Community Support v. Donald J. Trump ",
         "Joseph N. Laplante",
-        "Trump’s executive order seeks to revoke birthright citizenship for the children of undocumented immigrants on the basis that people in the United States illegally are not “subject to the jurisdiction thereof.” The ACLU sued the Trump administration on behalf of individuals in New Hampshire who would have their childrens’ citizenship revoked. The ACLU argues that the plain text of the 14th Amendment, as confirmed in U.S. v. Wong Kim Ark (1898), explicitly grants birthright citizenship for all people born in the United States.",
+        "Trumps executive order seeks to revoke birthright citizenship for the children of undocumented immigrants on the basis that people in the United States illegally are not subject to the jurisdiction thereof. The ACLU sued the Trump administration on behalf of individuals in New Hampshire who would have their childrens citizenship revoked. The ACLU argues that the plain text of the 14th Amendment, as confirmed in U.S. v. Wong Kim Ark (1898), explicitly grants birthright citizenship for all people born in the United States.",
         "George W Bush",
         false,
         18,
@@ -44,13 +44,13 @@ const caseData = [
     ),new tCase(
         "O. Doe; Brazilian Worker Center, Inc; La Colaborativa v. Donald J. Trump et al ",
         "Leo Theodore Sorokin",
-        " Trump’s executive order seeks to revoke birthright citizenship for the children of undocumented immigrants on the basis that people in the United States illegally are not “subject to the jurisdiction thereof.” A group of pregnant women whose children would not receive citizenship sued; the plaintiff identified as “O. Doe” lives in Massachusetts and has temporary protected status in the United States. The suit argues that the plain text of the 14th Amendment, as confirmed in U.S. v. Wong Kim Ark (1898), explicitly grants birthright citizenship for all people born in the United States.",
+        " Trumps executive order seeks to revoke birthright citizenship for the children of undocumented immigrants on the basis that people in the United States illegally are not subject to the jurisdiction thereof. A group of pregnant women whose children would not receive citizenship sued; the plaintiff identified as O. Doe lives in Massachusetts and has temporary protected status in the United States. The suit argues that the plain text of the 14th Amendment, as confirmed in U.S. v. Wong Kim Ark (1898), explicitly grants birthright citizenship for all people born in the United States.",
         "Barrak Obama",
         true,
         11,
         [
             new Event (
-                "Judge Leo T. Sorokin issued an opinion granting a preliminary injunction enjoining the government from implementing and enforcing Executive Order No. 14,160, “Protecting the Meaning and Value of American Citizenship,” against plaintiff O. Doe, or any member of La Colaborativa or Brazilian Worker Center.",
+                "Judge Leo T. Sorokin issued an opinion granting a preliminary injunction enjoining the government from implementing and enforcing Executive Order No. 14,160, Protecting the Meaning and Value of American Citizenship, against plaintiff O. Doe, or any member of La Colaborativa or Brazilian Worker Center.",
                 new Date(
                     2025,
                     1,
@@ -205,7 +205,7 @@ const caseData = [
     new tCase(
         "County of Santa Clara v. Trump, et al",
         "Eumi K. Lee",
-        " Trump’s executive order seeks to revoke birthright citizenship for the children of undocumented immigrants and for the children of parents on lawful temporary visas on the basis that they are not “subject to the jurisdiction” of the United States. The County of Santa Clara sued to protect residents who would lose their citizenship or whose U.S.-born children will not receive citizenship and to prevent administrative burdens and loss of tax revenues associated with that prospective loss of citizenship. Santa Clara argues that the order violates the plain text of the Fourteenth Amendment, statutes (8 U.S.C. § 1401 et seq.), and the Administrative Procedure Act, 5 U.S.C. § 706(2), and seeks declaratory and injunctive relief.",
+        " Trumps executive order seeks to revoke birthright citizenship for the children of undocumented immigrants and for the children of parents on lawful temporary visas on the basis that they are not subject to the jurisdiction of the United States. The County of Santa Clara sued to protect residents who would lose their citizenship or whose U.S.-born children will not receive citizenship and to prevent administrative burdens and loss of tax revenues associated with that prospective loss of citizenship. Santa Clara argues that the order violates the plain text of the Fourteenth Amendment, statutes (8 U.S.C. § 1401 et seq.), and the Administrative Procedure Act, 5 U.S.C. § 706(2), and seeks declaratory and injunctive relief.",
         "Joe Biden",
         true,
         1,
@@ -219,7 +219,7 @@ const caseData = [
                 )
             ),
             new Event (
-                "Defendants filed an opposition to Santa Clara County’s motion for a preliminary injunction on the basis that Santa Clara County does not reach threshold grounds and is unlikely to succeed on the merits, and injunctive relief is not in the public interest.",
+                "Defendants filed an opposition to Santa Clara Countys motion for a preliminary injunction on the basis that Santa Clara County does not reach threshold grounds and is unlikely to succeed on the merits, and injunctive relief is not in the public interest.",
                 new Date(
                     2025,
                     1,
@@ -235,7 +235,7 @@ const caseData = [
                 )
             ),
             new Event(
-                "Judge Eumi Lee ruled that both parties file Orders to Show Cause to explain why this case should not be stayed pending the Ninth Circuit’s decision in Washington v. Trump. The hearing on the motion for preliminary injunction was also vacated and both parties filed OSCs on Feb. 28.",
+                "Judge Eumi Lee ruled that both parties file Orders to Show Cause to explain why this case should not be stayed pending the Ninth Circuits decision in Washington v. Trump. The hearing on the motion for preliminary injunction was also vacated and both parties filed OSCs on Feb. 28.",
                 new Date(
                     2025,
                     1,
@@ -253,7 +253,7 @@ const caseData = [
 	new tCase (
 		"State of Washington et al v. Donald J. Trump et al",
 		"John C. Coughenour",
-		"The states of Washington, Arizona, Illinois and Oregon sued to block President Donald Trump's Executive Order (“EO”) revoking birthright citizenship for children of undocumented immigrants and those with temporary visas, alleging that the EO is unconstitutional. A federal court temporarily blocked the EO while the lawsuit is pending on the basis that it likely violates the Fourteenth Amendment. Trump has appealed the court’s decision. The Fourth Circuit denied the appeal, and the government then appealed to the Supreme Court.",
+		"The states of Washington, Arizona, Illinois and Oregon sued to block President Donald Trump's Executive Order (EO) revoking birthright citizenship for children of undocumented immigrants and those with temporary visas, alleging that the EO is unconstitutional. A federal court temporarily blocked the EO while the lawsuit is pending on the basis that it likely violates the Fourteenth Amendment. Trump has appealed the courts decision. The Fourth Circuit denied the appeal, and the government then appealed to the Supreme Court.",
 		"Ronald Regan",
 		false,
 		44,
@@ -267,7 +267,7 @@ const caseData = [
 				)
 			),
 			new Event (
-				"Judge Coughenour issued an opinion granting the plaintiffs’ motion for a preliminary injunction enjoining implementation of the Executive Order.",
+				"Judge Coughenour issued an opinion granting the plaintiffs motion for a preliminary injunction enjoining implementation of the Executive Order.",
 				new Date(
 					2025,
 					1,
@@ -283,7 +283,7 @@ const caseData = [
 				)
 			),
 			new Event (
-				"defendants made an emergency motion to stay the district court’s injunction.",
+				"defendants made an emergency motion to stay the district courts injunction.",
 				new Date(
 					2025,
 					1,
@@ -291,7 +291,7 @@ const caseData = [
 				)
 			),
 			new Event (
-				"the Ninth Circuit issued an order denying the government’s emergency motion to stay the district court’s injunction and leaving the existing briefing schedule unchanged.",
+				"the Ninth Circuit issued an order denying the governments emergency motion to stay the district courts injunction and leaving the existing briefing schedule unchanged.",
 				new Date(
 					2025,
 					19,
@@ -299,7 +299,7 @@ const caseData = [
 				)
 			),
 			new Event (
-				"the Defendants appealed to the U.S. Supreme Court for a partial stay of the district court’s injunction.",
+				"the Defendants appealed to the U.S. Supreme Court for a partial stay of the district courts injunction.",
 				new Date (
 					2025,
 					3,
@@ -317,7 +317,7 @@ const caseData = [
     new tCase (
         "OCA Asian Pacific American Advocates v. Marco Rubio et al",
         "Timothy James Kelly",
-        "Trump’s executive order seeks to revoke birthright citizenship for the children of undocumented immigrants and for the children of parents on lawful temporary visas on the basis that they are not “subject to the jurisdiction” of the United States. OCA sued Marco Rubio and the heads of other departments and agencies on behalf of at least two pregnant women expected to give birth to children denied citizenship by the order. Both women reside in the United States on lawful, temporary, nonimmigrant visas. OCA argues that the order violates the plain text of the Fourteenth Amendment, statutes (8 U.S.C. § 1401 et seq.), and the Administrative Procedure Act, 5 U.S.C. § 706(2). The suit identifies an injured “subclass” of “Targeted Children” denied the privileges and public benefits afforded to U.S. citizens, seeking declaratory and injunctive relief.",
+        "Trumps executive order seeks to revoke birthright citizenship for the children of undocumented immigrants and for the children of parents on lawful temporary visas on the basis that they are not subject to the jurisdiction of the United States. OCA sued Marco Rubio and the heads of other departments and agencies on behalf of at least two pregnant women expected to give birth to children denied citizenship by the order. Both women reside in the United States on lawful, temporary, nonimmigrant visas. OCA argues that the order violates the plain text of the Fourteenth Amendment, statutes (8 U.S.C. § 1401 et seq.), and the Administrative Procedure Act, 5 U.S.C. § 706(2). The suit identifies an injured subclass of Targeted Children denied the privileges and public benefits afforded to U.S. citizens, seeking declaratory and injunctive relief.",
         "Donald Trump",
         false,
         8,
@@ -396,7 +396,65 @@ const caseData = [
 			9
 		)
 
-	)
+	),
+	new tCase(
+		"Las Americas Immigrant Advocacy Center v. Noem ",
+		"Carl John Nichols",
+		"Trumps Presidential Memorandum orders the Secretary of Defense and the Secretary of Homeland Security to prepare the Migrant Operations Center at Naval Station Guantanamo Bay to function at full capacity as a detention center for undocumented migrants. Plaintiffs are suing on behalf of the families of four Venezuelan nationals who are believed to have been transferred to Guantanamo. Plaintiffs allege the governments action violates habeas corpus rights, Fifth Amendment Due Process rights, and the Immigration and Naturalization Acts guarantee of the right to counsel. Plaintiffs further allege that the governments alleged restriction of information in and out of Guantanamo violates both the plaintiffs and the detainees First Amendment rights. They seek court orders declaring that the governments actions violate those rights, permitting access to lawyers, requiring the government to identify the location of detainees held at Guantanamo, requiring the government to provide 72-hours notice prior to any transfer to a foreign jurisdiction, and requiring the government to provide 72-hours notice prior to any transfer of additional noncitizens to Guantanamo.",
+		"Donald Trump",
+		false,
+		6,
+		[
+			new Event (
+				"the government filed a notice that DHS had removed the immigration detainees from Guantanamo, which the government asserted eliminates any need for temporary injunctive relief. Just prior, it filed its Opposition to the Motion for Temporary Restraining Order arguing, among other things, that the Plaintiffs (family members of individuals who had been held at Guantanamo, and advocacy organizations) lacked standing because they were not themselves detained, that the District Court lacked statutory authority to require the government to provide notice before transferring individuals into or out of Guantanamo, and denying the validity of Plaintiffs constitutional claims.",
+				new Date (
+					2025,
+					1,
+					20
+				)
+			),
+			new Event(
+				"Plaintiffs filed a Reply reasserting their request for a TRO to prevent the government from sending more detainees to Guantanamo.",
+				new Date (
+					2025,
+					1,
+					21
+				)
+			),
+			new Event (
+				"Plaintiffs filed a Reply explaining that in spite of the administrations Feb. 20 notice that all immigrant detainees had been transferred off Guantanamo and the TRO was moot, they had learned via social media that another group of immigrants was being sent to Guantanamo. The Reply adds further factual allegations and legal arguments that immigrant detainees are prevented from having real meaningful access to legal representation. These include that (1) the government and guards at the detention camp do not allow detainees to make phone calls, including by saying this is a terrorist prison and there is no capacity to make calls and by limiting available phones and times such that most people cannot use them; (2) unrepresented detainees transferred to Guantanamo do not have access to a legal directory, know your rights briefings, or practical means to meet counsel; and (3) retained counsel face numerous obstacles to representing their clients, including that only five detainees can make phone calls each day, there are no means for attorneys to initiate contact with their clients, and there is no way to transfer or sign paperwork other than the government's announced policy to generally follow the procedures used in the habeas litigation involving law of war detainees, and to transfer mail to detainees from Washington, D.C. on a weekly basis. Plaintiffs argue that these restrictions violate detainees First and Fifth Amendment rights, as well as their statutory right to counsel under the Immigration and Nationality Act, as well as the plaintiff advocacy organizations First Amendment rights.",
+				new Date (
+					2025,
+					1,
+					24
+				)
+			)
+		],
+		0.85,
+		new Date(
+			2025,
+			1,
+			12
+		)
+	),
+	new tCase (
+		"Espinoza Escalona v. Noem",
+		"Carl John Nichols",
+		" Trumps Presidential Memorandum orders the Secretary of Defense and the Secretary of Homeland Security to prepare the Migrant Operations Center at Naval Station Guantanamo Bay to function at full capacity as a detention center for undocumented migrants. Plaintiffs, ten noncitizens in immigration custody in the United States, allege they will be imminently transferred to facilities at Guantanamo. They filed suit, arguing that under the Immigration and Nationality Act, Guantanamo is in Cuba, and therefore transfer would constitute (1) unlawful removal; and (2) unlawful detention. They also argue removal would be (3) an arbitrary and capricious abuse of discretion under the Administrative Procedure Act; (4) a violation of Fifth Amendment Due Process; and (5) a violation of the right to habeas corpus. They seek a declaratory judgment that transfer to and detention in Guantanamo is unlawful and unconstitutional; that the memorandum be vacated; a grant of a writ of habeas corpus to enjoin defendants from transferring plaintiffs to Guantanamo, or if they have been transferred and detained, return to facilities in the United States; and an injunction on future transfers.The same day, Plaintiffs also filed an emergency motion to stay transfer of plaintiffs.",
+		"Donald Trump",
+		false,
+		6,
+		[
+
+		],
+		0.5,
+		new Date (
+			2025,
+			2,
+			1
+		)
+	),
+
 ];
 
 export default caseData;
