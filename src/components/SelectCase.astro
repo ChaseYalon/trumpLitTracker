@@ -2,7 +2,7 @@
 import { tCase, Event } from "../source/main.mts";
 const { iCase } = Astro.props;
 const backgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 100%, 70%)`;
-const fIcase = iCase;
+const hoverBackgroundColor = `hsl(${iCase.likelihoodOfSuccess * 117}, 60%, 50%)`;
 ---
 
 <html>
@@ -21,13 +21,8 @@ const fIcase = iCase;
                 gap: 2rem;
             }
             .main {
-                padding-bottom: 1rem;
-                padding-top: 1rem;
-                padding-left: 1rem;
-                padding-right: 1rem;
-                margin-left: 10rem;
-                margin-right: 10rem;
-                margin-bottom: 2rem;
+                padding: 1rem;
+                margin: 2rem 10rem;
                 border-radius: 5rem;
             }
             .textBlob {
@@ -43,6 +38,13 @@ const fIcase = iCase;
                 font-size: 3.5rem;
                 border: 2px solid black;
                 border-radius: 2rem;
+                transition: background-color 0.3s ease-in-out;
+            }
+            .dynamic-button {
+                background-color: var(--button-bg);
+            }
+            .dynamic-button:hover {
+                background-color: var(--button-hover-bg);
             }
             ::backdrop {
                 background-image: linear-gradient(
@@ -55,12 +57,14 @@ const fIcase = iCase;
                 opacity: 0.75;
             }
         </style>
-        <!-- Ensure that the script is loaded after the page is rendered -->
-
     </head>
     <body>
+        <button id={`show_button-${iCase.name}`} 
+                class="center dynamic-button" 
+                style={`--button-bg: ${backgroundColor}; --button-hover-bg: ${hoverBackgroundColor};`}>
+            {iCase.name}
+        </button>
 
-        <button id={`show_button-${iCase.name}`} class="center"autofocus style={`background-color: ${backgroundColor}`}>{iCase.name}</button>
         <!-- Dialog Content -->
         <dialog id={`dialog-${iCase.name}`} >
             <div class="main" style={`background-color: ${backgroundColor}`}>
@@ -84,23 +88,21 @@ const fIcase = iCase;
             </div>
             <button class="center" id={`close_button-${iCase.name}`}>Close</button>
         </dialog>
+        
         <script define:vars={{iCase}}>
-                console.log(iCase);
-                const showButton = document.getElementById(`show_button-${iCase.name}`);
-                const closeButton = document.getElementById(`close_button-${iCase.name}`)
-                const dialog = document.getElementById(`dialog-${iCase.name}`);
+            console.log(iCase);
+            const showButton = document.getElementById(`show_button-${iCase.name}`);
+            const closeButton = document.getElementById(`close_button-${iCase.name}`);
+            const dialog = document.getElementById(`dialog-${iCase.name}`);
 
-                    if(showButton!=null&&closeButton!=null&&dialog!=null){
-                        showButton.addEventListener("click",()=>{
-                        dialog.showModal();
-                    })
-                    closeButton.addEventListener("click",()=>{
-                        dialog.close();
-                    })
-                }
-            
-            
-
+            if(showButton && closeButton && dialog){
+                showButton.addEventListener("click", () => {
+                    dialog.showModal();
+                });
+                closeButton.addEventListener("click", () => {
+                    dialog.close();
+                });
+            }
         </script>
         <br>
     </body>
