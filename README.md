@@ -1,32 +1,48 @@
-Astro trup lit tracker
+# Astro Starter Kit: Basics
 
-tCase format
+```sh
+npm create astro@latest -- --template basics
+```
 
-    name : the legal name of the case : string
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-    judge : the judge currently presiding over the case, not the appelate judge, the district judge : string
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-    appointee : name of the president who appointed the judge : string
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-    yearsOnBench : how many years since the judge has taken the judical oath : number
+## 🚀 Project Structure
 
-    events : list of events in the case : Event[] (look at event documentation)
+Inside of your Astro project, you'll see the following folders and files:
 
-    likelihoodOfSuccess : BETWEEN 0 AND 1, just my estimate maybe get a laywers oppinion later : number
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-    dateFiled : the date the case was filed in court : Date
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-    party : policical party of the APPOINTEE, true for democrat false for republican. : boolean
+## 🧞 Commands
 
-    summary : please no more then 3 sentences : strinng
+All commands are run from the root of the project, from a terminal:
 
-Event format
-    text : description of the event, 1-2 sentences : string.
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-    date : date of the event : Date.
+## 👀 Want to learn more?
 
-Note about Date type, look it up on MDN but new Date (2025,0,22 ) is Jan 22 2025, the months is the second item and it starts at 0
-
-Author(s) : Chase Yalon, Leo Gorel, Jacob Taylor
-
-** released under MIT liscene **
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
