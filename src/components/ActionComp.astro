@@ -1,5 +1,6 @@
 ---
 const { localAction } = Astro.props;
+import {timelineEvent } from "../source/main.mts";
 
 // Calculate colors based on evilness property (0-1 scale)
 // Lower evilness = more green (hsl 117), higher evilness = more red (hsl 0)
@@ -70,26 +71,43 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
                 max-height: 15rem;
                 opacity: 1;
             }
+
+            .expand-dialog{
+                background-color: var(--dialog-bg);
+            }
         </style>
+        
     </head>
     <body>
         <div class="dropdown" id={`dropdown-${localAction.id}`} style={`--button-bg: ${backgroundColor}; --content: ${content};`}>
             <button id={`button-${localAction.id}`} class="dropdown-header">{localAction.name}</button>
             <div class="dropdown-content">
-                <p>{localAction.summary}</p>
+                <p>{localAction.summary + " ("+ localAction.start.toLocaleDateString()+")"}</p>
             </div>
             <button id={`seeMore-${localAction.id}`} style={`--bottom-bg: ${buttonColor}`}class="dropdown-bottom">See More</button>
         </div>
+        <dialog class="expand-dialog" style={`--dialog-bg: ${content}`}id={`dialog-${localAction.id}`}>
+            <h1>{localAction.name}</h1>
+            <h3>{localAction.summary}</h3>
+            <ol>
+                {localAction.timeline.map((i:timelineEvent) => (
+                    <li>{i.summary + " ("+i.date.toLocaleDateString()+")"}</li>
+                ))}
+            </ol>
+            
+            <button id={`close-${localAction.id}`}>Close</button>
+        </dialog>
 
         <script define:vars={{localAction}}>
             document.addEventListener("DOMContentLoaded", () => {
                 const button = document.getElementById(`button-${localAction.id}`);
                 const dropdown = document.getElementById(`dropdown-${localAction.id}`);
                 const seeMore = document.getElementById(`seeMore-${localAction.id}`);
-
+                const dialog = document.getElementById(`dialog-${localAction.id}`)
+                const close = document.getElementById(`close-${localAction.id}`)
                 console.log("Dropdown is ", dropdown);
 
-                if (button && dropdown && seeMore) {
+                if (button && dropdown && seeMore && dialog && close) {
                     button.addEventListener('click', () => {
                         dropdown.classList.toggle('open'); // Toggle on parent div
                         console.log("dropdown after toggle is ", dropdown);
@@ -97,6 +115,12 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
                         // Ensure the 'open' class is applied to both content and 'seeMore' button
                         seeMore.classList.toggle('open');
                     });
+                    seeMore.addEventListener('click', () =>{
+                        dialog.showModal();
+                    })
+                    close.addEventListener('click', () => {
+                        dialog.close();
+                    })
                 }
             });
         </script>

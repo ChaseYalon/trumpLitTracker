@@ -1,6 +1,7 @@
 let actions: Action[] = [];
 let count = 0;
-class timelineEvent {
+
+export class timelineEvent {
   summary: string;
   date: Date;
   source: string;
@@ -171,93 +172,78 @@ actions = [
     0.6, //Those guys are all prety evil, but this is still bad
     new Date(2025, 0, 22),
   ),
-  new Action (
+  new Action(
     "Appointing Pete Hegesth, to secrary of Deffense",
-    "On Noveber 12 2024, Then President Elect Donald John Trump nomiated a fox news host, Pete Hegest to Secratry of deffense",
+    "On Noveber 12 2024, Then President Elect Donald John Trump nomiated a fox news host, Pete Hegest to Secratry of deffense Hegesth has a history of womanizing and drinking as evindnced by an FBI report. He has never heald command roles in the millitary.",
     [
-      "Baldor, Lolita, and Tara Copp. “Trump Picks Fox Host Pete Hegseth for Defense Secretary and Stuns Pentagon.” AP News, 13 Nov. 2024, apnews.com/article/trump-hegseth-defense-secretary-pentagon-2d8030921ecef933778cf92afd40ec72. Accessed 23 Mar. 2025."
+      "Baldor, Lolita, and Tara Copp. “Trump Picks Fox Host Pete Hegseth for Defense Secretary and Stuns Pentagon.” AP News, 13 Nov. 2024, apnews.com/article/trump-hegseth-defense-secretary-pentagon-2d8030921ecef933778cf92afd40ec72. Accessed 23 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "Senate Armed Services comittie holds an explosive confomation hearing, focusing on Hegesth's history of Abuse and Alchol",
-        new Date(
-          2025,
-          0,
-          14
-        ),
-        "“To Conduct a Confirmation Hearing on the Expected Nomination of Mr. Peter B. Hegseth to Be Secretary of Defense | United States Senate Committee on Armed Services.” Senate.gov, U.S. Senate Committee on Armed Services, 14 Jan. 2025, www.armed-services.senate.gov/hearings/to-conduct-a-confirmation-hearing-on-the-expected-nomination-of-mr-peter-b-hegseth-to-be-secretary-of-defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025."
+        new Date(2025, 0, 14),
+        "“To Conduct a Confirmation Hearing on the Expected Nomination of Mr. Peter B. Hegseth to Be Secretary of Defense | United States Senate Committee on Armed Services.” Senate.gov, U.S. Senate Committee on Armed Services, 14 Jan. 2025, www.armed-services.senate.gov/hearings/to-conduct-a-confirmation-hearing-on-the-expected-nomination-of-mr-peter-b-hegseth-to-be-secretary-of-defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "The Senate Armed Services comitte votes 14-13 along party lines to advance his nomination",
-        new Date(
-          2025,
-          0,
-          20
-        ),
-        "“Confirmation Process for Pete Hegseth for Secretary of Defense.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pete_Hegseth_for_secretary_of_defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025."
+        new Date(2025, 0, 20),
+        "“Confirmation Process for Pete Hegseth for Secretary of Defense.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pete_Hegseth_for_secretary_of_defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "The Senate invoked cloture on Hegseth's nomination with a 51-49 vote, limiting further debate.",
-        new Date(
-          2025,
-          0,
-          23
-        ),
-        "“PN11-7 - Nomination of Peter Hegseth for Department of Defense, 119th Congress (2025-2026).” Congress.gov, 2025, www.congress.gov/nomination/119th-congress/11/7 Accessed 23 Mar. 2025."
+        new Date(2025, 0, 23),
+        "“PN11-7 - Nomination of Peter Hegseth for Department of Defense, 119th Congress (2025-2026).” Congress.gov, 2025, www.congress.gov/nomination/119th-congress/11/7 Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "The Senate confirmed Hegseth as Secretary of Defense in a 51-50 vote, with Vice President J.D. Vance casting the tie-breaking vote. ",
-        new Date(
-          202,
-          0,
-          24
-        ),
-          "“PN11-7 - Nomination of Peter Hegseth for Department of Defense, 119th Congress (2025-2026).” Congress.gov, 2025, www.congress.gov/nomination/119th-congress/11/7? Accessed 23 Mar. 2025."
+        new Date(202, 0, 24),
+        "“PN11-7 - Nomination of Peter Hegseth for Department of Defense, 119th Congress (2025-2026).” Congress.gov, 2025, www.congress.gov/nomination/119th-congress/11/7? Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "Hegseth was officially sworn in as the 29th Secretary of Defense",
-        new Date(
-          2025,
-          0,
-          25
-        ),
-        "“HON Pete Hegseth.” U.S. Department of Defense, 2025, www.defense.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/. Accessed 23 Mar. 2025."
+        new Date(2025, 0, 25),
+        "“HON Pete Hegseth.” U.S. Department of Defense, 2025, www.defense.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "Pete Hegesth announced plans to terminate approximately 5,400 probationary employees within the Department of Defense, initiating a hiring freeze and planning a 5% to 8% reduction in the civilian workforce of about 760,000 personnel.",
-        new Date(
-          2025,
-          1,
-          20
-        ),
-        "to, Contributors. “Mass Government Layoffs in 2025.” Wikipedia.org, Wikimedia Foundation, Inc., 16 Feb. 2025, en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs?utm_source=chatgpt.com. Accessed 23 Mar. 2025."
+        new Date(2025, 1, 20),
+        "to, Contributors. “Mass Government Layoffs in 2025.” Wikipedia.org, Wikimedia Foundation, Inc., 16 Feb. 2025, en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "Ordered the removal of web pages related to diversity, equity, and inclusion (DEI) from military websites, including profiles of Native American code talkers and other minority service members. ​",
-        new Date(
-          2025,
-          2,
-          18
-        ),
-        "Aratani, Lauren, and Coral Murphy Marcos. “Articles about Native American Code Talkers Removed from Military Websites.” The Guardian, The Guardian, 18 Mar. 2025, www.theguardian.com/us-news/2025/mar/18/native-american-code-talkers-dei-military?utm_source=chatgpt.com. Accessed 23 Mar. 2025."
+        new Date(2025, 2, 18),
+        "Aratani, Lauren, and Coral Murphy Marcos. “Articles about Native American Code Talkers Removed from Military Websites.” The Guardian, The Guardian, 18 Mar. 2025, www.theguardian.com/us-news/2025/mar/18/native-american-code-talkers-dei-military?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "Criticized a federal judge's decision to block the administration's ban on transgender individuals serving in the military, suggesting the judge had overstepped her authority.",
-        new Date(
-          2025,
-          2,
-          22
-        ),
-        "Stewart, Phil. “Trump\'s Pentagon Chief Slams Judge for Halting Transgender Ban.” Reuters, 22 Mar. 2025, www.reuters.com/world/us/trumps-pentagon-chief-slams-judge-halting-transgender-ban-2025-03-22/?utm_source=chatgpt.com. Accessed 23 Mar. 2025."
-      )
+        new Date(2025, 2, 22),
+        "Stewart, Phil. “Trump\'s Pentagon Chief Slams Judge for Halting Transgender Ban.” Reuters, 22 Mar. 2025, www.reuters.com/world/us/trumps-pentagon-chief-slams-judge-halting-transgender-ban-2025-03-22/?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+      ),
     ],
     0.93,
-    new Date(
-      2024,
-      10,
-      12
-    )
-  )
+    new Date(2024, 10, 12),
+  ),
+  new Action(
+    "Nominating Pam Bondi for Attonrney Genral",
+    "On November 13 2024, then President Ellect Donald Trump nomiated then represenitive Matt Gaetz for Attonrey General, a damming ethics report showing he had sex with minors taked his nommination. He then Nominated Pamela Bondi.",
+    [
+      "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        'Trump Nominates Matt Gatez',
+        new Date(
+          2024,
+          20,
+          14
+        ),
+        "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Matt Gaet"
+      )
+    ]
+  ),
 ];
 
 export default actions;
