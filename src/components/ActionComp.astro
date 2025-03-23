@@ -74,6 +74,22 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
 
             .expand-dialog{
                 background-color: var(--dialog-bg);
+                margin-left : 1.8rem;
+                margin-right : 1.8rem;
+                border-radius :  1.7rem;
+                padding-bottom: 0rem;
+                padding-left : 0rem;
+                padding-right : 0rem;
+            }
+            .content-dialog{
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .close-button{
+                width:100%;
+                font-size:3rem;
+                border-bottom-left-radius:1.7rem;
+                border-bottom-right-radius:1.7rem
             }
 
         </style>
@@ -88,15 +104,18 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
             <button id={`seeMore-${localAction.id}`} style={`--bottom-bg: ${buttonColor}`}class="dropdown-bottom">See More</button>
         </div>
         <dialog class="expand-dialog" style={`--dialog-bg: ${content}`}id={`dialog-${localAction.id}`}>
-            <h1>{localAction.name}</h1>
-            <h3>{localAction.summary}</h3>
-            <ol>
-                {localAction.timeline.map((i:timelineEvent) => (
-                    <li>{i.summary + " ("+i.date.toLocaleDateString()+")"}</li>
-                ))}
-            </ol>
-            <h2>{localAction.oppinion}</h2>
-            <button id={`close-${localAction.id}`}>Close</button>
+            <div class="content-dialog">
+                <h1>{localAction.name}</h1>
+                <h3>{localAction.summary}</h3>
+                <ol>
+                    {localAction.timeline.map((i:timelineEvent) => (
+                        <li>{i.summary + " ("+i.date.toLocaleDateString()+")"}</li>
+                    ))}
+                </ol>
+                <h2>{localAction.oppinion}</h2>
+    
+            </div>
+            <button style={`background-color: --content: ${content};`}  class="close-button"id={`close-${localAction.id}`}>Close</button>
         </dialog>
 
         <script define:vars={{localAction}}>
