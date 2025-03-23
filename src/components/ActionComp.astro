@@ -1,0 +1,79 @@
+---
+// Get the localAction prop from the parent component
+const { localAction } = Astro.props;
+
+// Calculate colors based on evilness property (0-1 scale)
+// Lower evilness = more green (hsl 117), higher evilness = more red (hsl 0)
+const backgroundColor = `hsl(${(1 - localAction.evilness) * 117}, 100%, 70%)`;
+const content = `hsl(${(1 - localAction.evilness) * 117}, 100%, 90%)`;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .dropdown {
+                position: relative;
+                width: 300px;
+                margin: 20px;
+            }
+            
+            .dropdown-header {
+                background-color: var(--button-bg);
+                padding: 10px;
+                text-align: center;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                width: 100%;
+                border-top-right-radius:1.7rem;
+                border-top-left-radius:1.7rem;
+            }
+            
+            .dropdown-content {
+                background-color: var(--content);
+                overflow: hidden;
+                max-height: 0;
+                padding: 0 10px;
+                border: 1px solid #ddd;
+                opacity: 0;
+                transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+                border-bottom-right-radius:2rem;
+                border-bottom-left-radius:2rem;
+
+            }
+            
+            .dropdown-content p {
+                margin: 10px 0;
+            }
+            
+            .dropdown.open .dropdown-content {
+                max-height: 200px;
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown" id={`dropdown-${localAction.id}`} style={`--button-bg: ${backgroundColor}; --content: ${content};`}>
+            <button id={`button-${localAction.id}`} class="dropdown-header">{localAction.name}</button>
+            <div class="dropdown-content">
+                <p>{localAction.summary}</p>
+            </div>
+        </div>
+        
+        <script define:vars={{localAction}}>
+            document.addEventListener("DOMContentLoaded", () => {
+                const button = document.getElementById(`button-${localAction.id}`);
+                const dropdown = document.getElementById(`dropdown-${localAction.id}`);
+                
+                if (button && dropdown) {
+                    button.addEventListener('click', () => {
+                        dropdown.classList.toggle('open'); // Toggle on parent div
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+---
+// Importing the actions from main.mts and the ActionComp component
+import actions from "../source/main.mts";
+import ActionComp from "../components/ActionComp.astro";
+---
+
+<html>
+    <head>
+        <title>Tracking Trumps Exeuctive Orders</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color:rgb(38, 38, 38);
+            }
+            
+            h1 {
+                text-align: center;
+                margin-bottom: 30px;
+                color: rgb(200,200,200);
+            }
+            
+            .actions-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tracking the Actions of Donald John Trump</h1>
+        
+        <div class="actions-container">
+            <!-- Loop through all actions and create a component for each -->
+            {actions.map((action) => (
+                <ActionComp localAction={action} />
+            ))}
+        </div>
+    </body>
+</html>
