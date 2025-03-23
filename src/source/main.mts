@@ -1,3 +1,5 @@
+import { string } from "astro:schema";
+
 let actions: Action[] = [];
 let count = 0;
 
@@ -20,6 +22,7 @@ class Action {
   timeline: timelineEvent[];
   evilness: number;
   start: Date;
+  oppinion : string;
   constructor(
     name: string,
     summary: string,
@@ -27,6 +30,7 @@ class Action {
     timeline: timelineEvent[],
     evilness: number,
     start: Date,
+    oppinion : string
   ) {
     count++;
     this.name = name;
@@ -36,6 +40,7 @@ class Action {
     this.timeline = timeline;
     this.evilness = evilness;
     this.start = start;
+    this.oppinion = oppinion;
   }
 }
 
@@ -91,6 +96,7 @@ actions = [
     ],
     0.8,
     new Date(2025, 0, 20),
+    "United States Agency for Internatonal Development or USAID is a crical agency if the U.S. government that distibutes foregin aid.Its annual budget of $60 billion. Some say it is wastefull but it does important things like subsidizing public schools in Pakistan (find a good source) that keeps kids from going to Islamic Maras's or subsidizing grain in Columbia to prevent Cocke production"
   ),
   new Action(
     "January Sixth Pardons",
@@ -107,6 +113,7 @@ actions = [
     ],
     0.99,
     new Date(2025, 0, 20),
+    "On January 6, 2021 then president Trump orginized a mob of supporters to overthrow the goverment. It was awfull. He failed because he is stupid and incometent but still. Then on his first day back in office he pardoned them All. I have no words, this is not Democracy and we all need to remember this is not normal and we need to fight it."
   ),
   new Action(
     "Firing of DOJ prosecutors",
@@ -123,6 +130,7 @@ actions = [
     ],
     0.8,
     new Date(2025, 0, 27),
+    "For 200 years, the Department of Justice has been independent. It has been the job to prosecute criminals independently. Trump upended that by firing all of Biden's prosecutros and forever politizing the Department of justice."
   ),
   new Action(
     "Firing Independent Inspectors General",
@@ -144,6 +152,7 @@ actions = [
     ],
     0.85,
     new Date(2025, 0, 24),
+    "We have laws in this country. Or we did, there is a law saying the Presidet cannot fire the inspecotrs general (yes that is the plural). He did anyway, the court case is still pending"
   ),
   new Action(
     "Revoking Secret Service Details of Policial Enemies",
@@ -171,6 +180,7 @@ actions = [
     ],
     0.6, //Those guys are all prety evil, but this is still bad
     new Date(2025, 0, 22),
+    "These men, they where evil yes but they did things for the American goverment agaisnt a foreign goverment and faced ligitmite assination therats. Trump could well be signing their death warrants"
   ),
   new Action(
     "Appointing Pete Hegesth, to secrary of Deffense",
@@ -222,6 +232,7 @@ actions = [
     ],
     0.93,
     new Date(2024, 10, 12),
+    "HE IS A FOX NEWS HOST!!! NOT A GENERAL, NOT EVEN A HIGH LEVEL SOLDIER. He has a history of alochol and well woman abuse and could probobly not get hired at a summer camp. Now he is the second highest ranking person in the military. "
   ),
   new Action(
     "Nominating Pam Bondi for Attonrney Genral",
@@ -240,9 +251,59 @@ actions = [
         "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025."
       ),
       new timelineEvent(
-        "Matt Gaet"
-      )
-    ]
+        "The House Ethics Comitte (Who had been investigatig Gaetz) showed that Gaetz paid more than $10,000 to two women who were later witnesses in sexual misconduct probes conducted by both the House and the Justice Department, according to documents",
+        new Date(
+          2024,
+          10,
+          19
+        ),
+        "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025."
+
+      ),
+      new timelineEvent(
+        "Gaetz announces on X that he is withdrawing his name from the nomination process. This was likley after cosultation with then President Elect Trump.",
+        new Date(
+          2025,
+          10,
+          11
+        ),
+        "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Just after Representive Gaetz's withdrawl, President Trump Nominated Flordia Attorne General, Pamela Bondi",
+        new Date(
+          2025,
+          10,
+          11
+        ),
+        "Confirmation Process for Pam Bondi for U.S. Attorney General.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pam_Bondi_for_U.S._attorney_general. Accessed 23 Mar. 2025.",
+      ),
+      new timelineEvent(
+        "The Senate Judiciary Committee held confirmation hearings for Bondi",
+        new Date(
+          2025,
+          0,
+          15
+        ),
+        "Confirmation Process for Pam Bondi for U.S. Attorney General.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pam_Bondi_for_U.S._attorney_general. Accessed 23 Mar. 2025."
+      ),
+      new timelineEvent (       
+       "The Senate voted 54-46 to confirm Bondi as attorney general.",
+        new Date(
+          2025,
+          1,
+          4
+        ),
+        "Confirmation Process for Pam Bondi for U.S. Attorney General.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pam_Bondi_for_U.S._attorney_general. Accessed 23 Mar. 2025."
+      )      
+    ],
+    0.8,
+    new Date(
+      2024,
+      10,
+      11
+    ),
+    "Wow the benchmark is low. Compared to Gaetz she is reasonable but she is a 2020 election denier who has called for trump to prosecute his enemies. That will surely happen. How far our justice system has fallen since the days of Marshall and Black (I know they where supreme court judges not AG'S)"
   ),
 ];
 

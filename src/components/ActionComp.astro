@@ -75,6 +75,7 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
             .expand-dialog{
                 background-color: var(--dialog-bg);
             }
+
         </style>
         
     </head>
@@ -94,7 +95,7 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
                     <li>{i.summary + " ("+i.date.toLocaleDateString()+")"}</li>
                 ))}
             </ol>
-            
+            <h2>{localAction.oppinion}</h2>
             <button id={`close-${localAction.id}`}>Close</button>
         </dialog>
 
