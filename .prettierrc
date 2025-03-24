@@ -2,6 +2,11 @@
   "semi": true,
   "singleQuote": false,
   "plugins": ["prettier-plugin-astro"],
+  "bracketSpacing":true,
+  "bracketSameLine":true,
+  "arrowParens":"always",
+  "htmlWhitespaceSensitivity":"strict",
+  "embeddedLanguageFormatting":"auto"
   "overrides": [
     {
       "files": "*.astro",
