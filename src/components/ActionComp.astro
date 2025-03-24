@@ -1,148 +1,176 @@
 ---
 const { localAction } = Astro.props;
-import {timelineEvent } from "../source/main.mts";
+import { timelineEvent } from "../source/main.mts";
 
 // Calculate colors based on evilness property (0-1 scale)
 // Lower evilness = more green (hsl 117), higher evilness = more red (hsl 0)
 const backgroundColor = `hsl(${(1 - localAction.evilness) * 117}, 100%, 70%)`;
 const content = `hsl(${(1 - localAction.evilness) * 117}, 100%, 90%)`;
-const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`
+const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
 ---
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <style>
-            .dropdown {
-                position: relative;
-                width: 300px;
-                margin: 20px;
-            }
-            
-            .dropdown-header {
-                background-color: var(--button-bg);
-                padding: 10px;
-                text-align: center;
-                border: none;
-                cursor: pointer;
-                font-size: 16px;
-                width: 100%;
-                border-top-right-radius: 1.7rem;
-                border-top-left-radius: 1.7rem;
-            }
-            
-            .dropdown-content {
-                background-color: var(--content);
-                overflow: hidden;
-                max-height: 0;
-                padding: 0 10px;
-                border: 1px solid #ddd;
-                opacity: 0;
-                transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
-            }
-            
-            .dropdown-content p {
-                margin: 10px 0;
-            }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            .dropdown-bottom {
-                background-color: var(--bottom-bg);
-                overflow: hidden;
-                max-height: 0;
-                padding: 0 10px;
-                border: 1px solid #ddd;
-                opacity: 0;
-                text-align:center;
-                font-size:1.4rem;
-              width:100%;
-                transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
-                border-bottom-right-radius: 1.7rem;
-                border-bottom-left-radius: 1.7rem;
-            }
+    <style>
+      .dropdown {
+        position: relative;
+        width: 300px;
+        margin: 20px;
+      }
 
-            .dropdown.open .dropdown-content {
-                max-height: 15rem;
-                opacity: 1;
-            }
+      .dropdown-header {
+        background-color: var(--button-bg);
+        padding: 10px;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+        border-top-right-radius: 1.7rem;
+        border-top-left-radius: 1.7rem;
+      }
 
-            .dropdown.open .dropdown-bottom {
-                max-height: 15rem;
-                opacity: 1;
-            }
+      .dropdown-content {
+        background-color: var(--content);
+        overflow: hidden;
+        max-height: 0;
+        padding: 0 10px;
+        border: 1px solid #ddd;
+        opacity: 0;
+        transition:
+          max-height 0.5s ease-out,
+          opacity 0.5s ease-out;
+      }
 
-            .expand-dialog{
-                background-color: var(--dialog-bg);
-                margin-left : 1.8rem;
-                margin-right : 1.8rem;
-                border-radius :  1.7rem;
-                padding-bottom: 0rem;
-                padding-left : 0rem;
-                padding-right : 0rem;
-            }
-            .content-dialog{
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-            .close-button{
-                width:100%;
-                font-size:3rem;
-                border-bottom-left-radius:1.7rem;
-                border-bottom-right-radius:1.7rem
-            }
+      .dropdown-content p {
+        margin: 10px 0;
+      }
 
-        </style>
-        
-    </head>
-    <body>
-        <div class="dropdown" id={`dropdown-${localAction.id}`} style={`--button-bg: ${backgroundColor}; --content: ${content};`}>
-            <button id={`button-${localAction.id}`} class="dropdown-header">{localAction.name}</button>
-            <div class="dropdown-content">
-                <p>{localAction.summary + " ("+ localAction.start.toLocaleDateString()+")"}</p>
-            </div>
-            <button id={`seeMore-${localAction.id}`} style={`--bottom-bg: ${buttonColor}`}class="dropdown-bottom">See More</button>
-        </div>
-        <dialog class="expand-dialog" style={`--dialog-bg: ${content}`}id={`dialog-${localAction.id}`}>
-            <div class="content-dialog">
-                <h1>{localAction.name}</h1>
-                <h3>{localAction.summary}</h3>
-                <ol>
-                    {localAction.timeline.map((i:timelineEvent) => (
-                        <li>{i.summary + " ("+i.date.toLocaleDateString()+")"}</li>
-                    ))}
-                </ol>
-                <h2>{localAction.oppinion}</h2>
-    
-            </div>
-            <button style={`background-color: --content: ${content};`}  class="close-button"id={`close-${localAction.id}`}>Close</button>
-        </dialog>
+      .dropdown-bottom {
+        background-color: var(--bottom-bg);
+        overflow: hidden;
+        max-height: 0;
+        padding: 0 10px;
+        border: 1px solid #ddd;
+        opacity: 0;
+        text-align: center;
+        font-size: 1.4rem;
+        width: 100%;
+        transition:
+          max-height 0.5s ease-out,
+          opacity 0.5s ease-out;
+        border-bottom-right-radius: 1.7rem;
+        border-bottom-left-radius: 1.7rem;
+      }
 
-        <script define:vars={{localAction}}>
-            document.addEventListener("DOMContentLoaded", () => {
-                const button = document.getElementById(`button-${localAction.id}`);
-                const dropdown = document.getElementById(`dropdown-${localAction.id}`);
-                const seeMore = document.getElementById(`seeMore-${localAction.id}`);
-                const dialog = document.getElementById(`dialog-${localAction.id}`)
-                const close = document.getElementById(`close-${localAction.id}`)
-                console.log("Dropdown is ", dropdown);
+      .dropdown.open .dropdown-content {
+        max-height: 15rem;
+        opacity: 1;
+      }
 
-                if (button && dropdown && seeMore && dialog && close) {
-                    button.addEventListener('click', () => {
-                        dropdown.classList.toggle('open'); // Toggle on parent div
-                        console.log("dropdown after toggle is ", dropdown);
+      .dropdown.open .dropdown-bottom {
+        max-height: 15rem;
+        opacity: 1;
+      }
 
-                        // Ensure the 'open' class is applied to both content and 'seeMore' button
-                        seeMore.classList.toggle('open');
-                    });
-                    seeMore.addEventListener('click', () =>{
-                        dialog.showModal();
-                    })
-                    close.addEventListener('click', () => {
-                        dialog.close();
-                    })
-                }
-            });
-        </script>
-    </body>
+      .expand-dialog {
+        background-color: var(--dialog-bg);
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
+        border-radius: 1.7rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
+      .content-dialog {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .close-button {
+        width: 100%;
+        font-size: 3rem;
+        border-bottom-left-radius: 1.7rem;
+        border-bottom-right-radius: 1.7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="dropdown"
+      id={`dropdown-${localAction.id}`}
+      style={`--button-bg: ${backgroundColor}; --content: ${content};`}
+    >
+      <button id={`button-${localAction.id}`} class="dropdown-header"
+        >{localAction.name}</button
+      >
+      <div class="dropdown-content">
+        <p>
+          {
+            localAction.summary +
+              " (" +
+              localAction.start.toLocaleDateString() +
+              ")"
+          }
+        </p>
+      </div>
+      <button
+        id={`seeMore-${localAction.id}`}
+        style={`--bottom-bg: ${buttonColor}`}
+        class="dropdown-bottom">See More</button
+      >
+    </div>
+    <dialog
+      class="expand-dialog"
+      style={`--dialog-bg: ${content}`}
+      id={`dialog-${localAction.id}`}
+    >
+      <div class="content-dialog">
+        <h1>{localAction.name}</h1>
+        <h3>{localAction.summary}</h3>
+        <ol>
+          {
+            localAction.timeline.map((i: timelineEvent) => (
+              <li>{i.summary + " (" + i.date.toLocaleDateString() + ")"}</li>
+            ))
+          }
+        </ol>
+        <h2>{localAction.oppinion}</h2>
+      </div>
+      <button
+        style={`background-color: --content: ${content};`}
+        class="close-button"
+        id={`close-${localAction.id}`}>Close</button
+      >
+    </dialog>
+
+    <script define:vars={{ localAction }}>
+      document.addEventListener("DOMContentLoaded", () => {
+        const button = document.getElementById(`button-${localAction.id}`);
+        const dropdown = document.getElementById(`dropdown-${localAction.id}`);
+        const seeMore = document.getElementById(`seeMore-${localAction.id}`);
+        const dialog = document.getElementById(`dialog-${localAction.id}`);
+        const close = document.getElementById(`close-${localAction.id}`);
+        console.log("Dropdown is ", dropdown);
+
+        if (button && dropdown && seeMore && dialog && close) {
+          button.addEventListener("click", () => {
+            dropdown.classList.toggle("open"); // Toggle on parent div
+            console.log("dropdown after toggle is ", dropdown);
+
+            // Ensure the 'open' class is applied to both content and 'seeMore' button
+            seeMore.classList.toggle("open");
+          });
+          seeMore.addEventListener("click", () => {
+            dialog.showModal();
+          });
+          close.addEventListener("click", () => {
+            dialog.close();
+          });
+        }
+      });
+    </script>
+  </body>
 </html>
