@@ -305,6 +305,75 @@ actions = [
     ),
     "Wow the benchmark is low. Compared to Gaetz she is reasonable but she is a 2020 election denier who has called for trump to prosecute his enemies. That will surely happen. How far our justice system has fallen since the days of Marshall and Black (I know they where supreme court judges not AG'S)"
   ),
+  new Action(
+    "Nominating Kash Patel for FBI director",
+    "Kash Patel, a former defense department lawyer to be Director of the Federal Buearu of Intelligence",
+    [
+      "Tucker, Eric. “Trump Loyalist Kash Patel Is Narrowly Confirmed as FBI Director by the Senate.” AP News, 20 Feb. 2025, apnews.com/article/trump-patel-fbi-justice-department-518329110ea230e2989095bfcbe34c59. Accessed 23 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "Senate confirms Patel (51-49) in a deeply divisive vote",
+        new Date(
+          2025,
+          1,
+          20
+        ),
+        "Durkee, Alison. “Senate Confirms Kash Patel with 2 Republicans Opposing—What to Know about Trump\'s New FBI Director.” Forbes, 20 Feb. 2025, www.forbes.com/sites/alisondurkee/2025/02/20/senate-confirms-kash-patel-with-2-republicans-opposing-what-to-know-about-trumps-new-fbi-director/?utm_source=chatgpt.com. Accessed 23 Mar. 2025."
+      )
+    ],
+    0.92,
+    new Date(
+      2024,
+      10,
+      30
+    ),
+    "The FBI is a deeply powerfull agency and is supposed to be bipartisan. Kash Patel is a partisan hack who will prosecute Trumps political enimies. " //Make this better, it sucks
+  ),
+  new Action(
+    "Tusi Gabbard as DNI",
+    "Donald Trump nominated Tulsi Gabbard, a former democrat and Hawaii Congressmen to be Director of National Intelegence, a powerfull position that oversseas the FBI, CIA, NSA and many other agencies, one of the most powerfull positions in the government",
+    [
+      "“Statement by President-Elect Donald J. Trump Announcing the Nomination of Tulsi Gabbard as Director of National Intelligence (DNI) | the American Presidency Project.” Ucsb.edu, 2025, www.presidency.ucsb.edu/documents/statement-president-elect-donald-j-trump-announcing-the-nomination-tulsi-gabbard-director. Accessed 24 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "Gabbard faced criticism for an unannounced trip to Syria, during which she met with President Bashar al-Assad. She defended the meeting as a fact-finding mission but was criticized for engaging with a leader accused of war crimes.",
+        new Date(
+          2017,
+          1,
+          25
+        ),
+        "Manchester, Julia. “Gabbard Says She Met with Assad on Syria Trip.” CNN, 25 Jan. 2017, www.cnn.com/2017/01/25/politics/tulsi-gabbard-lead-syria/index.html. Accessed 24 Mar. 2025."
+      ),
+      new timelineEvent(
+        "On November 13, 2024, President Trump announced Gabbard as his nominee for DNI. This nomination raised concerns within the intelligence community due to her lack of traditional intelligence experience and past controversial statements perceived as aligning with Russian narratives",
+        new Date(
+          2024,
+          10,
+          13
+        ),
+        "Bennett, Brian. ““We Are Reeling”: Trump\'s Pick of Tulsi Gabbard Alarms Intelligence Community.” TIME, Time, 15 Nov. 2024, time.com/7176696/gabbard-russia-connection-trump-intelligence/?utm_source=chatgpt.com. Accessed 24 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Gabbard was confirmed as Dirrector of National Intelegence by a Senate vote of 52-48.",
+        new Date(
+          2025,
+          1,
+          12
+        ),
+        "\"Tulsi Gabbard.\" Ballotpedia, 2016, ballotpedia.org/Tulsi_Gabbard?utm_source=chatgpt.com. Accessed 24 Mar. 2025."
+      )
+    ],
+    0.75,
+    new Date(
+      2024,
+      10,
+      13
+    ),
+    "Gabbard, while not as blatantly evil as say Patel, though just as dangerous and unqualified, has a nasty tendecy towards authrotriasim. Particlualry her closeness with Russian \"President\" Vladamier Putin. The DNI is an immensly powerfull role and she could be reasonably construed as a Russin puppet. She has said numerous unerasonable Pro Russia things and there is little doubt she will do whatver either of our three Presidetns, Trump, Musk, or Putin tell her."
+    
+  )
 ];
 
 export default actions;
