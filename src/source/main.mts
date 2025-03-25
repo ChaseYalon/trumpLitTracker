@@ -22,7 +22,7 @@ class Action {
   timeline: timelineEvent[];
   evilness: number;
   start: Date;
-  oppinion: string;
+  opinion: string;
   constructor(
     name: string,
     summary: string,
@@ -30,7 +30,7 @@ class Action {
     timeline: timelineEvent[],
     evilness: number,
     start: Date,
-    oppinion: string,
+    opinion: string,
   ) {
     count++;
     this.name = name;
@@ -40,14 +40,14 @@ class Action {
     this.timeline = timeline;
     this.evilness = evilness;
     this.start = start;
-    this.oppinion = oppinion;
+    this.opinion = opinion;
   }
 }
 
 actions = [
   new Action(
-    "Dismantiling of United States Agency for International Development",
-    "On January 20 2025, Donald John Trump, Presdient of the United States, signed Executive Order 14169 (1) which among other things paused all foreign aid for 90 days. Shortly thereafter, the same Donald John Trump, President of the United States appointed Marco Rubio, Secratary of State acting adminstartor of USAID (2) and began dismantling it.",
+    "Dismantling of United States Agency for International Development",
+    "On January 20 2025, Donald John Trump, President of the United States, signed Executive Order 14169 (1) which among other things paused all foreign aid for 90 days. Shortly thereafter, the same Donald John Trump, President of the United States appointed Marco Rubio, Secretary of State acting administrator of USAID (2) and began dismantling it.",
     [
       "1: to, Contributors. “2025 United States Policy on Foreign Aid.” Wikipedia.org, Wikimedia Foundation, Inc., 30 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14169#:~:text=Executive%20Order%2014169%2C%20titled%20%22Reevaluating,order%20to%20conduct%20a%20review. Accessed 22 Mar. 2025.",
       "2 : “Secretary Marco Rubio Appointed as Acting Administrator for the United States Agency for International Development (USAID) - United States Department of State.” United States Department of State, 4 Feb. 2025, www.state.gov/secretary-marco-rubio-appointed-as-acting-administrator-for-the-united-states-agency-for-international-development-usaid/. Accessed 22 Mar. 2025.",
@@ -56,25 +56,25 @@ actions = [
       new timelineEvent(
         "Trump signs executive order suspending foreign aid",
         new Date(2025, 0, 20),
-        "CITATION NEEDED, I GOT THIS FROM WIKIPDEIA",
+        "CITATION NEEDED, I GOT THIS FROM WIKIPEDIA",
       ),
       new timelineEvent(
-        "Officals from DOGE search USAID HQ",
+        "Officials from DOGE search USAID HQ",
         new Date(2025, 1, 1),
         "Whitehurst, Lindsay, and Michael Kunzelman. “Judge Rules DOGE\'s USAID Dismantling Likely Violates the Constitution.” AP News, 18 Mar. 2025, apnews.com/article/usaid-federal-judge-trump-administration-bdc919a5d98eda5ab72a32fdfe2f147d. Accessed 22 Mar. 2025.",
       ),
       new timelineEvent(
-        'Elon Musk says trump "Agress" to dismantle usaid',
+        'Elon Musk says trump "Agrees" to dismantle usaid',
         new Date(2025, 1, 3),
         "Knickmeyer, Ellen, et al. “USAID Notice Instructs Staffers to Stay out of Its Headquarters.” AP News, 3 Feb. 2025, apnews.com/article/trump-musk-usaid-c0c7799be0b2fa7cad4c806565985fe2. Accessed 22 Mar. 2025.",
       ),
       new timelineEvent(
-        "9700 of USAID's 10000 employes are placed on adminstrative leave.",
+        "9700 of USAID's 10000 employees are placed on administrative leave.",
         new Date(2025, 1, 6),
         "“The Hill.” The Hill, 7 Feb. 2025, thehill.com/video/wdvm-usaid-worker-layoffs/10435899/. Accessed 22 Mar. 2025.",
       ),
       new timelineEvent(
-        "The Trump adminstration terminted USAID's lease on its HQ, causing the agenice eviction",
+        "The Trump administration terminated USAID's lease on its HQ, causing the agencies eviction",
         new Date(2025, 1, 10),
         "Kinnard, Meg, and Joshua Goodman. “Trump and Musk Demand Termination of Federal Office Leases through General Services Administration.” AP News, 4 Feb. 2025, apnews.com/article/trump-musk-gsa-terminate-office-leases-f8faac5e2038722f705587c8dd21ab26. Accessed 22 Mar. 2025.",
       ),
@@ -84,7 +84,7 @@ actions = [
         "Navarro, Aaron. “Trump Fires USAID Inspector General Who Released Report on Impact of Agency Cuts.” Cbsnews.com, CBS News, 12 Feb. 2025, www.cbsnews.com/news/trump-fires-usaid-inspector-general/. Accessed 22 Mar. 2025.",
       ),
       new timelineEvent(
-        "Secrtary of State Marco Rubio announce 83% of programs are cut and the other 17% are moving to the state department",
+        "Secretary of State Marco Rubio announce 83% of programs are cut and the other 17% are moving to the state department",
         new Date(2025, 2, 10),
         "Gedeon, Joseph. “Rubio Says 83% of USAid Programs Terminated after Six-Week Purge.” The Guardian, The Guardian, 10 Mar. 2025, www.theguardian.com/us-news/2025/mar/10/marco-rubio-usaid-funding?utm_source=chatgpt.com. Accessed 22 Mar. 2025.",
       ),
@@ -96,28 +96,28 @@ actions = [
     ],
     0.8,
     new Date(2025, 0, 20),
-    "United States Agency for Internatonal Development or USAID is a crical agency if the U.S. government that distibutes foregin aid.Its annual budget of $60 billion. Some say it is wastefull but it does important things like subsidizing public schools in Pakistan (find a good source) that keeps kids from going to Islamic Maras's or subsidizing grain in Columbia to prevent Cocke production",
+    "United States Agency for International Development or USAID is a  critical agency if the U.S. government that distributes foreign aid.Its annual budget of $60 billion. Some say it is wasteful but it does important things like subsidizing public schools in Pakistan (find a good source) that keeps kids from going to Islamic Maras's or subsidizing grain in Columbia to prevent coke production",
   ),
   new Action(
     "January Sixth Pardons",
-    "On January 20th 2025 President of the United States Donald John Trump using the authority vested in him by Article II of the consitution, issued 1600 sweeping pardons for defendants charged and convicted for roles in the January 6 captial attack.(1)",
+    "On January 20th 2025 President of the United States Donald John Trump using the authority vested in him by Article II of the constitution, issued 1600 sweeping pardons for defendants charged and convicted for roles in the January 6 capital attack.(1)",
     [
       "1: Richer, Alanna Durkin, and Michael Kunzelman. “Trump Issues Sweeping Pardon of Supporters Charged in the Jan. 6, 2021, Capitol Attack.” AP News, 21 Jan. 2025, apnews.com/article/capitol-jan-6-pardons-trump-justice-department-8ce8b2a8f8cb602d5eaf85ac7b969606. Accessed 22 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "Follwoing the pardons, federal judges began releasing the defendants",
+        "Following the pardons, federal judges began releasing the defendants",
         new Date(2025, 0, 21),
         "Lynch, Sarah N. “The Most High-Profile Jan 6 Defendants to Receive Clemency from Trump.” Reuters, 21 Jan. 2025, www.reuters.com/world/us/most-high-profile-jan-6-defendants-receive-clemency-trump-2025-01-21/. Accessed 22 Mar. 2025.",
       ),
     ],
     0.99,
     new Date(2025, 0, 20),
-    "On January 6, 2021 then president Trump orginized a mob of supporters to overthrow the goverment. It was awfull. He failed because he is stupid and incometent but still. Then on his first day back in office he pardoned them All. I have no words, this is not Democracy and we all need to remember this is not normal and we need to fight it.",
+    "On January 6, 2021 then president Trump organized a mob of supporters to overthrow the government. It was awful. He failed because he is stupid and incompetent but still. Then on his first day back in office he pardoned them All. I have no words, this is not Democracy and we all need to remember this is not normal and we need to fight it.",
   ),
   new Action(
     "Firing of DOJ prosecutors",
-    "On January 27 2025, President of the United States Donald John Trump instructed the Department of Justice to fire all prosecutors who worked with Special Cousel Jack Smith(1)",
+    "On January 27 2025, President of the United States Donald John Trump instructed the Department of Justice to fire all prosecutors who worked with Special Counsel Jack Smith(1)",
     [
       "1: Lynch, Sarah N, and Andrew Goudsward. “Trump Administration Fires Team of Lawyers Who Prosecuted Him, Official Says.” Reuters, 27 Jan. 2025, www.reuters.com/legal/trump-appointed-prosecutor-opens-internal-review-justice-depts-jan-6-cases-wsj-2025-01-27/?utm_source=chatgpt.com. Accessed 22 Mar. 2025.",
     ],
@@ -130,11 +130,11 @@ actions = [
     ],
     0.8,
     new Date(2025, 0, 27),
-    "For 200 years, the Department of Justice has been independent. It has been the job to prosecute criminals independently. Trump upended that by firing all of Biden's prosecutros and forever politizing the Department of justice.",
+    "For 200 years, the Department of Justice has been independent. It has been the job to prosecute criminals independently. Trump upended that by firing all of Biden's prosecutors and forever politicizing the Department of justice.",
   ),
   new Action(
     "Firing Independent Inspectors General",
-    "On January 24, 2025 President of the United States, Donald John Trump fired 17 independent inspectors general, whos job it is to find and report waste and abuse in the government, the are independent and nopartisan.(1)",
+    "On January 24, 2025 President of the United States, Donald John Trump fired 17 independent inspectors general, who's job it is to find and report waste and abuse in the government, the are independent and nonpartisan.(1)",
     [
       "Miller, Zeke, et al. “Trump Fires More than a Dozen Independent Inspectors General.” AP News, 25 Jan. 2025, apnews.com/article/trump-inspectors-general-fired-congress-unlawful-4e8bc57e132c3f9a7f1c2a3754359993. Accessed 22 Mar. 2025.",
     ],
@@ -152,50 +152,50 @@ actions = [
     ],
     0.85,
     new Date(2025, 0, 24),
-    "We have laws in this country. Or we did, there is a law saying the Presidet cannot fire the inspecotrs general (yes that is the plural). He did anyway, the court case is still pending",
+    "We have laws in this country. Or we did, there is a law saying the President cannot fire the inspectors general (yes that is the plural). He did anyway, the court case is still pending",
   ),
   new Action(
-    "Revoking Secret Service Details of Policial Enemies",
-    "President of the United States, Donald John Trump revokes Secret service details of political enemies, dispite many of them facing credible threats of assination from the Islamic Republic of Iran",
+    "Revoking Secret Service Details of Political Enemies",
+    "President of the United States, Donald John Trump revokes Secret service details of political enemies, despite many of them facing credible threats of assassination from the Islamic Republic of Iran",
     [
       "Basu, Zachary. “Trump\'s Overflowing Grudge List.” Axios, 21 Mar. 2025, www.axios.com/2025/03/21/trump-retaliation-revenge-biden-security-clearance. Accessed 22 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "Trump revoked Secret Service Protection from John Bolton, his former National Security Adivsor who faced assination threats from Iran",
+        "Trump revoked Secret Service Protection from John Bolton, his former National Security Advisor who faced assassination threats from Iran",
         new Date(2025, 0, 22),
         "Lee, Matthew, and Aamer Madhani. “Trump Revokes Protections for Former Secretary of State Pompeo and Top Aide.” AP News, 23 Jan. 2025, apnews.com/article/trump-pompeo-hook-iran-security-protections-987ca371756f48028ebd34ca7111f1c5. Accessed 22 Mar. 2025.",
       ),
 
       new timelineEvent(
-        "Trump revoked Secret Service Proection from from Mike Pompeo, his former Secratry Of State who had assination threats from Iran.",
+        "Trump revoked Secret Service Protection from from Mike Pompeo, his former Secretary Of State who had assassination threats from Iran.",
         new Date(2025, 0, 23),
         "Lee, Matthew, and Aamer Madhani. “Trump Revokes Protections for Former Secretary of State Pompeo and Top Aide.” AP News, 23 Jan. 2025, apnews.com/article/trump-pompeo-hook-iran-security-protections-987ca371756f48028ebd34ca7111f1c5. Accessed 22 Mar. 2025.",
       ),
       new timelineEvent(
-        "Trump Revoked Secret rvice protection of Brian Hook, a former top aide who faces assinatio ntherats from Iran",
+        "Trump Revoked Secret Service protection of Brian Hook, a former top aide who faces assassination threats from Iran",
         new Date(2025, 0, 23),
         "Lee, Matthew, and Aamer Madhani. “Trump Revokes Protections for Former Secretary of State Pompeo and Top Aide.” AP News, 23 Jan. 2025, apnews.com/article/trump-pompeo-hook-iran-security-protections-987ca371756f48028ebd34ca7111f1c5. Accessed 22 Mar. 2025",
       ),
     ],
-    0.6, //Those guys are all prety evil, but this is still bad
+    0.6, //Those guys are all pretty evil, but this is still bad
     new Date(2025, 0, 22),
-    "These men, they where evil yes but they did things for the American goverment agaisnt a foreign goverment and faced ligitmite assination therats. Trump could well be signing their death warrants",
+    "These men, they where evil yes but they did things for the American government against a foreign government and faced legitimate assassination threats. Trump could well be signing their death warrants",
   ),
   new Action(
-    "Appointing Pete Hegesth, to secrary of Deffense",
-    "On Noveber 12 2024, Then President Elect Donald John Trump nomiated a fox news host, Pete Hegest to Secratry of deffense Hegesth has a history of womanizing and drinking as evindnced by an FBI report. He has never heald command roles in the millitary.",
+    "Appointing Pete Hegseth, to Secretary of Defense",
+    "On November 12 2024, Then President Elect Donald John Trump nominated a fox news host, Pete Hegseth to Secretary of Defense Hegseth has a history of womanizing and drinking as evidenced by an FBI report. He has never head command roles in the military.",
     [
       "Baldor, Lolita, and Tara Copp. “Trump Picks Fox Host Pete Hegseth for Defense Secretary and Stuns Pentagon.” AP News, 13 Nov. 2024, apnews.com/article/trump-hegseth-defense-secretary-pentagon-2d8030921ecef933778cf92afd40ec72. Accessed 23 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "Senate Armed Services comittie holds an explosive confomation hearing, focusing on Hegesth's history of Abuse and Alchol",
+        "Senate Armed Services committee holds an explosive conformation hearing, focusing on Hegseth's history of Abuse and Alcohol",
         new Date(2025, 0, 14),
         "“To Conduct a Confirmation Hearing on the Expected Nomination of Mr. Peter B. Hegseth to Be Secretary of Defense | United States Senate Committee on Armed Services.” Senate.gov, U.S. Senate Committee on Armed Services, 14 Jan. 2025, www.armed-services.senate.gov/hearings/to-conduct-a-confirmation-hearing-on-the-expected-nomination-of-mr-peter-b-hegseth-to-be-secretary-of-defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
-        "The Senate Armed Services comitte votes 14-13 along party lines to advance his nomination",
+        "The Senate Armed Services committee votes 14-13 along party lines to advance his nomination",
         new Date(2025, 0, 20),
         "“Confirmation Process for Pete Hegseth for Secretary of Defense.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pete_Hegseth_for_secretary_of_defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
@@ -215,7 +215,7 @@ actions = [
         "“HON Pete Hegseth.” U.S. Department of Defense, 2025, www.defense.gov/About/Biographies/Biography/Article/4040890/hon-pete-hegseth/. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
-        "Pete Hegesth announced plans to terminate approximately 5,400 probationary employees within the Department of Defense, initiating a hiring freeze and planning a 5% to 8% reduction in the civilian workforce of about 760,000 personnel.",
+        "Pete Hegseth announced plans to terminate approximately 5,400 probationary employees within the Department of Defense, initiating a hiring freeze and planning a 5% to 8% reduction in the civilian workforce of about 760,000 personnel.",
         new Date(2025, 1, 20),
         "to, Contributors. “Mass Government Layoffs in 2025.” Wikipedia.org, Wikimedia Foundation, Inc., 16 Feb. 2025, en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
       ),
@@ -232,32 +232,32 @@ actions = [
     ],
     0.93,
     new Date(2024, 10, 12),
-    "HE IS A FOX NEWS HOST!!! NOT A GENERAL, NOT EVEN A HIGH LEVEL SOLDIER. He has a history of alochol and well woman abuse and could probobly not get hired at a summer camp. Now he is the second highest ranking person in the military. ",
+    "HE IS A FOX NEWS HOST!!! NOT A GENERAL, NOT EVEN A HIGH LEVEL SOLDIER. He has a history of alcohol and well woman abuse and could probably not get hired at a summer camp. Now he is the second highest ranking person in the military. ",
   ),
   new Action(
-    "Nominating Pam Bondi for Attonrney Genral",
-    "On November 13 2024, then President Ellect Donald Trump nomiated then represenitive Matt Gaetz for Attonrey General, a damming ethics report showing he had sex with minors taked his nommination. He then Nominated Pamela Bondi.",
+    "Nominating Pam Bondi for Attorney General",
+    "On November 13 2024, then President Elect Donald Trump nominated then representative Matt Gaetz for Attorney General, a damming ethics report showing he had sex with minors tanked his nomination. He then Nominated Pamela Bondi.",
     [
       "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "Trump Nominates Matt Gatez",
+        "Trump Nominates Matt Gaetz",
         new Date(2024, 20, 14),
         "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
-        "The House Ethics Comitte (Who had been investigatig Gaetz) showed that Gaetz paid more than $10,000 to two women who were later witnesses in sexual misconduct probes conducted by both the House and the Justice Department, according to documents",
+        "The House Ethics Committee (Who had been investigating Gaetz) showed that Gaetz paid more than $10,000 to two women who were later witnesses in sexual misconduct probes conducted by both the House and the Justice Department, according to documents",
         new Date(2024, 10, 19),
         "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
-        "Gaetz announces on X that he is withdrawing his name from the nomination process. This was likley after cosultation with then President Elect Trump.",
+        "Gaetz announces on X that he is withdrawing his name from the nomination process. This was likely after consultation with then President Elect Trump.",
         new Date(2025, 10, 11),
         "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
-        "Just after Representive Gaetz's withdrawl, President Trump Nominated Flordia Attorne General, Pamela Bondi",
+        "Just after Representative Gaetz's withdrawal, President Trump Nominated Florida Attorney General, Pamela Bondi",
         new Date(2025, 10, 11),
         "Confirmation Process for Pam Bondi for U.S. Attorney General.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pam_Bondi_for_U.S._attorney_general. Accessed 23 Mar. 2025.",
       ),
@@ -278,7 +278,7 @@ actions = [
   ),
   new Action(
     "Nominating Kash Patel for FBI director",
-    "Kash Patel, a former defense department lawyer to be Director of the Federal Buearu of Intelligence",
+    "Kash Patel, a former defense department lawyer to be Director of the Federal Bureau  of Intelligence",
     [
       "Tucker, Eric. “Trump Loyalist Kash Patel Is Narrowly Confirmed as FBI Director by the Senate.” AP News, 20 Feb. 2025, apnews.com/article/trump-patel-fbi-justice-department-518329110ea230e2989095bfcbe34c59. Accessed 23 Mar. 2025.",
     ],
@@ -291,11 +291,11 @@ actions = [
     ],
     0.92,
     new Date(2024, 10, 30),
-    "The FBI is a deeply powerfull agency and is supposed to be bipartisan. Kash Patel is a partisan hack who will prosecute Trumps political enimies. ", //Make this better, it sucks
+    "The FBI is a deeply powerful agency and is supposed to be bipartisan. Kash Patel is a partisan hack who will prosecute Trumps political enemies. ", //Make this better, it sucks
   ),
   new Action(
-    "Tusi Gabbard as DNI",
-    "Donald Trump nominated Tulsi Gabbard, a former democrat and Hawaii Congressmen to be Director of National Intelegence, a powerfull position that oversseas the FBI, CIA, NSA and many other agencies, one of the most powerfull positions in the government",
+    "Tulsi Gabbard as DNI",
+    "Donald Trump nominated Tulsi Gabbard, a former democrat and Hawaii Congressmen to be Director of National Intelligence, a powerfull position that oversees the FBI, CIA, NSA and many other agencies, one of the most powerfull positions in the government",
     [
       "“Statement by President-Elect Donald J. Trump Announcing the Nomination of Tulsi Gabbard as Director of National Intelligence (DNI) | the American Presidency Project.” Ucsb.edu, 2025, www.presidency.ucsb.edu/documents/statement-president-elect-donald-j-trump-announcing-the-nomination-tulsi-gabbard-director. Accessed 24 Mar. 2025.",
     ],
@@ -311,41 +311,88 @@ actions = [
         'Bennett, Brian. ""We Are Reeling": Trump\'s Pick of Tulsi Gabbard Alarms Intelligence Community." TIME, Time, 15 Nov. 2024, time.com/7176696/gabbard-russia-connection-trump-intelligence/?utm_source=chatgpt.com. Accessed 24 Mar. 2025.',
       ),
       new timelineEvent(
-        "Gabbard was confirmed as Dirrector of National Intelegence by a Senate vote of 52-48.",
+        "Gabbard was confirmed as Director of National Intelligence by a Senate vote of 52-48.",
         new Date(2025, 1, 12),
         '"Tulsi Gabbard." Ballotpedia, 2016, ballotpedia.org/Tulsi_Gabbard?utm_source=chatgpt.com. Accessed 24 Mar. 2025.',
       ),
     ],
     0.75,
     new Date(2024, 10, 13),
-    'Gabbard, while not as blatantly evil as say Patel, though just as dangerous and unqualified, has a nasty tendecy towards authrotriasim. Particlualry her closeness with Russian "President" Vladamier Putin. The DNI is an immensly powerfull role and she could be reasonably construed as a Russin puppet. She has said numerous unerasonable Pro Russia things and there is little doubt she will do whatver either of our three Presidetns, Trump, Musk, or Putin tell her.',
+    'Gabbard, while not as blatantly evil as say Patel, though just as dangerous and unqualified, has a nasty tendency towards authoritarianism. Particularly her closeness with Russian "President" Vladimir Putin. The DNI is an immensely powerfull role and she could be reasonably construed as a Russian puppet. She has said numerous unreasonable Pro Russia things and there is little doubt she will do whatever either of our three Presidents, Trump, Musk, or Putin tell her.',
   ),
   new Action(
     "Blanket freeze of all federal expenditure",
-    "On January 27, 2025 the Office Of Management and Budget issues an order pausing all federal grants, this moeny had already been approtated by congress and the executive branch had not reviewd any, they just shut it all down",
+    "On January 27, 2025 the Office Of Management and Budget issues an order pausing all federal grants, this money had already been appropriated by congress and the executive branch had not reviewed any, they just shut it all down",
     [
       "Raymond, Nate. “Trump Blocked from Imposing Sweeping Federal Funding Freeze.” Reuters, 25 Feb. 2025, www.reuters.com/world/us/trump-blocked-imposing-sweeping-federal-funding-freeze-2025-02-25/. Accessed 24 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "Office of Managment and Budget (OMG) freezes all grants",
+        "Office of Management and Budget (OMG) freezes all grants",
         new Date(2025, 0, 17),
-        "“A Second Federal Judge Has Ruled to Block the Trump Administration’s Spending Freeze.” NPR, 6 Mar. 2025, www.npr.org/2025/03/06/nx-s1-5312069/trump-federal-funding-freeze-court-order. Accessed 24 Mar. 2025.",
+        '"A Second Federal Judge Has Ruled to Block the Trump Administration"s Spending Freeze.” NPR, 6 Mar. 2025, www.npr.org/2025/03/06/nx-s1-5312069/trump-federal-funding-freeze-court-order. Accessed 24 Mar. 2025.',
       ),
       new timelineEvent(
-        "A federal judge grated a prelimary injunction against trump at the reqest of two dozen Democratic State Attorneys General.",
+        "A federal judge grated a preliminary injunction against trump at the request of two dozen Democratic State Attorneys General.",
         new Date(2025, 0, 29),
         "\"Trump Says Funding Freeze Was to \'Quickly Look at the Scams, Dishonesty, Waste and Abuse.’” AP News, 29 Jan. 2025, apnews.com/video/trumps-budget-office-rescinds-an-order-freezing-spending-on-federal-grants-after-less-than-two-days-68a1307860fa4e7887a2efc571917917. Accessed 24 Mar. 2025.",
       ),
       new timelineEvent(
-        "OMB resinds the Memo, releasing the grants",
+        "OMB rescinds the Memo, releasing the grants",
         new Date(2025, 0, 29),
         "Casey, Michael. “Second Federal Judge Extends Block Preventing the Trump Administration from Freezing Funding.” AP News, 6 Mar. 2025, apnews.com/article/federal-grants-loans-spending-freeze-trump-administration-6620ef49a21f88f83f8f998805b92677. Accessed 24 Mar. 2025.",
       ),
     ],
     0.85,
     new Date(2025, 0, 27),
-    'According to Article I of the constituion, "The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States;". The president does not have the power to unilateraly revoke money authroized by congress, this was a powergrab but thankfully the courts blocked it and Trump backed down.',
+    'According to Article I of the constitution, "The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defense and general Welfare of the United States;". The president does not have the power to unilaterally revoke money authorized by congress, this was a power grab but thankfully the courts blocked it and Trump backed down.',
+  ),
+  new Action(
+    "Removing birthright citizenship",
+    'Donald trump has repeatedly target "Birthright Citizenship", or the concept that anybody regardless of your parents immigration status who is born on American Soil is an American Citizen. Trump disagrees and says children of illegal immigrants are not citizens.',
+    [
+      "Beshay. “Trump\'s Executive Order on Birthright Citizenship Draws More Disapproval than Approval.” Pew Research Center, 21 Feb. 2025, www.pewresearch.org/short-reads/2025/02/21/trumps-executive-order-on-birthright-citizenship-draws-more-disapproval-than-approval/. Accessed 25 Mar. 2025.",
+    ],
+    [
+      new timelineEvent(
+        "Trump issues EO saying children of illegal immigrants are not citizens.",
+        new Date(2025, 0, 20),
+        "“Protecting the Meaning and Value of American Citizenship.” The White House, 21 Jan. 2025, www.whitehouse.gov/presidential-actions/2025/01/protecting-the-meaning-and-value-of-american-citizenship/?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+      new timelineEvent(
+        "Several states, led by Washington sue to block the order",
+        new Date(2025, 0, 21),
+        "Yang, Maya. “Trump Asks Supreme Court to Allow Order against Birthright Citizenship.” The Guardian, The Guardian, 13 Mar. 2025, www.theguardian.com/us-news/2025/mar/13/birthright-citizenship-supreme-court-trump?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+      new timelineEvent(
+        'Judge blocks the order, calling it "Blatantly unconstitutional"',
+        new Date(2025, 0, 23),
+        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+      new timelineEvent(
+        "A second judge, in maryland blocks the order nationwide",
+        new Date(2025, 1, 6),
+        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+      new timelineEvent(
+        " A federal court in New Hampshire blocked the executive order, marking the third judicial injunction against it. ",
+        new Date(2025, 1, 10),
+        "“Federal Court Blocks Trump Birthright Citizenship Executive Order  | American Civil Liberties Union.” American Civil Liberties Union, 10 Feb. 2025, www.aclu.org/press-releases/federal-court-blocks-trump-birthright-citizenship-executive-order?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+      new timelineEvent(
+        "A fourth judge blocks the order in Massachusets",
+        new Date(2025, 1, 13),
+        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+      new timelineEvent(
+        "The Trump administration filed emergency applications with the Supreme Court, seeking to narrow the scope of the lower court injunctions and allow some restrictions on birthright citizenship to take effect. ​",
+        new Date(2025, 2, 13),
+        "Sullivan, Tim. “Birthright Citizenship Explained as Trump Administration Pushes to Restrict It.” AP News, 13 Mar. 2025, apnews.com/article/trump-administration-birthright-citizenship-059a5d7a564ee025d5b4b6e4492c6e66?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+      ),
+    ],
+    0.98,
+    new Date(2025, 0, 20),
+    "Birthright citizenship is a fundamental American value, that originated after the horrors of the civil war and slavery. It means that if you make it, if you are born here, (not me I add a crime), then you can stay. That is how we ensure government cannot play around with citizenship",
   ),
 ];
 

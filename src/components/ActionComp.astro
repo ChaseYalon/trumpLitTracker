@@ -101,8 +101,7 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
     <div
       class="dropdown"
       id={`dropdown-${localAction.id}`}
-      style={`--button-bg: ${backgroundColor}; --content: ${content};`}
-    >
+      style={`--button-bg: ${backgroundColor}; --content: ${content};`}>
       <button id={`button-${localAction.id}`} class="dropdown-header"
         >{localAction.name}</button
       >
@@ -125,8 +124,7 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
     <dialog
       class="expand-dialog"
       style={`--dialog-bg: ${content}`}
-      id={`dialog-${localAction.id}`}
-    >
+      id={`dialog-${localAction.id}`}>
       <div class="content-dialog">
         <h1>{localAction.name}</h1>
         <h3>{localAction.summary}</h3>
