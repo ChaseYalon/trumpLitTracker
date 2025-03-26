@@ -86,7 +86,7 @@ actions = [
       new timelineEvent(
         "Secretary of State Marco Rubio announce 83% of programs are cut and the other 17% are moving to the state department",
         new Date(2025, 2, 10),
-        "Gedeon, Joseph. “Rubio Says 83% of USAid Programs Terminated after Six-Week Purge.” The Guardian, The Guardian, 10 Mar. 2025, www.theguardian.com/us-news/2025/mar/10/marco-rubio-usaid-funding?utm_source=chatgpt.com. Accessed 22 Mar. 2025.",
+        "Gedeon, Joseph. “Rubio Says 83% of USAid Programs Terminated after Six-Week Purge.” The Guardian, The Guardian, 10 Mar. 2025, www.theguardian.com/us-news/2025/mar/10/marco-rubio-usaid-funding?. Accessed 22 Mar. 2025.",
       ),
       new timelineEvent(
         "A federal judge ruled that the dismantling of USAID by DOGE likely violated the Constitution, issuing an indefinite injunction to halt further actions against the agency.",
@@ -119,13 +119,13 @@ actions = [
     "Firing of DOJ prosecutors",
     "On January 27 2025, President of the United States Donald John Trump instructed the Department of Justice to fire all prosecutors who worked with Special Counsel Jack Smith(1)",
     [
-      '1: Lynch, Sarah N, and Andrew Goudsward. "Trump Administration Fires Team of Lawyers Who Prosecuted Him, Official Says." Reuters, 27 Jan. 2025, www.reuters.com/legal/trump-appointed-prosecutor-opens-internal-review-justice-depts-jan-6-cases-wsj-2025-01-27/?utm_source=chatgpt.com. Accessed 22 Mar. 2025.',
+      '1: Lynch, Sarah N, and Andrew Goudsward. "Trump Administration Fires Team of Lawyers Who Prosecuted Him, Official Says." Reuters, 27 Jan. 2025, www.reuters.com/legal/trump-appointed-prosecutor-opens-internal-review-justice-depts-jan-6-cases-wsj-2025-01-27/?. Accessed 22 Mar. 2025.',
     ],
     [
       new timelineEvent(
         "Acting US Attorney General fires all prosecutors appointed by then President Biden",
         new Date(2025, 0, 27),
-        'Lowell, Hugo. "Trump Orders Justice Department to Fire All US Attorneys Appointed by Biden." The Guardian, The Guardian, 19 Feb. 2025, www.theguardian.com/us-news/2025/feb/19/trump-justice-department-biden-attorneys?utm_source=chatgpt.com. Accessed 22 Mar. 2025.',
+        'Lowell, Hugo. "Trump Orders Justice Department to Fire All US Attorneys Appointed by Biden." The Guardian, The Guardian, 19 Feb. 2025, www.theguardian.com/us-news/2025/feb/19/trump-justice-department-biden-attorneys?. Accessed 22 Mar. 2025.',
       ),
     ],
     0.8,
@@ -142,7 +142,7 @@ actions = [
       new timelineEvent(
         "Senate Democrats raise strong objections and demand, and are refused information",
         new Date(2025, 0, 25),
-        'Miller, Zeke, et al. "Trump Fires More than a Dozen Independent Inspectors General." AP News, 25 Jan. 2025, apnews.com/article/trump-inspectors-general-fired-congress-unlawful-4e8bc57e132c3f9a7f1c2a3754359993?utm_source=chatgpt.com. Accessed 22 Mar. 2025.',
+        'Miller, Zeke, et al. "Trump Fires More than a Dozen Independent Inspectors General." AP News, 25 Jan. 2025, apnews.com/article/trump-inspectors-general-fired-congress-unlawful-4e8bc57e132c3f9a7f1c2a3754359993?. Accessed 22 Mar. 2025.',
       ),
       new timelineEvent(
         "Legal experts begin commenting that this is wildly illegal and violates the 2022 Inspector General Act",
@@ -192,12 +192,12 @@ actions = [
       new timelineEvent(
         "Senate Armed Services committee holds an explosive conformation hearing, focusing on Hegseth's history of Abuse and Alcohol",
         new Date(2025, 0, 14),
-        "“To Conduct a Confirmation Hearing on the Expected Nomination of Mr. Peter B. Hegseth to Be Secretary of Defense | United States Senate Committee on Armed Services.” Senate.gov, U.S. Senate Committee on Armed Services, 14 Jan. 2025, www.armed-services.senate.gov/hearings/to-conduct-a-confirmation-hearing-on-the-expected-nomination-of-mr-peter-b-hegseth-to-be-secretary-of-defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+        "“To Conduct a Confirmation Hearing on the Expected Nomination of Mr. Peter B. Hegseth to Be Secretary of Defense | United States Senate Committee on Armed Services.” Senate.gov, U.S. Senate Committee on Armed Services, 14 Jan. 2025, www.armed-services.senate.gov/hearings/to-conduct-a-confirmation-hearing-on-the-expected-nomination-of-mr-peter-b-hegseth-to-be-secretary-of-defense?. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "The Senate Armed Services committee votes 14-13 along party lines to advance his nomination",
         new Date(2025, 0, 20),
-        "“Confirmation Process for Pete Hegseth for Secretary of Defense.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pete_Hegseth_for_secretary_of_defense?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+        "“Confirmation Process for Pete Hegseth for Secretary of Defense.” Ballotpedia, 2021, ballotpedia.org/Confirmation_process_for_Pete_Hegseth_for_secretary_of_defense?. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "The Senate invoked cloture on Hegseth's nomination with a 51-49 vote, limiting further debate.",
@@ -217,17 +217,17 @@ actions = [
       new timelineEvent(
         "Pete Hegseth announced plans to terminate approximately 5,400 probationary employees within the Department of Defense, initiating a hiring freeze and planning a 5% to 8% reduction in the civilian workforce of about 760,000 personnel.",
         new Date(2025, 1, 20),
-        "to, Contributors. “Mass Government Layoffs in 2025.” Wikipedia.org, Wikimedia Foundation, Inc., 16 Feb. 2025, en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+        "to, Contributors. “Mass Government Layoffs in 2025.” Wikipedia.org, Wikimedia Foundation, Inc., 16 Feb. 2025, en.wikipedia.org/wiki/2025_United_States_federal_mass_layoffs?. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "Ordered the removal of web pages related to diversity, equity, and inclusion (DEI) from military websites, including profiles of Native American code talkers and other minority service members. ​",
         new Date(2025, 2, 18),
-        "Aratani, Lauren, and Coral Murphy Marcos. “Articles about Native American Code Talkers Removed from Military Websites.” The Guardian, The Guardian, 18 Mar. 2025, www.theguardian.com/us-news/2025/mar/18/native-american-code-talkers-dei-military?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+        "Aratani, Lauren, and Coral Murphy Marcos. “Articles about Native American Code Talkers Removed from Military Websites.” The Guardian, The Guardian, 18 Mar. 2025, www.theguardian.com/us-news/2025/mar/18/native-american-code-talkers-dei-military?. Accessed 23 Mar. 2025.",
       ),
       new timelineEvent(
         "Criticized a federal judge's decision to block the administration's ban on transgender individuals serving in the military, suggesting the judge had overstepped her authority.",
         new Date(2025, 2, 22),
-        "Stewart, Phil. “Trump\'s Pentagon Chief Slams Judge for Halting Transgender Ban.” Reuters, 22 Mar. 2025, www.reuters.com/world/us/trumps-pentagon-chief-slams-judge-halting-transgender-ban-2025-03-22/?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+        "Stewart, Phil. “Trump\'s Pentagon Chief Slams Judge for Halting Transgender Ban.” Reuters, 22 Mar. 2025, www.reuters.com/world/us/trumps-pentagon-chief-slams-judge-halting-transgender-ban-2025-03-22/?. Accessed 23 Mar. 2025.",
       ),
     ],
     0.93,
@@ -308,12 +308,12 @@ actions = [
       new timelineEvent(
         "On November 13, 2024, Donald J. Trump, President of the United States, announced Gabbard as his nominee for DNI. This nomination raised concerns within the intelligence community due to her lack of traditional intelligence experience and past controversial statements perceived as aligning with Russian narratives",
         new Date(2024, 10, 13),
-        'Bennett, Brian. ""We Are Reeling": Trump\'s Pick of Tulsi Gabbard Alarms Intelligence Community." TIME, Time, 15 Nov. 2024, time.com/7176696/gabbard-russia-connection-trump-intelligence/?utm_source=chatgpt.com. Accessed 24 Mar. 2025.',
+        'Bennett, Brian. ""We Are Reeling": Trump\'s Pick of Tulsi Gabbard Alarms Intelligence Community." TIME, Time, 15 Nov. 2024, time.com/7176696/gabbard-russia-connection-trump-intelligence/?. Accessed 24 Mar. 2025.',
       ),
       new timelineEvent(
         "Gabbard was confirmed as Director of National Intelligence by a Senate vote of 52-48.",
         new Date(2025, 1, 12),
-        '"Tulsi Gabbard." Ballotpedia, 2016, ballotpedia.org/Tulsi_Gabbard?utm_source=chatgpt.com. Accessed 24 Mar. 2025.',
+        '"Tulsi Gabbard." Ballotpedia, 2016, ballotpedia.org/Tulsi_Gabbard?. Accessed 24 Mar. 2025.',
       ),
     ],
     0.75,
@@ -357,37 +357,37 @@ actions = [
       new timelineEvent(
         "Donald J. Trump, President of the United States, issues an Executive Order saying children of illegal immigrants are not citizens.",
         new Date(2025, 0, 20),
-        "“Protecting the Meaning and Value of American Citizenship.” The White House, 21 Jan. 2025, www.whitehouse.gov/presidential-actions/2025/01/protecting-the-meaning-and-value-of-american-citizenship/?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "“Protecting the Meaning and Value of American Citizenship.” The White House, 21 Jan. 2025, www.whitehouse.gov/presidential-actions/2025/01/protecting-the-meaning-and-value-of-american-citizenship/?. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
         "Several states, led by Washington sue to block the order",
         new Date(2025, 0, 21),
-        "Yang, Maya. “Trump Asks Supreme Court to Allow Order against Birthright Citizenship.” The Guardian, The Guardian, 13 Mar. 2025, www.theguardian.com/us-news/2025/mar/13/birthright-citizenship-supreme-court-trump?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "Yang, Maya. “Trump Asks Supreme Court to Allow Order against Birthright Citizenship.” The Guardian, The Guardian, 13 Mar. 2025, www.theguardian.com/us-news/2025/mar/13/birthright-citizenship-supreme-court-trump?. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
         'Judge blocks the order, calling it "Blatantly unconstitutional"',
         new Date(2025, 0, 23),
-        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
         "A second judge, in maryland blocks the order nationwide",
         new Date(2025, 1, 6),
-        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "to, Contributors. “Executive Order Signed by U.S. President Donald Trump.” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
         " A federal court in New Hampshire blocked the executive order, marking the third judicial injunction against it. ",
         new Date(2025, 1, 10),
-        "\“Federal Court Blocks Trump Birthright Citizenship Executive Order  | American Civil Liberties Union.\” American Civil Liberties Union, 10 Feb. 2025, www.aclu.org/press-releases/federal-court-blocks-trump-birthright-citizenship-executive-order?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "\“Federal Court Blocks Trump Birthright Citizenship Executive Order  | American Civil Liberties Union.\” American Civil Liberties Union, 10 Feb. 2025, www.aclu.org/press-releases/federal-court-blocks-trump-birthright-citizenship-executive-order?. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
         "A fourth judge blocks the order in Massachusets",
         new Date(2025, 1, 13),
-        "to, Contributors. \“Executive Order Signed by U.S. President Donald Trump.\” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "to, Contributors. \“Executive Order Signed by U.S. President Donald Trump.\” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
         "The Donald J. Trump, President of the United States, administration filed emergency applications with the Supreme Court, seeking to narrow the scope of the lower court injunctions and allow some restrictions on birthright citizenship to take effect.",
         new Date(2025, 2, 13),
-        "Sullivan, Tim. \“Birthright Citizenship Explained as Trump Administration Pushes to Restrict It.\” AP News, 13 Mar. 2025, apnews.com/article/trump-administration-birthright-citizenship-059a5d7a564ee025d5b4b6e4492c6e66?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
+        "Sullivan, Tim. \“Birthright Citizenship Explained as Trump Administration Pushes to Restrict It.\” AP News, 13 Mar. 2025, apnews.com/article/trump-administration-birthright-citizenship-059a5d7a564ee025d5b4b6e4492c6e66?. Accessed 25 Mar. 2025.",
       ),
     ],
     0.98,
@@ -398,7 +398,7 @@ actions = [
     "Federal Buyouts",
     "On January 28,2025 President of the United States, Donald J. Trump ordered the Office of Personel Managment (OPM) to send an email to all federal employes. It offered them a \"deffered resignation\" where they would stop working now but collct sallary for 6 months.",
     [
-      "“Axios.” Axios, 2025, www.axios.com/newsletters/axios-dc-b75139b0-dd84-11ef-b405-e5f757f54ccd?utm_source=chatgpt.com. Accessed 26 Mar. 2025.",
+      "“Axios.” Axios, 2025, www.axios.com/newsletters/axios-dc-b75139b0-dd84-11ef-b405-e5f757f54ccd?. Accessed 26 Mar. 2025.",
     ],
     [
       new timelineEvent(
@@ -408,7 +408,7 @@ actions = [
           0,
           28
         ),
-        "\"A Federal Worker Tried to Take Trump\'s \'Fork\' Resignation Offer. Here\'s What Happened.\" NPR, 14 Feb. 2025, www.npr.org/2025/02/14/nx-s1-5296910/trump-federal-workers-fork-resign-buyout?utm_source=chatgpt.com. Accessed 26 Mar. 2025"
+        "\"A Federal Worker Tried to Take Trump\'s \'Fork\' Resignation Offer. Here\'s What Happened.\" NPR, 14 Feb. 2025, www.npr.org/2025/02/14/nx-s1-5296910/trump-federal-workers-fork-resign-buyout?. Accessed 26 Mar. 2025"
       ),
       new timelineEvent(
         "A federal judge delays the resignation date sevral weeks",
@@ -417,9 +417,25 @@ actions = [
           1,
           6
         ),
-        "“Trump’s ‘Fork in the Road’ Resignation Offer for Federal Workers Is in Judge’s Hands.” NPR, 10 Feb. 2025, www.npr.org/2025/02/10/nx-s1-5292042/federal-employees-trump-fork-resignation-buyout-court. Accessed 26 Mar. 2025."
+        "“Trump\'s \'Fork in the Road\' Resignation Offer for Federal Workers Is in Judge\'s Hands.” NPR, 10 Feb. 2025, www.npr.org/2025/02/10/nx-s1-5292042/federal-employees-trump-fork-resignation-buyout-court. Accessed 26 Mar. 2025."
+      ),
+      new timelineEvent(
+        "A judge lets the program conclude, 75,000 workers take the offer",
+        new Date(
+          2025,
+          1,
+          10
+        ),
+        "Jazeera, Al. “A Timeline of the Trump Administration’s Coronavirus Actions.” Al Jazeera, 23 Apr. 2020, www.aljazeera.com/news/2020/4/23/a-timeline-of-the-trump-administrations-coronavirus-actions?. Accessed 26 Mar. 2025."
       )
-    ]
+    ],
+    0.6,
+    new Date(
+      2025,
+      0,
+      28
+    ),
+    "There is nothing wrong with this on the surface, the problem is the process, if you want to downsize there is a legal process and this is not that and second, the admistration is sure to replace them with hardcore loyalists to swing the civil service to the rigth."
   )
 ];
 
