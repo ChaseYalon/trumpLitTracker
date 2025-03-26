@@ -5,3 +5,5 @@ Classes are formed in src/sources/main.ts
     summary : string : 3 SENTENCES OR LESS
     sources : string[] : at least two credible sources for the action.
     evilness : number : between 0 and 1 the general evilness, 0 is Ghandi and 1 is crowning himself king.
+
+Side note:Chase you have an exe called commit so to commit just type commit -m 'message'
