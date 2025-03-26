@@ -183,7 +183,7 @@ actions = [
     "These men, they where evil yes but they did things for the American government against a foreign government and faced legitimate assassination threats. Trump could well be signing their death warrants",
   ),
   new Action(
-    "Appointing Pete Hegseth, to Secretary of Defense",
+    "Pete Hegseth, as Secretary of Defense",
     "On November 12 2024, Then President Elect Donald John Trump nominated a fox news host, Pete Hegseth to Secretary of Defense Hegseth has a history of womanizing and drinking as evidenced by an FBI report. He has never head command roles in the military.",
     [
       "Baldor, Lolita, and Tara Copp. \“Trump Picks Fox Host Pete Hegseth for Defense Secretary and Stuns Pentagon.\” AP News, 13 Nov. 2024, apnews.com/article/trump-hegseth-defense-secretary-pentagon-2d8030921ecef933778cf92afd40ec72. Accessed 23 Mar. 2025.",
@@ -235,7 +235,7 @@ actions = [
     "HE IS A FOX NEWS HOST!!! NOT A GENERAL, NOT EVEN A HIGH LEVEL SOLDIER. He has a history of alcohol and well woman abuse and could probably not get hired at a summer camp. Now he is the second highest ranking person in the military. ",
   ),
   new Action(
-    "Nominating Pam Bondi for Attorney General",
+    "Pam Bondi as Attorney General",
     "On November 13 2024, then President Elect Donald Trump nominated then representative Matt Gaetz for Attorney General, a damming ethics report showing he had sex with minors tanked his nomination. He then Nominated Pamela Bondi.",
     [
       "Pereira, Ivan. “Matt Gaetz AG Nomination: Timeline.” ABC News, 22 Nov. 2024, abcnews.go.com/Politics/matt-gaetz-ag-nomination-timeline/story?id=116102495. Accessed 23 Mar. 2025.",
@@ -277,7 +277,7 @@ actions = [
     "Wow the benchmark is low. Compared to Gaetz she is reasonable but she is a 2020 election denier who has called for trump to prosecute his enemies. That will surely happen. How far our justice system has fallen since the days of Marshall and Black (I know they where supreme court judges not AG'S)",
   ),
   new Action(
-    "Nominating Kash Patel for FBI director",
+    "Kash Patel as FBI director",
     "Kash Patel, a former defense department lawyer to be Director of the Federal Bureau  of Intelligence",
     [
       "Tucker, Eric. \“Trump Loyalist Kash Patel Is Narrowly Confirmed as FBI Director by the Senate.\” AP News, 20 Feb. 2025, apnews.com/article/trump-patel-fbi-justice-department-518329110ea230e2989095bfcbe34c59. Accessed 23 Mar. 2025.",
@@ -294,7 +294,7 @@ actions = [
     "The FBI is a deeply powerful agency and is supposed to be bipartisan. Kash Patel is a partisan hack who will prosecute Trumps political enemies. ", //Make this better, it sucks
   ),
   new Action(
-    "Tulsi Gabbard as DNI",
+    "Tulsi Gabbard as Director of National Integence",
     "Donald J. Trump, President of the United States, nominated Tulsi Gabbard, a former democrat and Hawaii Congressmen to be Director of National Intelligence, a powerfull position that oversees the FBI, CIA, NSA and many other agencies, one of the most powerfull positions in the government",
     [
       "\“Statement by President-Elect Donald J. Trump Announcing the Nomination of Tulsi Gabbard as Director of National Intelligence (DNI) | the American Presidency Project.\” Ucsb.edu, 2025, www.presidency.ucsb.edu/documents/statement-president-elect-donald-j-trump-announcing-the-nomination-tulsi-gabbard-director. Accessed 24 Mar. 2025.",
