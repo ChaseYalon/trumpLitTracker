@@ -135,7 +135,7 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
             ))
           }
         </ol>
-        <h2>{localAction.oppinion}</h2>
+        <h2>{localAction.opinion}</h2>
       </div>
       <button
         style={`background-color: --content: ${content};`}
@@ -151,12 +151,10 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
         const seeMore = document.getElementById(`seeMore-${localAction.id}`);
         const dialog = document.getElementById(`dialog-${localAction.id}`);
         const close = document.getElementById(`close-${localAction.id}`);
-        console.log("Dropdown is ", dropdown);
-
+        console.log("LocalAction oppinion is ",localAction.opinion)
         if (button && dropdown && seeMore && dialog && close) {
           button.addEventListener("click", () => {
             dropdown.classList.toggle("open"); // Toggle on parent div
-            console.log("dropdown after toggle is ", dropdown);
 
             // Ensure the 'open' class is applied to both content and 'seeMore' button
             seeMore.classList.toggle("open");

@@ -278,7 +278,7 @@ actions = [
   ),
   new Action(
     "Kash Patel as FBI director",
-    "Kash Patel, a former defense department lawyer to be Director of the Federal Bureau  of Intelligence",
+    "Kash Patel, a former defense department lawyer to be Director of the Federal Bureau of Investigation",
     [
       "Tucker, Eric. \“Trump Loyalist Kash Patel Is Narrowly Confirmed as FBI Director by the Senate.\” AP News, 20 Feb. 2025, apnews.com/article/trump-patel-fbi-justice-department-518329110ea230e2989095bfcbe34c59. Accessed 23 Mar. 2025.",
     ],
@@ -286,7 +286,7 @@ actions = [
       new timelineEvent(
         "Senate confirms Patel (51-49) in a deeply divisive vote",
         new Date(2025, 1, 20),
-        "Durkee, Alison. “Senate Confirms Kash Patel with 2 Republicans Opposing—What to Know about Trump\'s New FBI Director.” Forbes, 20 Feb. 2025, www.forbes.com/sites/alisondurkee/2025/02/20/senate-confirms-kash-patel-with-2-republicans-opposing-what-to-know-about-trumps-new-fbi-director/?utm_source=chatgpt.com. Accessed 23 Mar. 2025.",
+        "Durkee, Alison. “Senate Confirms Kash Patel with 2 Republicans Opposing—What to Know about Trump\'s New FBI Director.” Forbes, 20 Feb. 2025, www.forbes.com/sites/alisondurkee/2025/02/20/senate-confirms-kash-patel-with-2-republicans-opposing-what-to-know-about-trumps-new-fbi-director/ Accessed 23 Mar. 2025.",
       ),
     ],
     0.92,
@@ -385,15 +385,15 @@ actions = [
         "to, Contributors. \“Executive Order Signed by U.S. President Donald Trump.\” Wikipedia.org, Wikimedia Foundation, Inc., 20 Jan. 2025, en.wikipedia.org/wiki/Executive_Order_14160?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
       ),
       new timelineEvent(
-        "The Donald J. Trump, President of the United States, administration filed emergency applications with the Supreme Court, seeking to narrow the scope of the lower court injunctions and allow some restrictions on birthright citizenship to take effect. ​",
+        "The Donald J. Trump, President of the United States, administration filed emergency applications with the Supreme Court, seeking to narrow the scope of the lower court injunctions and allow some restrictions on birthright citizenship to take effect.",
         new Date(2025, 2, 13),
         "Sullivan, Tim. \“Birthright Citizenship Explained as Trump Administration Pushes to Restrict It.\” AP News, 13 Mar. 2025, apnews.com/article/trump-administration-birthright-citizenship-059a5d7a564ee025d5b4b6e4492c6e66?utm_source=chatgpt.com. Accessed 25 Mar. 2025.",
       ),
     ],
     0.98,
     new Date(2025, 0, 20),
-    "Birthright citizenship is a fundamental American value, that originated after the horrors of the civil war and slavery. It means that if you make it, if you are born here, (not me I add a crime), then you can stay. That is how we ensure government cannot play around with citizenship",
-  ),
+    "Birthright citizenship is a fundamental American value, that originated after the horrors of the civil war and slavery. It means that if you make it, if you are born here, (may I add, not a crime), then you can stay. That is how we ensure government cannot play around with citizenship",
+  )
 ];
 
 export default actions;
