@@ -393,6 +393,33 @@ actions = [
     0.98,
     new Date(2025, 0, 20),
     "Birthright citizenship is a fundamental American value, that originated after the horrors of the civil war and slavery. It means that if you make it, if you are born here, (may I add, not a crime), then you can stay. That is how we ensure government cannot play around with citizenship",
+  ),
+  new Action(
+    "Federal Buyouts",
+    "On January 28,2025 President of the United States, Donald J. Trump ordered the Office of Personel Managment (OPM) to send an email to all federal employes. It offered them a \"deffered resignation\" where they would stop working now but collct sallary for 6 months.",
+    [
+      "“Axios.” Axios, 2025, www.axios.com/newsletters/axios-dc-b75139b0-dd84-11ef-b405-e5f757f54ccd?utm_source=chatgpt.com. Accessed 26 Mar. 2025.",
+    ],
+    [
+      new timelineEvent(
+        "January 28, 2025: OPM sends \"Fork in the Road\" email at the request of the U.S. DOGE service",
+        new Date(
+          2025,
+          0,
+          28
+        ),
+        "\"A Federal Worker Tried to Take Trump\'s \'Fork\' Resignation Offer. Here\'s What Happened.\" NPR, 14 Feb. 2025, www.npr.org/2025/02/14/nx-s1-5296910/trump-federal-workers-fork-resign-buyout?utm_source=chatgpt.com. Accessed 26 Mar. 2025"
+      ),
+      new timelineEvent(
+        "A federal judge delays the resignation date sevral weeks",
+        new Date(
+          2025,
+          1,
+          6
+        ),
+        "“Trump’s ‘Fork in the Road’ Resignation Offer for Federal Workers Is in Judge’s Hands.” NPR, 10 Feb. 2025, www.npr.org/2025/02/10/nx-s1-5292042/federal-employees-trump-fork-resignation-buyout-court. Accessed 26 Mar. 2025."
+      )
+    ]
   )
 ];
 
