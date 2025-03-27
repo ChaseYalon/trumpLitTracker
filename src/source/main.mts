@@ -665,6 +665,7 @@ actions = [
     ),
     "This is not as bad as the J6 pardons but it shows how Trump is politizing every layer of Government"
   )
+  
 ];
 
 export default actions;
