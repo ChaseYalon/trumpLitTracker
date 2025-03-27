@@ -470,6 +470,153 @@ actions = [
       18
     ),
     "This is not evil as much as bizzare and inflmataory, it is losing us allies and money but compared to say the J6 pardons or Kash Patel this is just stupid and binalle."
+  ),
+  new Action(
+    "Gulf Of America",
+    "On Jan 7, 2025 then President Elect of the United States, Donald John Trump said that Gulf Of Mexico, as it has been called for 300 years should be called the \"Gulf of America\"",
+    [
+      "to, Contributors. “Geographic Naming Dispute.” Wikipedia.org, Wikimedia Foundation, Inc., 12 Feb. 2025, en.wikipedia.org/wiki/Gulf_of_Mexico%E2%80%93America_naming_dispute?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "President of the United States, Donald J. Trump signs Executive Order 14172, which renames the Gulf of Mexico to the Gulf of America",
+        new Date(
+          2025,
+          0,
+          20
+        ),
+        "“Executive Order 14172—Restoring Names That Honor American Greatness | the American Presidency Project.” Ucsb.edu, 2025, www.presidency.ucsb.edu/documents/executive-order-14172-restoring-names-that-honor-american-greatness. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Gulf Of America day proclaimed",
+        new Date(
+          2025,
+          1,
+          9
+        ),
+        "“Gulf of America Day, 2025.” The White House, 9 Feb. 2025, www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "The AP has refused to agknolage the change in their influential stylebook so the Trump Adminstration has revoked their access",
+        new Date(
+          2025,
+          1,
+          11
+        ),
+        "“AP Statement on Oval Office Access | the Associated Press.” The Associated Press, 20 Feb. 2025, www.ap.org/the-definitive-source/announcements/ap-statement-on-oval-office-access/. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "AP sues to get access back after sevral letters to restore it are rejected",
+        new Date(
+          2025,
+          1,
+          21
+        ),
+        "Bauder, David. “AP Sues 3 Trump Administration Officials, Citing Freedom of Speech.” AP News, 21 Feb. 2025, apnews.com/article/ap-lawsuit-trump-administration-officials-0352075501b779b8b187667f3427e0e8?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Court declines to immideatly restore access",
+        new Date(
+          2025,
+          1,
+          24
+        ),
+        "Sedensky, Matt. “Judge Won’t Immediately Restore AP’s Access to White House.” AP News, 24 Feb. 2025, apnews.com/article/ap-lawsuit-trump-gulf-mexico-america-6b6fba488e7e420e5fcd28c44a755922?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "More hearings in federal court",
+        new Date(
+          2025,
+          2,
+          27
+        ),
+        "Bauder, David. “The AP and the Trump Administration Are Due Back in Court in Their Fight over White House Access.” AP News, 26 Mar. 2025, apnews.com/article/ap-trump-administration-media-access-white-house-2e1220b8be122182ae7a2396989905be. Accessed 27 Mar. 2025"
+      )
+    ],
+    0.4,
+    new Date(
+      2025,
+      0,
+      9
+    ),
+    "This by itself is binnal but the refusal to allow the AP access (discussed later) is incredibly bad and undermines our democracy signfigantly."
+  ),
+  new Action(
+    "Firing of C.Q. Brown",
+    "On Feb 21, President of the Unitd States Donald J. Trump, and Secratary of Deffense Pete Hegseth fired Charimen of the Joint Cheifs of Staff, C.Q. Brown",
+    [
+      "Copp, Tara, and Lolita Baldor. “Trump Fires Joint Chiefs of Staff Chair CQ Brown.” AP News, 22 Feb. 2025, apnews.com/article/trump-brown-joint-chiefs-of-staff-firing-fa428cc1508a583b3bf5e7a5a58f6acf?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "Alongside Gen. Brown, other senior military officials, including Chief of Naval Operations Adm. Lisa Franchetti and Vice Chief of Staff of the Air Force Gen. Jim Slife, were also dismissed",
+        new Date(
+          2025,
+          1,
+          9
+        ),
+        "Youssef, Nancy A. “Trump Fires Top Pentagon Officers in Sweeping Overhaul.” WSJ, The Wall Street Journal, 22 Feb. 2025, www.wsj.com/politics/national-security/trump-fires-the-chairman-of-the-joint-chiefs-fd4a4d07?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        " In the same announcement, President Trump nominated retired Air Force Lt. Gen. Dan \"Razin\" Caine to replace Gen. Brown as the Chairman of the Joint Chiefs of Staff. ",
+        new Date(
+          2025,
+          1,
+          9
+        ),
+        "News, PBS. “Trump Fires Gen. CQ Brown as Chairman of the Joint Chiefs of Staff.” PBS News, 21 Feb. 2025, www.pbs.org/newshour/politics/trump-fires-gen-cq-brown-as-chairman-of-the-joint-chiefs-of-staff?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      )
+    ],
+    0.7,
+    new Date(
+      2025,
+      1,
+      9
+    ),
+    "While Trump does have an undispued right to chose is own advisors, it is worriying because the Pentagon is a policaly indepedent merticoracy and if things start going wrong and the Pentengon plays a role in domestic politics, it is worrying that a Trump loyalist is running it."
+  ),
+  new Action(
+    "Negotiating with Putin without Ukraine",
+    "​Since November 5, 2024, President of the United States Donald John Trump and his administration officials have engaged in several netotians  with Russian President Vladimir Putin and Russian officials Ukraine was present at none. ​",
+    [
+      "Walsh, Nick Paton. “Putin Just Called Trump’s Bluff on Ukraine, with the Russian Art of the ‘No’ Deal.” CNN, 18 Mar. 2025, www.cnn.com/2025/03/18/europe/analysis-putin-trump-phone-call-ukraine-intl-latam/index.html. Accessed 27 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "Trump has a 90 minute offical call with Putin. Putin wins diplomatic and energey conessions",
+        new Date(
+          2025,
+          1,
+          12
+        ),
+        "to, Contributors. “12 February 2025 Phone Conversation.” Wikipedia.org, Wikimedia Foundation, Inc., 14 Feb. 2025, en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Secratary of State Marco Rubio and sevral other officals meet with Russin counterparts in Riyadah. Ukraine was not there and Russia wins diplomatic consessions",
+        new Date(
+          2025,
+          1,
+          18
+        ),
+        "Reuters. “Who Are the Russian Officials Meeting with US Team in Saudi Arabia?” Reuters, 18 Feb. 2025, www.reuters.com/world/europe/putin-sends-top-foreign-policy-team-talks-with-us-2025-02-18/?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Steve Witkof (A high level adivsor) meets Putin in Moscow",
+        new Date(
+          2025,
+          2,
+          12
+        ),
+        "Edwards, Christian. “Trump’s Foreign Envoy Touts Kremlin Talking Points, in Interview That Will Alarm Europe.” CNN, 22 Mar. 2025, www.cnn.com/2025/03/22/europe/witkoff-carlson-trump-russia-ukraine-talks-intl/index.html?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      )
+    ],
+    0.8,
+    new Date(
+      2016,
+      10,
+      5
+    ),
+    "It is crittical that a fair settlement be reached in Ukraine. This cannot be done by appeasing autoritanians. Trump is bending the knee to Putin for no apparent reason"
   )
 ];
 
