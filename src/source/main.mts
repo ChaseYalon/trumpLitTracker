@@ -451,7 +451,7 @@ actions = [
           1,
           10
         ),
-        "Weissert, Will. “Trump’s Remarks on Canada Becoming the 51st State Raise a Lot of Questions.” AP News, 13 Feb. 2025, apnews.com/article/how-canada-could-become-us-state-42360e10ded96c0046fd11eaaf55ab88?utm_source=chatgpt.com. Accessed 26 Mar. 2025."
+        "Weissert, Will. “Trump’s Remarks on Canada Becoming the 51st State Raise a Lot of Questions.” AP News, 13 Feb. 2025, apnews.com/article/how-canada-could-become-us-state-42360e10ded96c0046fd11eaaf55ab88?. Accessed 26 Mar. 2025."
       ),
       new timelineEvent(
         "In a bizzare press confrense with Secratry of Deffense, Pete Hegeth, President of the United States, Donald J. Trump sugested Canada could become the 51st state",
@@ -475,7 +475,7 @@ actions = [
     "Gulf Of America",
     "On Jan 7, 2025 then President Elect of the United States, Donald John Trump said that Gulf Of Mexico, as it has been called for 300 years should be called the \"Gulf of America\"",
     [
-      "to, Contributors. “Geographic Naming Dispute.” Wikipedia.org, Wikimedia Foundation, Inc., 12 Feb. 2025, en.wikipedia.org/wiki/Gulf_of_Mexico%E2%80%93America_naming_dispute?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      "to, Contributors. “Geographic Naming Dispute.” Wikipedia.org, Wikimedia Foundation, Inc., 12 Feb. 2025, en.wikipedia.org/wiki/Gulf_of_Mexico%E2%80%93America_naming_dispute?. Accessed 27 Mar. 2025."
     ],
     [
       new timelineEvent(
@@ -494,7 +494,7 @@ actions = [
           1,
           9
         ),
-        "“Gulf of America Day, 2025.” The White House, 9 Feb. 2025, www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "“Gulf of America Day, 2025.” The White House, 9 Feb. 2025, www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "The AP has refused to agknolage the change in their influential stylebook so the Trump Adminstration has revoked their access",
@@ -512,7 +512,7 @@ actions = [
           1,
           21
         ),
-        "Bauder, David. “AP Sues 3 Trump Administration Officials, Citing Freedom of Speech.” AP News, 21 Feb. 2025, apnews.com/article/ap-lawsuit-trump-administration-officials-0352075501b779b8b187667f3427e0e8?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "Bauder, David. “AP Sues 3 Trump Administration Officials, Citing Freedom of Speech.” AP News, 21 Feb. 2025, apnews.com/article/ap-lawsuit-trump-administration-officials-0352075501b779b8b187667f3427e0e8?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "Court declines to immideatly restore access",
@@ -521,7 +521,7 @@ actions = [
           1,
           24
         ),
-        "Sedensky, Matt. “Judge Won’t Immediately Restore AP’s Access to White House.” AP News, 24 Feb. 2025, apnews.com/article/ap-lawsuit-trump-gulf-mexico-america-6b6fba488e7e420e5fcd28c44a755922?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "Sedensky, Matt. “Judge Won’t Immediately Restore AP’s Access to White House.” AP News, 24 Feb. 2025, apnews.com/article/ap-lawsuit-trump-gulf-mexico-america-6b6fba488e7e420e5fcd28c44a755922?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "More hearings in federal court",
@@ -545,7 +545,7 @@ actions = [
     "Firing of C.Q. Brown",
     "On Feb 21, President of the Unitd States Donald J. Trump, and Secratary of Deffense Pete Hegseth fired Charimen of the Joint Cheifs of Staff, C.Q. Brown",
     [
-      "Copp, Tara, and Lolita Baldor. “Trump Fires Joint Chiefs of Staff Chair CQ Brown.” AP News, 22 Feb. 2025, apnews.com/article/trump-brown-joint-chiefs-of-staff-firing-fa428cc1508a583b3bf5e7a5a58f6acf?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      "Copp, Tara, and Lolita Baldor. “Trump Fires Joint Chiefs of Staff Chair CQ Brown.” AP News, 22 Feb. 2025, apnews.com/article/trump-brown-joint-chiefs-of-staff-firing-fa428cc1508a583b3bf5e7a5a58f6acf?. Accessed 27 Mar. 2025."
     ],
     [
       new timelineEvent(
@@ -555,7 +555,7 @@ actions = [
           1,
           9
         ),
-        "Youssef, Nancy A. “Trump Fires Top Pentagon Officers in Sweeping Overhaul.” WSJ, The Wall Street Journal, 22 Feb. 2025, www.wsj.com/politics/national-security/trump-fires-the-chairman-of-the-joint-chiefs-fd4a4d07?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "Youssef, Nancy A. “Trump Fires Top Pentagon Officers in Sweeping Overhaul.” WSJ, The Wall Street Journal, 22 Feb. 2025, www.wsj.com/politics/national-security/trump-fires-the-chairman-of-the-joint-chiefs-fd4a4d07?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         " In the same announcement, President Trump nominated retired Air Force Lt. Gen. Dan \"Razin\" Caine to replace Gen. Brown as the Chairman of the Joint Chiefs of Staff. ",
@@ -564,7 +564,7 @@ actions = [
           1,
           9
         ),
-        "News, PBS. “Trump Fires Gen. CQ Brown as Chairman of the Joint Chiefs of Staff.” PBS News, 21 Feb. 2025, www.pbs.org/newshour/politics/trump-fires-gen-cq-brown-as-chairman-of-the-joint-chiefs-of-staff?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "News, PBS. “Trump Fires Gen. CQ Brown as Chairman of the Joint Chiefs of Staff.” PBS News, 21 Feb. 2025, www.pbs.org/newshour/politics/trump-fires-gen-cq-brown-as-chairman-of-the-joint-chiefs-of-staff?. Accessed 27 Mar. 2025."
       )
     ],
     0.7,
@@ -589,7 +589,7 @@ actions = [
           1,
           12
         ),
-        "to, Contributors. “12 February 2025 Phone Conversation.” Wikipedia.org, Wikimedia Foundation, Inc., 14 Feb. 2025, en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "to, Contributors. “12 February 2025 Phone Conversation.” Wikipedia.org, Wikimedia Foundation, Inc., 14 Feb. 2025, en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "Secratary of State Marco Rubio and sevral other officals meet with Russin counterparts in Riyadah. Ukraine was not there and Russia wins diplomatic consessions",
@@ -598,7 +598,7 @@ actions = [
           1,
           18
         ),
-        "Reuters. “Who Are the Russian Officials Meeting with US Team in Saudi Arabia?” Reuters, 18 Feb. 2025, www.reuters.com/world/europe/putin-sends-top-foreign-policy-team-talks-with-us-2025-02-18/?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "Reuters. “Who Are the Russian Officials Meeting with US Team in Saudi Arabia?” Reuters, 18 Feb. 2025, www.reuters.com/world/europe/putin-sends-top-foreign-policy-team-talks-with-us-2025-02-18/?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "Steve Witkof (A high level adivsor) meets Putin in Moscow",
@@ -607,7 +607,7 @@ actions = [
           2,
           12
         ),
-        "Edwards, Christian. “Trump’s Foreign Envoy Touts Kremlin Talking Points, in Interview That Will Alarm Europe.” CNN, 22 Mar. 2025, www.cnn.com/2025/03/22/europe/witkoff-carlson-trump-russia-ukraine-talks-intl/index.html?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "Edwards, Christian. “Trump’s Foreign Envoy Touts Kremlin Talking Points, in Interview That Will Alarm Europe.” CNN, 22 Mar. 2025, www.cnn.com/2025/03/22/europe/witkoff-carlson-trump-russia-ukraine-talks-intl/index.html?. Accessed 27 Mar. 2025."
       )
     ],
     0.8,
