@@ -1,5 +1,5 @@
 let actions: Action[] = [];
-let count = 0;
+let count: number = 0;
 
 export class timelineEvent {
   summary: string;
@@ -94,7 +94,7 @@ actions = [
     ],
     0.8,
     new Date(2025, 0, 20),
-    "United States Agency for International Development or USAID is a  critical agency if the U.S. government that distributes foreign aid.Its annual budget of $60 billion. Some say it is wasteful but it does important things like subsidizing public schools in Pakistan (find a good source) that keeps kids from going to Islamic Maras's or subsidizing grain in Columbia to prevent coke production",
+    "United States Agency for International Development or USAID is a  critical agency in the U.S. government that distributes foreign aid.Its annual budget of $60 billion. Some say it is wasteful but it does important things like subsidizing public schools in Pakistan (find a good source) that keeps kids from going to Islamic Maras's or subsidizing grain in Columbia to prevent coke production",
   ),
   new Action(
     "January Sixth Pardons",
@@ -756,7 +756,51 @@ actions = [
       1,
       18
     ),
-    "Our goverment is (supposed) to be a meritocracy. Indpendedt experts lead independent agencies, so they can make politicaly unpouplar decissions. Ignoring the fact that this is a poewer grab, it will make agenceis function worse"
+    "Our goverment is (supposed) to be a meritocracy. Indpendedt experts lead independent agencies, so they can make politicaly unpouplar decissions. Ignoring the fact that this is a poewer grab, it will make agenceis function worse and be more partisan."
+  ),
+  new Action(
+    "Dan Borgiano for Deputy FBI Director",
+    "​Dan Bongino, a former Secret Service agent and conservative media personality, has been appointed as the Deputy Director of the Federal Bureau of Investigation (FBI) under President Donald Trump. His career has been marked by various idiotic and dangerous theorries and allegations.",
+    [
+      "Swenson, Ali. “Dan Bongino Made His Name in Podcasting, with Plenty to Say about the FBI.” AP News, 24 Feb. 2025, apnews.com/article/dan-bongino-podcasts-fbi-kash-patel-trump-6d47f60b59edb3dba45615104ed41a67. Accessed 28 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "\"My entire life right now is about owning the libs. That's it.\" He also labeled the investigation into potential Trump-Russia collusion as a \"total scam\" and promoted the Spygate conspiracy theory, alleging improper surveillance of Trump\'s 2016 campaign.",
+        new Date(
+          2018,
+          9,
+          5
+        ),
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "During congressional hearings on police brutality, Bongino argued against efforts to reduce police funding, labeling such initiatives an \"abomination\" that should be abandoned \"before someone gets hurt.\"",
+        new Date(
+          2020,
+          5,
+          7 /*placeholder, could not find actual date, I know it is june 2020*/
+        ),
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "He supported false claims of election fraud, alleging that Democrats had rigged the election",
+        new Date(
+          2025,
+          10,
+          10
+        ),
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino?utm_source=chatgpt.com. Accessed 28 Mar. 2025"
+      ),
+      new timelineEvent(
+        " YouTube permanently banned Bongino for repeatedly violating its COVID-19 misinformation policy",
+        new Date(
+          2022,
+          0,
+          6 /*get better date*/
+        )
+      )
+    ]
   )
 ];
 
