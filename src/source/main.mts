@@ -797,10 +797,27 @@ actions = [
         new Date(
           2022,
           0,
-          6 /*get better date*/
-        )
+          26 
+        ),
+        "Culliford, Elizabeth, and Paresh Dave. “YouTube Permanently Bans Fox News Host Dan Bongino.” Reuters, 26 Jan. 2022, www.reuters.com/business/media-telecom/youtube-permanently-bans-fox-news-host-dan-bongino-2022-01-26/. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Trump Nominates Dan Bogiano for dep FBI director",
+        new Date(
+          2025,
+          1,
+          26
+        ),
+        "Drenon, Brandon. “Dan Bongino: Trump Names Podcaster as Deputy FBI Director.” Bbc.com, BBC News, 24 Feb. 2025, www.bbc.com/news/articles/cpwd2qrn1e2o. Accessed 28 Mar. 2025."
       )
-    ]
+    ],
+    0.85,
+    new Date(
+      2018,
+      9,
+      5
+    ),
+    "The deputy FBI director runs most of the day to day opperations of the FBI. Kash Patel specificaly promissed senators the Deputy Director would be an active special agent, like it has been for 100 years. Instead we get Dan Borgiano a partisan hack who gives conservatism a bad name."
   )
 ];
 
