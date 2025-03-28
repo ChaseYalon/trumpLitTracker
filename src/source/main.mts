@@ -622,7 +622,7 @@ actions = [
     "Takeover of the Kenedy Center",
     "​In early 2025, President of the United States Donald J. Trump initiated significant changes at the John F. Kennedy Center for the Performing Arts, leading to a notable shift in its leadership and operations. Below is a timeline of key events",
     [
-      "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+      "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025."
     ],
     [
       new timelineEvent(
@@ -633,7 +633,7 @@ actions = [
           7
 
         ),
-        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "Trump names longtime Ally Richard Grennel to be acting director",
@@ -642,7 +642,7 @@ actions = [
           1,
           10
         ),
-        "Higgins, Charlotte. “Trump’s Weird Obsession with the Arts Is Part of the Authoritarian Playbook.” The Guardian, The Guardian, 20 Mar. 2025, www.theguardian.com/commentisfree/2025/mar/20/donald-trump-kennedy-center-takeover-arts?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "Higgins, Charlotte. “Trump’s Weird Obsession with the Arts Is Part of the Authoritarian Playbook.” The Guardian, The Guardian, 20 Mar. 2025, www.theguardian.com/commentisfree/2025/mar/20/donald-trump-kennedy-center-takeover-arts?. Accessed 27 Mar. 2025."
       ),
       new timelineEvent(
         "New board makes President of the United States, Donald J. Trump, Chairmen of the Board and fire the President of the Kenedy Center who has been in office since 2014",
@@ -651,7 +651,7 @@ actions = [
           1,
           12
         ),
-        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?utm_source=chatgpt.com. Accessed 27 Mar. 2025."
+        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025."
       )
       /*
           There is more here but I am not sure it is relavant, get another oppinion.
@@ -664,8 +664,102 @@ actions = [
       7
     ),
     "This is not as bad as the J6 pardons but it shows how Trump is politizing every layer of Government"
+  ),
+  new Action(
+    "Ending NYC Congestion Pricing",
+    "​In early 2025, President of the United States Donald Trump and Secratary of Transportaion Sean Duffy took steps to end New York City's congestion pricing program, which had been implemented to reduce traffic and fund public transit improvements.",
+    [
+      "Hu, Winnie, and Stefanos Chen. “Trump Officials Ordered NYC Congestion Pricing to End by March 21. What Happens Now?” The New York Times, 20 Mar. 2025, www.nytimes.com/2025/03/20/nyregion/nyc-congestion-pricing-trump-mta-battle.html."
+    ],
+    [
+      new timelineEvent(
+        "New York City initiated its congestion pricing program, imposing a $9 toll on most vehicles entering Manhattan south of 60th Street. The program aimed to alleviate traffic congestion and generate revenue for the city's transit system. ",
+        new Date(
+          2025,
+          0,
+          5
+        ),
+        "Marcelo, Philip. “Trump Extends Deadline for New York to End Congestion Toll for Manhattan Drivers.” AP News, 20 Mar. 2025, apnews.com/article/nyc-congestion-pricing-toll-trump-hochul-826ddc20735c6115a2e5b634765ea4c0. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "U.S. Transportation Secretary Sean Duffy rescinded federal approval for New York City's congestion pricing plan, calling it a \"slap in the face to working class Americans and small business owners.\" The federal government ordered the Metropolitan Transportation Authority (MTA) to cease toll collection by March 21, 2025",
+        new Date(
+          2025,
+          1,
+          19
+        ),
+        "“Congestion Pricing in New York City - Wikipedia.” Wikipedia.org, 2025, en.wikipedia.org/wiki/Congestion_pricing_in_New_York_City?. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "The MTA filed a lawsuit challenging the federal government's authority to revoke approval of the congestion pricing program.",
+        new Date(
+          2025,
+          1,
+          20
+        ),
+        "Marcelo, Philip. “Trump Extends Deadline for New York to End Congestion Toll for Manhattan Drivers.” AP News, 20 Mar. 2025, apnews.com/article/nyc-congestion-pricing-toll-trump-hochul-826ddc20735c6115a2e5b634765ea4c0. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "The Trump administration extended the deadline for New York to end its congestion pricing program by 30 days, moving it to April 20, 2025. Transportation Secretary Duffy indicated that federal funding might be withheld if toll collection did not cease by the new date",
+        new Date(
+          2025,
+          2,
+          20
+        ),
+        "Shepardson, David. “US Extends Deadline for New York to End Manhattan Congestion Program.” Reuters, 20 Mar. 2025, www.reuters.com/world/us/us-extends-deadline-new-york-end-manhattan-congestion-program-2025-03-20/?. Accessed 28 Mar. 2025."
+      )
+    ],
+    0.6,
+    new Date(
+      2025,
+      0,
+      5
+    ),
+    "This congestion pricing has many benefits, It will increase foot trafick for local business, it will raise money for cleaner forms of transport like the subway and will reduce overall emmissons. This is just part of Trump adminstrations populist ecomic policy and it serves as a distraction for actual issues."
+  ),
+  new Action(
+    "Taking control of Indepent agencies",
+    "President Trump signed the executive order \"Ensuring Accountability for All Agencies,\" extending presidential supervision over independent regulatory agencies. This order mandated that these agencies submit draft regulations for White House review, consult with the White House on priorities and strategic plans, and adhere to performance standards set by the Office of Management and Budget (OMB).",
+    [
+      "“Fact Sheet: President Donald J. Trump Reins in Independent Agencies to Restore a Government That Answers to the American People.” The White House, 18 Feb. 2025, www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-reins-in-independent-agencies-to-restore-a-government-that-answers-to-the-american-people/?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "An unapproved email was sent to federal employees, demanding they list their weekly achievements. This action created confusion and tension among civil servants and Trump's cabinet members.",
+        new Date(
+          2025,
+          1,
+          22
+        ),
+        "Alper, Alexandra, and Nandita Bose. “Exclusive: White House Installs Trump Loyalists at Federal HR Agency after ‘Five Things’ Email.” Reuters, 27 Mar. 2025, www.reuters.com/world/us/white-house-installs-trump-loyalists-federal-hr-agency-after-five-things-email-2025-03-27/?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "President Trump announced his intention to nominate Susan Monarez as the permanent director of the Centers for Disease Control and Prevention (CDC), an agency traditionally expected to operate with a degree of independence.",
+        new Date(
+          2025,
+          2,
+          23
+        ),
+        "Mason, Jeff, and Michael Erman. “Trump Picks Acting CDC Director Susan Monarez to Lead Agency.” Reuters, 24 Mar. 2025, www.reuters.com/business/healthcare-pharmaceuticals/trump-nominate-susan-monarez-lead-cdc-cbs-news-reports-2025-03-24/?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "President Trump signed an executive order limiting federal workers' rights to unionize and ending collective bargaining, a move criticized by the American Federation of Government Employees.",
+        new Date(
+          2025,
+          2,
+          28
+        ),
+        "Campbell, Lucy, et al. “Donald Trump Moves to End Union Rights for Many Government Agency Employees – US Politics Live.” The Guardian, The Guardian, 28 Mar. 2025, www.theguardian.com/us-news/live/2025/mar/28/donald-trump-white-house-washington-latest-live-us-politics-news?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+      )
+    ],
+    0.8,
+    new Date(
+      2025,
+      1,
+      18
+    ),
+    "Our goverment is (supposed) to be a meritocracy. Indpendedt experts lead independent agencies, so they can make politicaly unpouplar decissions. Ignoring the fact that this is a poewer grab, it will make agenceis function worse"
   )
-  
 ];
 
 export default actions;
