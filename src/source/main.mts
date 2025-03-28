@@ -719,7 +719,7 @@ actions = [
     "Taking control of Indepent agencies",
     "President Trump signed the executive order \"Ensuring Accountability for All Agencies,\" extending presidential supervision over independent regulatory agencies. This order mandated that these agencies submit draft regulations for White House review, consult with the White House on priorities and strategic plans, and adhere to performance standards set by the Office of Management and Budget (OMB).",
     [
-      "“Fact Sheet: President Donald J. Trump Reins in Independent Agencies to Restore a Government That Answers to the American People.” The White House, 18 Feb. 2025, www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-reins-in-independent-agencies-to-restore-a-government-that-answers-to-the-american-people/?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+      "“Fact Sheet: President Donald J. Trump Reins in Independent Agencies to Restore a Government That Answers to the American People.” The White House, 18 Feb. 2025, www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-reins-in-independent-agencies-to-restore-a-government-that-answers-to-the-american-people/. Accessed 28 Mar. 2025."
     ],
     [
       new timelineEvent(
@@ -729,7 +729,7 @@ actions = [
           1,
           22
         ),
-        "Alper, Alexandra, and Nandita Bose. “Exclusive: White House Installs Trump Loyalists at Federal HR Agency after ‘Five Things’ Email.” Reuters, 27 Mar. 2025, www.reuters.com/world/us/white-house-installs-trump-loyalists-federal-hr-agency-after-five-things-email-2025-03-27/?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+        "Alper, Alexandra, and Nandita Bose. “Exclusive: White House Installs Trump Loyalists at Federal HR Agency after ‘Five Things’ Email.” Reuters, 27 Mar. 2025, www.reuters.com/world/us/white-house-installs-trump-loyalists-federal-hr-agency-after-five-things-email-2025-03-27/. Accessed 28 Mar. 2025."
       ),
       new timelineEvent(
         "President Trump announced his intention to nominate Susan Monarez as the permanent director of the Centers for Disease Control and Prevention (CDC), an agency traditionally expected to operate with a degree of independence.",
@@ -738,7 +738,7 @@ actions = [
           2,
           23
         ),
-        "Mason, Jeff, and Michael Erman. “Trump Picks Acting CDC Director Susan Monarez to Lead Agency.” Reuters, 24 Mar. 2025, www.reuters.com/business/healthcare-pharmaceuticals/trump-nominate-susan-monarez-lead-cdc-cbs-news-reports-2025-03-24/?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+        "Mason, Jeff, and Michael Erman. “Trump Picks Acting CDC Director Susan Monarez to Lead Agency.” Reuters, 24 Mar. 2025, www.reuters.com/business/healthcare-pharmaceuticals/trump-nominate-susan-monarez-lead-cdc-cbs-news-reports-2025-03-24/. Accessed 28 Mar. 2025."
       ),
       new timelineEvent(
         "President Trump signed an executive order limiting federal workers' rights to unionize and ending collective bargaining, a move criticized by the American Federation of Government Employees.",
@@ -747,7 +747,7 @@ actions = [
           2,
           28
         ),
-        "Campbell, Lucy, et al. “Donald Trump Moves to End Union Rights for Many Government Agency Employees – US Politics Live.” The Guardian, The Guardian, 28 Mar. 2025, www.theguardian.com/us-news/live/2025/mar/28/donald-trump-white-house-washington-latest-live-us-politics-news?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+        "Campbell, Lucy, et al. “Donald Trump Moves to End Union Rights for Many Government Agency Employees – US Politics Live.” The Guardian, The Guardian, 28 Mar. 2025, www.theguardian.com/us-news/live/2025/mar/28/donald-trump-white-house-washington-latest-live-us-politics-news. Accessed 28 Mar. 2025."
       )
     ],
     0.8,
@@ -772,7 +772,7 @@ actions = [
           9,
           5
         ),
-        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025."
       ),
       new timelineEvent(
         "During congressional hearings on police brutality, Bongino argued against efforts to reduce police funding, labeling such initiatives an \"abomination\" that should be abandoned \"before someone gets hurt.\"",
@@ -781,7 +781,7 @@ actions = [
           5,
           7 /*placeholder, could not find actual date, I know it is june 2020*/
         ),
-        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino?utm_source=chatgpt.com. Accessed 28 Mar. 2025."
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025."
       ),
       new timelineEvent(
         "He supported false claims of election fraud, alleging that Democrats had rigged the election",
@@ -790,7 +790,7 @@ actions = [
           10,
           10
         ),
-        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino?utm_source=chatgpt.com. Accessed 28 Mar. 2025"
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025"
       ),
       new timelineEvent(
         " YouTube permanently banned Bongino for repeatedly violating its COVID-19 misinformation policy",
@@ -818,6 +818,59 @@ actions = [
       5
     ),
     "The deputy FBI director runs most of the day to day opperations of the FBI. Kash Patel specificaly promissed senators the Deputy Director would be an active special agent, like it has been for 100 years. Instead we get Dan Borgiano a partisan hack who gives conservatism a bad name."
+  ),
+  new Action(
+    "Implementing Project 2025",
+    "​In January 2025, following his inauguration for a second term, President Donald Trump initiated the implementation of Project 2025, a comprehensive plan developed by conservative groups to restructure the federal government. A central figure in this initiative is Russell Vought, appointed as the Director of the Office of Management and Budget (OMB). Vought, a key architect of Project 2025, has been instrumental in driving efforts to downsize federal agencies and consolidate executive power.",
+    [
+      "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+    ],
+    [
+      new timelineEvent(
+        "Redirecting federal aid under FEMA to the states",
+        new Date(
+          2025,
+          0,
+          20
+        ),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Ending diversity, equity and inclusion practice",
+        new Date(
+          2025,
+          0,
+          20
+        ),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Targeting PBS and National Public Radio",
+        new Date(
+          2025,
+          2,
+          28
+        ),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+      ),
+      new timelineEvent(
+        "Freezing federal assistance and DOGE",
+        new Date(
+          2025,
+          0,
+          20
+        ),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+      )
+      //There are many more examples but I am to lazzy to add them, go to this URL to add more https://www.cbsnews.com/news/trump-project-2025-playbook/
+    ],
+    0.7,
+    new Date(
+      2025,
+      0,
+      20
+    ),
+    "Projct 2025 is a problem. Many of its proposal are just evil and Trump repetaly dennied any connection. That was a lie"// I am embarresed to have written this.
   )
 ];
 
