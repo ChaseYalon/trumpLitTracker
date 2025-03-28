@@ -1,5 +1,4 @@
 ---
-// Importing the actions from main.mts and the ActionComp component
 import actions from "../source/main.mts";
 import ActionComp from "../components/ActionComp.astro";
 ---
@@ -16,7 +15,7 @@ import ActionComp from "../components/ActionComp.astro";
         margin: 0 auto;
         padding: 20px;
         background-color:rgb(38,38,38);
-        background-image: url("../../public/trump_final.png");
+        background-image: url("trump_final.png");
       }
 
       h1 {
@@ -34,10 +33,9 @@ import ActionComp from "../components/ActionComp.astro";
     </style>
   </head>
   <body>
-    <h1>Tracking the Actions of Donald John Trump</h1>
+    <h1>Tracking the Actions of Donald J. Trump, President of the United States</h1>
 
     <div class="actions-container">
-      <!-- Loop through all actions and create a component for each -->
       {actions.map((action) => <ActionComp localAction={action} />)}
     </div>
   </body>
