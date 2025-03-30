@@ -394,484 +394,307 @@ actions = [
   ),
   new Action(
     "Federal Buyouts",
-    "On January 28,2025 President of the United States, Donald J. Trump ordered the Office of Personel Managment (OPM) to send an email to all federal employes. It offered them a \"deffered resignation\" where they would stop working now but collct sallary for 6 months.",
+    'On January 28,2025 President of the United States, Donald J. Trump ordered the Office of Personel Managment (OPM) to send an email to all federal employes. It offered them a "deffered resignation" where they would stop working now but collct sallary for 6 months.',
     [
       "“Axios.” Axios, 2025, www.axios.com/newsletters/axios-dc-b75139b0-dd84-11ef-b405-e5f757f54ccd?. Accessed 26 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "January 28, 2025: OPM sends \"Fork in the Road\" email at the request of the U.S. DOGE service",
-        new Date(
-          2025,
-          0,
-          28
-        ),
-        "\"A Federal Worker Tried to Take Trump\'s \'Fork\' Resignation Offer. Here\'s What Happened.\" NPR, 14 Feb. 2025, www.npr.org/2025/02/14/nx-s1-5296910/trump-federal-workers-fork-resign-buyout?. Accessed 26 Mar. 2025"
+        'January 28, 2025: OPM sends "Fork in the Road" email at the request of the U.S. DOGE service',
+        new Date(2025, 0, 28),
+        "\"A Federal Worker Tried to Take Trump\'s \'Fork\' Resignation Offer. Here\'s What Happened.\" NPR, 14 Feb. 2025, www.npr.org/2025/02/14/nx-s1-5296910/trump-federal-workers-fork-resign-buyout?. Accessed 26 Mar. 2025",
       ),
       new timelineEvent(
         "A federal judge delays the resignation date sevral weeks",
-        new Date(
-          2025,
-          1,
-          6
-        ),
-        "“Trump\'s \'Fork in the Road\' Resignation Offer for Federal Workers Is in Judge\'s Hands.” NPR, 10 Feb. 2025, www.npr.org/2025/02/10/nx-s1-5292042/federal-employees-trump-fork-resignation-buyout-court. Accessed 26 Mar. 2025."
+        new Date(2025, 1, 6),
+        "“Trump\'s \'Fork in the Road\' Resignation Offer for Federal Workers Is in Judge\'s Hands.” NPR, 10 Feb. 2025, www.npr.org/2025/02/10/nx-s1-5292042/federal-employees-trump-fork-resignation-buyout-court. Accessed 26 Mar. 2025.",
       ),
       new timelineEvent(
         "A judge lets the program conclude, 75,000 workers take the offer",
-        new Date(
-          2025,
-          1,
-          10
-        ),
-        "Jazeera, Al. “A Timeline of the Trump Administration’s Coronavirus Actions.” Al Jazeera, 23 Apr. 2020, www.aljazeera.com/news/2020/4/23/a-timeline-of-the-trump-administrations-coronavirus-actions?. Accessed 26 Mar. 2025."
-      )
+        new Date(2025, 1, 10),
+        "Jazeera, Al. “A Timeline of the Trump Administration’s Coronavirus Actions.” Al Jazeera, 23 Apr. 2020, www.aljazeera.com/news/2020/4/23/a-timeline-of-the-trump-administrations-coronavirus-actions?. Accessed 26 Mar. 2025.",
+      ),
     ],
     0.6,
-    new Date(
-      2025,
-      0,
-      28
-    ),
-    "There is nothing wrong with this on the surface, the problem is the process, if you want to downsize there is a legal process and this is not that and second, the admistration is sure to replace them with hardcore loyalists to swing the civil service to the rigth."
+    new Date(2025, 0, 28),
+    "There is nothing wrong with this on the surface, the problem is the process, if you want to downsize there is a legal process and this is not that and second, the admistration is sure to replace them with hardcore loyalists to swing the civil service to the rigth.",
   ),
   new Action(
     "Canada as the 51\'st state",
-    "On Dec 10, 2024 then President Elect, Donald John Trump called Justin Tredau, the Prime Minister of Canada, \"Governor of the Great State of canada\"",
+    'On Dec 10, 2024 then President Elect, Donald John Trump called Justin Tredau, the Prime Minister of Canada, "Governor of the Great State of canada"',
     [
-      "Shabad, Rebecca. “Trump Mocks Prime Minister Justin Trudeau as the ‘Governor’ of the ‘Great State of Canada.’” NBC News, 10 Dec. 2024, www.nbcnews.com/politics/donald-trump/trump-mocks-prime-minister-justin-trudeau-governor-great-state-canada-rcna183570. Accessed 26 Mar. 2025."
+      "Shabad, Rebecca. “Trump Mocks Prime Minister Justin Trudeau as the ‘Governor’ of the ‘Great State of Canada.’” NBC News, 10 Dec. 2024, www.nbcnews.com/politics/donald-trump/trump-mocks-prime-minister-justin-trudeau-governor-great-state-canada-rcna183570. Accessed 26 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "In an interview with Fox News' Bret Baier ahead of the Super Bowl, President of the United States, Donald J. Trump stated he was serious about wanting Canada to become the 51st state. He confirmed that his annexation comments were \"a real thing\"",
-        new Date(
-          2025,
-          1,
-          10
-        ),
-        "Weissert, Will. “Trump’s Remarks on Canada Becoming the 51st State Raise a Lot of Questions.” AP News, 13 Feb. 2025, apnews.com/article/how-canada-could-become-us-state-42360e10ded96c0046fd11eaaf55ab88?. Accessed 26 Mar. 2025."
+        'In an interview with Fox News\' Bret Baier ahead of the Super Bowl, President of the United States, Donald J. Trump stated he was serious about wanting Canada to become the 51st state. He confirmed that his annexation comments were "a real thing"',
+        new Date(2025, 1, 10),
+        "Weissert, Will. “Trump’s Remarks on Canada Becoming the 51st State Raise a Lot of Questions.” AP News, 13 Feb. 2025, apnews.com/article/how-canada-could-become-us-state-42360e10ded96c0046fd11eaaf55ab88?. Accessed 26 Mar. 2025.",
       ),
       new timelineEvent(
         "In a bizzare press confrense with Secratry of Deffense, Pete Hegeth, President of the United States, Donald J. Trump sugested Canada could become the 51st state",
-        new Date(
-          2025,
-          2,
-          6
-        ),
-        "Matina Stevis-Gridneff. “How Trump’s ‘51st State’ Canada Talk Came to Be Seen as Deadly Serious.” The New York Times, 7 Mar. 2025, www.nytimes.com/2025/03/07/world/canada/trump-trudeau-canada-51st-state.html."
-      )
+        new Date(2025, 2, 6),
+        "Matina Stevis-Gridneff. “How Trump’s ‘51st State’ Canada Talk Came to Be Seen as Deadly Serious.” The New York Times, 7 Mar. 2025, www.nytimes.com/2025/03/07/world/canada/trump-trudeau-canada-51st-state.html.",
+      ),
     ],
     0.7,
-    new Date(
-      2024,
-      12,
-      18
-    ),
-    "This is not evil as much as bizzare and inflmataory, it is losing us allies and money but compared to say the J6 pardons or Kash Patel this is just stupid and binalle."
+    new Date(2024, 12, 18),
+    "This is not evil as much as bizzare and inflmataory, it is losing us allies and money but compared to say the J6 pardons or Kash Patel this is just stupid and binalle.",
   ),
   new Action(
     "Gulf Of America",
-    "On Jan 7, 2025 then President Elect of the United States, Donald John Trump said that Gulf Of Mexico, as it has been called for 300 years should be called the \"Gulf of America\"",
+    'On Jan 7, 2025 then President Elect of the United States, Donald John Trump said that Gulf Of Mexico, as it has been called for 300 years should be called the "Gulf of America"',
     [
-      "to, Contributors. “Geographic Naming Dispute.” Wikipedia.org, Wikimedia Foundation, Inc., 12 Feb. 2025, en.wikipedia.org/wiki/Gulf_of_Mexico%E2%80%93America_naming_dispute?. Accessed 27 Mar. 2025."
+      "to, Contributors. “Geographic Naming Dispute.” Wikipedia.org, Wikimedia Foundation, Inc., 12 Feb. 2025, en.wikipedia.org/wiki/Gulf_of_Mexico%E2%80%93America_naming_dispute?. Accessed 27 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "President of the United States, Donald J. Trump signs Executive Order 14172, which renames the Gulf of Mexico to the Gulf of America",
-        new Date(
-          2025,
-          0,
-          20
-        ),
-        "“Executive Order 14172—Restoring Names That Honor American Greatness | the American Presidency Project.” Ucsb.edu, 2025, www.presidency.ucsb.edu/documents/executive-order-14172-restoring-names-that-honor-american-greatness. Accessed 27 Mar. 2025."
+        new Date(2025, 0, 20),
+        "“Executive Order 14172—Restoring Names That Honor American Greatness | the American Presidency Project.” Ucsb.edu, 2025, www.presidency.ucsb.edu/documents/executive-order-14172-restoring-names-that-honor-american-greatness. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "Gulf Of America day proclaimed",
-        new Date(
-          2025,
-          1,
-          9
-        ),
-        "“Gulf of America Day, 2025.” The White House, 9 Feb. 2025, www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 9),
+        "“Gulf of America Day, 2025.” The White House, 9 Feb. 2025, www.whitehouse.gov/presidential-actions/2025/02/gulf-of-america-day-2025/?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "The AP has refused to agknolage the change in their influential stylebook so the Trump Adminstration has revoked their access",
-        new Date(
-          2025,
-          1,
-          11
-        ),
-        "“AP Statement on Oval Office Access | the Associated Press.” The Associated Press, 20 Feb. 2025, www.ap.org/the-definitive-source/announcements/ap-statement-on-oval-office-access/. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 11),
+        "“AP Statement on Oval Office Access | the Associated Press.” The Associated Press, 20 Feb. 2025, www.ap.org/the-definitive-source/announcements/ap-statement-on-oval-office-access/. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "AP sues to get access back after sevral letters to restore it are rejected",
-        new Date(
-          2025,
-          1,
-          21
-        ),
-        "Bauder, David. “AP Sues 3 Trump Administration Officials, Citing Freedom of Speech.” AP News, 21 Feb. 2025, apnews.com/article/ap-lawsuit-trump-administration-officials-0352075501b779b8b187667f3427e0e8?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 21),
+        "Bauder, David. “AP Sues 3 Trump Administration Officials, Citing Freedom of Speech.” AP News, 21 Feb. 2025, apnews.com/article/ap-lawsuit-trump-administration-officials-0352075501b779b8b187667f3427e0e8?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "Court declines to immideatly restore access",
-        new Date(
-          2025,
-          1,
-          24
-        ),
-        "Sedensky, Matt. “Judge Won’t Immediately Restore AP’s Access to White House.” AP News, 24 Feb. 2025, apnews.com/article/ap-lawsuit-trump-gulf-mexico-america-6b6fba488e7e420e5fcd28c44a755922?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 24),
+        "Sedensky, Matt. “Judge Won’t Immediately Restore AP’s Access to White House.” AP News, 24 Feb. 2025, apnews.com/article/ap-lawsuit-trump-gulf-mexico-america-6b6fba488e7e420e5fcd28c44a755922?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "More hearings in federal court",
-        new Date(
-          2025,
-          2,
-          27
-        ),
-        "Bauder, David. “The AP and the Trump Administration Are Due Back in Court in Their Fight over White House Access.” AP News, 26 Mar. 2025, apnews.com/article/ap-trump-administration-media-access-white-house-2e1220b8be122182ae7a2396989905be. Accessed 27 Mar. 2025"
-      )
+        new Date(2025, 2, 27),
+        "Bauder, David. “The AP and the Trump Administration Are Due Back in Court in Their Fight over White House Access.” AP News, 26 Mar. 2025, apnews.com/article/ap-trump-administration-media-access-white-house-2e1220b8be122182ae7a2396989905be. Accessed 27 Mar. 2025",
+      ),
     ],
     0.4,
-    new Date(
-      2025,
-      0,
-      9
-    ),
-    "This by itself is binnal but the refusal to allow the AP access (discussed later) is incredibly bad and undermines our democracy signfigantly."
+    new Date(2025, 0, 9),
+    "This by itself is binnal but the refusal to allow the AP access (discussed later) is incredibly bad and undermines our democracy signfigantly.",
   ),
   new Action(
     "Firing of C.Q. Brown",
     "On Feb 21, President of the Unitd States Donald J. Trump, and Secratary of Deffense Pete Hegseth fired Charimen of the Joint Cheifs of Staff, C.Q. Brown",
     [
-      "Copp, Tara, and Lolita Baldor. “Trump Fires Joint Chiefs of Staff Chair CQ Brown.” AP News, 22 Feb. 2025, apnews.com/article/trump-brown-joint-chiefs-of-staff-firing-fa428cc1508a583b3bf5e7a5a58f6acf?. Accessed 27 Mar. 2025."
+      "Copp, Tara, and Lolita Baldor. “Trump Fires Joint Chiefs of Staff Chair CQ Brown.” AP News, 22 Feb. 2025, apnews.com/article/trump-brown-joint-chiefs-of-staff-firing-fa428cc1508a583b3bf5e7a5a58f6acf?. Accessed 27 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "Alongside Gen. Brown, other senior military officials, including Chief of Naval Operations Adm. Lisa Franchetti and Vice Chief of Staff of the Air Force Gen. Jim Slife, were also dismissed",
-        new Date(
-          2025,
-          1,
-          9
-        ),
-        "Youssef, Nancy A. “Trump Fires Top Pentagon Officers in Sweeping Overhaul.” WSJ, The Wall Street Journal, 22 Feb. 2025, www.wsj.com/politics/national-security/trump-fires-the-chairman-of-the-joint-chiefs-fd4a4d07?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 9),
+        "Youssef, Nancy A. “Trump Fires Top Pentagon Officers in Sweeping Overhaul.” WSJ, The Wall Street Journal, 22 Feb. 2025, www.wsj.com/politics/national-security/trump-fires-the-chairman-of-the-joint-chiefs-fd4a4d07?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
-        " In the same announcement, President Trump nominated retired Air Force Lt. Gen. Dan \"Razin\" Caine to replace Gen. Brown as the Chairman of the Joint Chiefs of Staff. ",
-        new Date(
-          2025,
-          1,
-          9
-        ),
-        "News, PBS. “Trump Fires Gen. CQ Brown as Chairman of the Joint Chiefs of Staff.” PBS News, 21 Feb. 2025, www.pbs.org/newshour/politics/trump-fires-gen-cq-brown-as-chairman-of-the-joint-chiefs-of-staff?. Accessed 27 Mar. 2025."
-      )
+        ' In the same announcement, President Trump nominated retired Air Force Lt. Gen. Dan "Razin" Caine to replace Gen. Brown as the Chairman of the Joint Chiefs of Staff. ',
+        new Date(2025, 1, 9),
+        "News, PBS. “Trump Fires Gen. CQ Brown as Chairman of the Joint Chiefs of Staff.” PBS News, 21 Feb. 2025, www.pbs.org/newshour/politics/trump-fires-gen-cq-brown-as-chairman-of-the-joint-chiefs-of-staff?. Accessed 27 Mar. 2025.",
+      ),
     ],
     0.7,
-    new Date(
-      2025,
-      1,
-      9
-    ),
-    "While Trump does have an undispued right to chose is own advisors, it is worriying because the Pentagon is a policaly indepedent merticoracy and if things start going wrong and the Pentengon plays a role in domestic politics, it is worrying that a Trump loyalist is running it."
+    new Date(2025, 1, 9),
+    "While Trump does have an undispued right to chose is own advisors, it is worriying because the Pentagon is a policaly indepedent merticoracy and if things start going wrong and the Pentengon plays a role in domestic politics, it is worrying that a Trump loyalist is running it.",
   ),
   new Action(
     "Negotiating with Putin without Ukraine",
     "​Since November 5, 2024, President of the United States Donald John Trump and his administration officials have engaged in several netotians  with Russian President Vladimir Putin and Russian officials Ukraine was present at none. ​",
     [
-      "Walsh, Nick Paton. “Putin Just Called Trump’s Bluff on Ukraine, with the Russian Art of the ‘No’ Deal.” CNN, 18 Mar. 2025, www.cnn.com/2025/03/18/europe/analysis-putin-trump-phone-call-ukraine-intl-latam/index.html. Accessed 27 Mar. 2025."
+      "Walsh, Nick Paton. “Putin Just Called Trump’s Bluff on Ukraine, with the Russian Art of the ‘No’ Deal.” CNN, 18 Mar. 2025, www.cnn.com/2025/03/18/europe/analysis-putin-trump-phone-call-ukraine-intl-latam/index.html. Accessed 27 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "Trump has a 90 minute offical call with Putin. Putin wins diplomatic and energey conessions",
-        new Date(
-          2025,
-          1,
-          12
-        ),
-        "to, Contributors. “12 February 2025 Phone Conversation.” Wikipedia.org, Wikimedia Foundation, Inc., 14 Feb. 2025, en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 12),
+        "to, Contributors. “12 February 2025 Phone Conversation.” Wikipedia.org, Wikimedia Foundation, Inc., 14 Feb. 2025, en.wikipedia.org/wiki/February_2025_Putin%E2%80%93Trump_call?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "Secratary of State Marco Rubio and sevral other officals meet with Russin counterparts in Riyadah. Ukraine was not there and Russia wins diplomatic consessions",
-        new Date(
-          2025,
-          1,
-          18
-        ),
-        "Reuters. “Who Are the Russian Officials Meeting with US Team in Saudi Arabia?” Reuters, 18 Feb. 2025, www.reuters.com/world/europe/putin-sends-top-foreign-policy-team-talks-with-us-2025-02-18/?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 18),
+        "Reuters. “Who Are the Russian Officials Meeting with US Team in Saudi Arabia?” Reuters, 18 Feb. 2025, www.reuters.com/world/europe/putin-sends-top-foreign-policy-team-talks-with-us-2025-02-18/?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "Steve Witkof (A high level adivsor) meets Putin in Moscow",
-        new Date(
-          2025,
-          2,
-          12
-        ),
-        "Edwards, Christian. “Trump’s Foreign Envoy Touts Kremlin Talking Points, in Interview That Will Alarm Europe.” CNN, 22 Mar. 2025, www.cnn.com/2025/03/22/europe/witkoff-carlson-trump-russia-ukraine-talks-intl/index.html?. Accessed 27 Mar. 2025."
-      )
+        new Date(2025, 2, 12),
+        "Edwards, Christian. “Trump’s Foreign Envoy Touts Kremlin Talking Points, in Interview That Will Alarm Europe.” CNN, 22 Mar. 2025, www.cnn.com/2025/03/22/europe/witkoff-carlson-trump-russia-ukraine-talks-intl/index.html?. Accessed 27 Mar. 2025.",
+      ),
     ],
     0.8,
-    new Date(
-      2016,
-      10,
-      5
-    ),
-    "It is crittical that a fair settlement be reached in Ukraine. This cannot be done by appeasing autoritanians. Trump is bending the knee to Putin for no apparent reason"
+    new Date(2016, 10, 5),
+    "It is crittical that a fair settlement be reached in Ukraine. This cannot be done by appeasing autoritanians. Trump is bending the knee to Putin for no apparent reason",
   ),
   new Action(
     "Takeover of the Kenedy Center",
     "​In early 2025, President of the United States Donald J. Trump initiated significant changes at the John F. Kennedy Center for the Performing Arts, leading to a notable shift in its leadership and operations. Below is a timeline of key events",
     [
-      "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025."
+      "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "President Trump announced his intention to dismiss all members of the Kennedy Center's Board of Trustees and appoint new members, including himself. This move was unprecedented, as board members typically serve six-year terms. ",
-        new Date(
-          2025,
-          1,
-          7
-
-        ),
-        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 7),
+        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "Trump names longtime Ally Richard Grennel to be acting director",
-        new Date(
-          2025,
-          1,
-          10
-        ),
-        "Higgins, Charlotte. “Trump’s Weird Obsession with the Arts Is Part of the Authoritarian Playbook.” The Guardian, The Guardian, 20 Mar. 2025, www.theguardian.com/commentisfree/2025/mar/20/donald-trump-kennedy-center-takeover-arts?. Accessed 27 Mar. 2025."
+        new Date(2025, 1, 10),
+        "Higgins, Charlotte. “Trump’s Weird Obsession with the Arts Is Part of the Authoritarian Playbook.” The Guardian, The Guardian, 20 Mar. 2025, www.theguardian.com/commentisfree/2025/mar/20/donald-trump-kennedy-center-takeover-arts?. Accessed 27 Mar. 2025.",
       ),
       new timelineEvent(
         "New board makes President of the United States, Donald J. Trump, Chairmen of the Board and fire the President of the Kenedy Center who has been in office since 2014",
-        new Date(
-          2025,
-          1,
-          12
-        ),
-        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025."
-      )
+        new Date(2025, 1, 12),
+        "to, Contributors. “Performing Arts Center in Washington, D.C., United States.” Wikipedia.org, Wikimedia Foundation, Inc., 27 Nov. 2003, en.wikipedia.org/wiki/John_F._Kennedy_Center_for_the_Performing_Arts?. Accessed 27 Mar. 2025.",
+      ),
       /*
           There is more here but I am not sure it is relavant, get another oppinion.
       */
     ],
     0.8,
-    new Date(
-      2025,
-      1,
-      7
-    ),
-    "This is not as bad as the J6 pardons but it shows how Trump is politizing every layer of Government"
+    new Date(2025, 1, 7),
+    "This is not as bad as the J6 pardons but it shows how Trump is politizing every layer of Government",
   ),
   new Action(
     "Ending NYC Congestion Pricing",
     "​In early 2025, President of the United States Donald Trump and Secratary of Transportaion Sean Duffy took steps to end New York City's congestion pricing program, which had been implemented to reduce traffic and fund public transit improvements.",
     [
-      "Hu, Winnie, and Stefanos Chen. “Trump Officials Ordered NYC Congestion Pricing to End by March 21. What Happens Now?” The New York Times, 20 Mar. 2025, www.nytimes.com/2025/03/20/nyregion/nyc-congestion-pricing-trump-mta-battle.html."
+      "Hu, Winnie, and Stefanos Chen. “Trump Officials Ordered NYC Congestion Pricing to End by March 21. What Happens Now?” The New York Times, 20 Mar. 2025, www.nytimes.com/2025/03/20/nyregion/nyc-congestion-pricing-trump-mta-battle.html.",
     ],
     [
       new timelineEvent(
         "New York City initiated its congestion pricing program, imposing a $9 toll on most vehicles entering Manhattan south of 60th Street. The program aimed to alleviate traffic congestion and generate revenue for the city's transit system. ",
-        new Date(
-          2025,
-          0,
-          5
-        ),
-        "Marcelo, Philip. “Trump Extends Deadline for New York to End Congestion Toll for Manhattan Drivers.” AP News, 20 Mar. 2025, apnews.com/article/nyc-congestion-pricing-toll-trump-hochul-826ddc20735c6115a2e5b634765ea4c0. Accessed 28 Mar. 2025."
+        new Date(2025, 0, 5),
+        "Marcelo, Philip. “Trump Extends Deadline for New York to End Congestion Toll for Manhattan Drivers.” AP News, 20 Mar. 2025, apnews.com/article/nyc-congestion-pricing-toll-trump-hochul-826ddc20735c6115a2e5b634765ea4c0. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
-        "U.S. Transportation Secretary Sean Duffy rescinded federal approval for New York City's congestion pricing plan, calling it a \"slap in the face to working class Americans and small business owners.\" The federal government ordered the Metropolitan Transportation Authority (MTA) to cease toll collection by March 21, 2025",
-        new Date(
-          2025,
-          1,
-          19
-        ),
-        "“Congestion Pricing in New York City - Wikipedia.” Wikipedia.org, 2025, en.wikipedia.org/wiki/Congestion_pricing_in_New_York_City?. Accessed 28 Mar. 2025."
+        'U.S. Transportation Secretary Sean Duffy rescinded federal approval for New York City\'s congestion pricing plan, calling it a "slap in the face to working class Americans and small business owners." The federal government ordered the Metropolitan Transportation Authority (MTA) to cease toll collection by March 21, 2025',
+        new Date(2025, 1, 19),
+        "“Congestion Pricing in New York City - Wikipedia.” Wikipedia.org, 2025, en.wikipedia.org/wiki/Congestion_pricing_in_New_York_City?. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "The MTA filed a lawsuit challenging the federal government's authority to revoke approval of the congestion pricing program.",
-        new Date(
-          2025,
-          1,
-          20
-        ),
-        "Marcelo, Philip. “Trump Extends Deadline for New York to End Congestion Toll for Manhattan Drivers.” AP News, 20 Mar. 2025, apnews.com/article/nyc-congestion-pricing-toll-trump-hochul-826ddc20735c6115a2e5b634765ea4c0. Accessed 28 Mar. 2025."
+        new Date(2025, 1, 20),
+        "Marcelo, Philip. “Trump Extends Deadline for New York to End Congestion Toll for Manhattan Drivers.” AP News, 20 Mar. 2025, apnews.com/article/nyc-congestion-pricing-toll-trump-hochul-826ddc20735c6115a2e5b634765ea4c0. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "The Trump administration extended the deadline for New York to end its congestion pricing program by 30 days, moving it to April 20, 2025. Transportation Secretary Duffy indicated that federal funding might be withheld if toll collection did not cease by the new date",
-        new Date(
-          2025,
-          2,
-          20
-        ),
-        "Shepardson, David. “US Extends Deadline for New York to End Manhattan Congestion Program.” Reuters, 20 Mar. 2025, www.reuters.com/world/us/us-extends-deadline-new-york-end-manhattan-congestion-program-2025-03-20/?. Accessed 28 Mar. 2025."
-      )
+        new Date(2025, 2, 20),
+        "Shepardson, David. “US Extends Deadline for New York to End Manhattan Congestion Program.” Reuters, 20 Mar. 2025, www.reuters.com/world/us/us-extends-deadline-new-york-end-manhattan-congestion-program-2025-03-20/?. Accessed 28 Mar. 2025.",
+      ),
     ],
     0.6,
-    new Date(
-      2025,
-      0,
-      5
-    ),
-    "This congestion pricing has many benefits, It will increase foot trafick for local business, it will raise money for cleaner forms of transport like the subway and will reduce overall emmissons. This is just part of Trump adminstrations populist ecomic policy and it serves as a distraction for actual issues."
+    new Date(2025, 0, 5),
+    "This congestion pricing has many benefits, It will increase foot trafick for local business, it will raise money for cleaner forms of transport like the subway and will reduce overall emmissons. This is just part of Trump adminstrations populist ecomic policy and it serves as a distraction for actual issues.",
   ),
   new Action(
     "Taking control of Indepent agencies",
-    "President Trump signed the executive order \"Ensuring Accountability for All Agencies,\" extending presidential supervision over independent regulatory agencies. This order mandated that these agencies submit draft regulations for White House review, consult with the White House on priorities and strategic plans, and adhere to performance standards set by the Office of Management and Budget (OMB).",
+    'President Trump signed the executive order "Ensuring Accountability for All Agencies," extending presidential supervision over independent regulatory agencies. This order mandated that these agencies submit draft regulations for White House review, consult with the White House on priorities and strategic plans, and adhere to performance standards set by the Office of Management and Budget (OMB).',
     [
-      "“Fact Sheet: President Donald J. Trump Reins in Independent Agencies to Restore a Government That Answers to the American People.” The White House, 18 Feb. 2025, www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-reins-in-independent-agencies-to-restore-a-government-that-answers-to-the-american-people/. Accessed 28 Mar. 2025."
+      "“Fact Sheet: President Donald J. Trump Reins in Independent Agencies to Restore a Government That Answers to the American People.” The White House, 18 Feb. 2025, www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-reins-in-independent-agencies-to-restore-a-government-that-answers-to-the-american-people/. Accessed 28 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "An unapproved email was sent to federal employees, demanding they list their weekly achievements. This action created confusion and tension among civil servants and Trump's cabinet members.",
-        new Date(
-          2025,
-          1,
-          22
-        ),
-        "Alper, Alexandra, and Nandita Bose. “Exclusive: White House Installs Trump Loyalists at Federal HR Agency after ‘Five Things’ Email.” Reuters, 27 Mar. 2025, www.reuters.com/world/us/white-house-installs-trump-loyalists-federal-hr-agency-after-five-things-email-2025-03-27/. Accessed 28 Mar. 2025."
+        new Date(2025, 1, 22),
+        "Alper, Alexandra, and Nandita Bose. “Exclusive: White House Installs Trump Loyalists at Federal HR Agency after ‘Five Things’ Email.” Reuters, 27 Mar. 2025, www.reuters.com/world/us/white-house-installs-trump-loyalists-federal-hr-agency-after-five-things-email-2025-03-27/. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "President Trump announced his intention to nominate Susan Monarez as the permanent director of the Centers for Disease Control and Prevention (CDC), an agency traditionally expected to operate with a degree of independence.",
-        new Date(
-          2025,
-          2,
-          23
-        ),
-        "Mason, Jeff, and Michael Erman. “Trump Picks Acting CDC Director Susan Monarez to Lead Agency.” Reuters, 24 Mar. 2025, www.reuters.com/business/healthcare-pharmaceuticals/trump-nominate-susan-monarez-lead-cdc-cbs-news-reports-2025-03-24/. Accessed 28 Mar. 2025."
+        new Date(2025, 2, 23),
+        "Mason, Jeff, and Michael Erman. “Trump Picks Acting CDC Director Susan Monarez to Lead Agency.” Reuters, 24 Mar. 2025, www.reuters.com/business/healthcare-pharmaceuticals/trump-nominate-susan-monarez-lead-cdc-cbs-news-reports-2025-03-24/. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "President Trump signed an executive order limiting federal workers' rights to unionize and ending collective bargaining, a move criticized by the American Federation of Government Employees.",
-        new Date(
-          2025,
-          2,
-          28
-        ),
-        "Campbell, Lucy, et al. “Donald Trump Moves to End Union Rights for Many Government Agency Employees – US Politics Live.” The Guardian, The Guardian, 28 Mar. 2025, www.theguardian.com/us-news/live/2025/mar/28/donald-trump-white-house-washington-latest-live-us-politics-news. Accessed 28 Mar. 2025."
-      )
+        new Date(2025, 2, 28),
+        "Campbell, Lucy, et al. “Donald Trump Moves to End Union Rights for Many Government Agency Employees – US Politics Live.” The Guardian, The Guardian, 28 Mar. 2025, www.theguardian.com/us-news/live/2025/mar/28/donald-trump-white-house-washington-latest-live-us-politics-news. Accessed 28 Mar. 2025.",
+      ),
     ],
     0.8,
-    new Date(
-      2025,
-      1,
-      18
-    ),
-    "Our goverment is (supposed) to be a meritocracy. Indpendedt experts lead independent agencies, so they can make politicaly unpouplar decissions. Ignoring the fact that this is a poewer grab, it will make agenceis function worse and be more partisan."
+    new Date(2025, 1, 18),
+    "Our goverment is (supposed) to be a meritocracy. Indpendedt experts lead independent agencies, so they can make politicaly unpouplar decissions. Ignoring the fact that this is a poewer grab, it will make agenceis function worse and be more partisan.",
   ),
   new Action(
     "Dan Borgiano for Deputy FBI Director",
     "​Dan Bongino, a former Secret Service agent and conservative media personality, has been appointed as the Deputy Director of the Federal Bureau of Investigation (FBI) under President Donald Trump. His career has been marked by various idiotic and dangerous theorries and allegations.",
     [
-      "Swenson, Ali. “Dan Bongino Made His Name in Podcasting, with Plenty to Say about the FBI.” AP News, 24 Feb. 2025, apnews.com/article/dan-bongino-podcasts-fbi-kash-patel-trump-6d47f60b59edb3dba45615104ed41a67. Accessed 28 Mar. 2025."
+      "Swenson, Ali. “Dan Bongino Made His Name in Podcasting, with Plenty to Say about the FBI.” AP News, 24 Feb. 2025, apnews.com/article/dan-bongino-podcasts-fbi-kash-patel-trump-6d47f60b59edb3dba45615104ed41a67. Accessed 28 Mar. 2025.",
     ],
     [
       new timelineEvent(
-        "\"My entire life right now is about owning the libs. That's it.\" He also labeled the investigation into potential Trump-Russia collusion as a \"total scam\" and promoted the Spygate conspiracy theory, alleging improper surveillance of Trump\'s 2016 campaign.",
-        new Date(
-          2018,
-          9,
-          5
-        ),
-        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025."
+        '"My entire life right now is about owning the libs. That\'s it." He also labeled the investigation into potential Trump-Russia collusion as a "total scam" and promoted the Spygate conspiracy theory, alleging improper surveillance of Trump\'s 2016 campaign.',
+        new Date(2018, 9, 5),
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
-        "During congressional hearings on police brutality, Bongino argued against efforts to reduce police funding, labeling such initiatives an \"abomination\" that should be abandoned \"before someone gets hurt.\"",
+        'During congressional hearings on police brutality, Bongino argued against efforts to reduce police funding, labeling such initiatives an "abomination" that should be abandoned "before someone gets hurt."',
         new Date(
           2020,
           5,
-          7 /*placeholder, could not find actual date, I know it is june 2020*/
+          7 /*placeholder, could not find actual date, I know it is june 2020*/,
         ),
-        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025."
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "He supported false claims of election fraud, alleging that Democrats had rigged the election",
-        new Date(
-          2025,
-          10,
-          10
-        ),
-        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025"
+        new Date(2025, 10, 10),
+        "to, Contributors. “American Political Commentator.” Wikipedia.org, Wikimedia Foundation, Inc., 13 Sept. 2011, en.wikipedia.org/wiki/Dan_Bongino. Accessed 28 Mar. 2025",
       ),
       new timelineEvent(
         " YouTube permanently banned Bongino for repeatedly violating its COVID-19 misinformation policy",
-        new Date(
-          2022,
-          0,
-          26 
-        ),
-        "Culliford, Elizabeth, and Paresh Dave. “YouTube Permanently Bans Fox News Host Dan Bongino.” Reuters, 26 Jan. 2022, www.reuters.com/business/media-telecom/youtube-permanently-bans-fox-news-host-dan-bongino-2022-01-26/. Accessed 28 Mar. 2025."
+        new Date(2022, 0, 26),
+        "Culliford, Elizabeth, and Paresh Dave. “YouTube Permanently Bans Fox News Host Dan Bongino.” Reuters, 26 Jan. 2022, www.reuters.com/business/media-telecom/youtube-permanently-bans-fox-news-host-dan-bongino-2022-01-26/. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "Trump Nominates Dan Bogiano for dep FBI director",
-        new Date(
-          2025,
-          1,
-          26
-        ),
-        "Drenon, Brandon. “Dan Bongino: Trump Names Podcaster as Deputy FBI Director.” Bbc.com, BBC News, 24 Feb. 2025, www.bbc.com/news/articles/cpwd2qrn1e2o. Accessed 28 Mar. 2025."
-      )
+        new Date(2025, 1, 26),
+        "Drenon, Brandon. “Dan Bongino: Trump Names Podcaster as Deputy FBI Director.” Bbc.com, BBC News, 24 Feb. 2025, www.bbc.com/news/articles/cpwd2qrn1e2o. Accessed 28 Mar. 2025.",
+      ),
     ],
     0.85,
-    new Date(
-      2018,
-      9,
-      5
-    ),
-    "The deputy FBI director runs most of the day to day opperations of the FBI. Kash Patel specificaly promissed senators the Deputy Director would be an active special agent, like it has been for 100 years. Instead we get Dan Borgiano a partisan hack who gives conservatism a bad name."
+    new Date(2018, 9, 5),
+    "The deputy FBI director runs most of the day to day opperations of the FBI. Kash Patel specificaly promissed senators the Deputy Director would be an active special agent, like it has been for 100 years. Instead we get Dan Borgiano a partisan hack who gives conservatism a bad name.",
   ),
   new Action(
     "Implementing Project 2025",
     "​In January 2025, following his inauguration for a second term, President Donald Trump initiated the implementation of Project 2025, a comprehensive plan developed by conservative groups to restructure the federal government. A central figure in this initiative is Russell Vought, appointed as the Director of the Office of Management and Budget (OMB). Vought, a key architect of Project 2025, has been instrumental in driving efforts to downsize federal agencies and consolidate executive power.",
     [
-      "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+      "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025.",
     ],
     [
       new timelineEvent(
         "Redirecting federal aid under FEMA to the states",
-        new Date(
-          2025,
-          0,
-          20
-        ),
-        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+        new Date(2025, 0, 20),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "Ending diversity, equity and inclusion practice",
-        new Date(
-          2025,
-          0,
-          20
-        ),
-        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+        new Date(2025, 0, 20),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "Targeting PBS and National Public Radio",
-        new Date(
-          2025,
-          2,
-          28
-        ),
-        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
+        new Date(2025, 2, 28),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025.",
       ),
       new timelineEvent(
         "Freezing federal assistance and DOGE",
-        new Date(
-          2025,
-          0,
-          20
-        ),
-        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025."
-      )
+        new Date(2025, 0, 20),
+        "Quinn, Melissa. “Where Trump Policies and Project 2025 Proposals Match Up.” Cbsnews.com, CBS News, 3 Feb. 2025, www.cbsnews.com/news/trump-project-2025-playbook/. Accessed 28 Mar. 2025.",
+      ),
       //There are many more examples but I am to lazzy to add them, go to this URL to add more https://www.cbsnews.com/news/trump-project-2025-playbook/
     ],
     0.7,
-    new Date(
-      2025,
-      0,
-      20
-    ),
-    "Projct 2025 is a problem. Many of its proposal are just evil and Trump repetaly dennied any connection. That was a lie"// I am embarresed to have written this.
-  )
+    new Date(2025, 0, 20),
+    "Projct 2025 is a problem. Many of its proposal are just evil and Trump repetaly dennied any connection. That was a lie", // I am embarresed to have written this.
+  ),
 ];
 
 export default actions;
