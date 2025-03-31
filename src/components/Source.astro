@@ -1,0 +1,56 @@
+---
+const { citation } = Astro.props;
+---
+
+<html>
+  <head>
+    <style>
+      /* Tooltip Styles */
+      .tooltip-container {
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+      }
+
+      .source-popup {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .tooltip {
+        position: absolute;
+        top: 100%;
+        left: 10vw;
+        width: 80vw;
+        transform: translateX(-50vw);
+        background: #333;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease-in-out;
+        word-break: break-word;
+        white-space: normal;
+        z-index: 10;
+      }
+
+      /* Show the tooltip when hovering over the source-popup or the tooltip itself */
+      .source-popup:hover + .tooltip,
+      .tooltip:hover {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tooltip-container">
+      <span class="source-popup">SOURCE</span>
+      <span class="tooltip">
+        <div class="center">
+          {citation}
+        </div>
+      </span>
+    </div>
+  </body>
+</html>
