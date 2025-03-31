@@ -15,6 +15,11 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
+      .center {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
       .dropdown {
         position: relative;
         width: 300px;
@@ -114,9 +119,9 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
       .tooltip {
         position: absolute;
         top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
+        left: 10vw;
+        width: 80vw;
+        transform: translateX(-50vw);
         background: #333;
         color: #fff;
         padding: 8px 16px;
@@ -180,11 +185,15 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
       </div>
       <br />
       <!-- Wrap the source-popup and tooltip in a container to ensure they're adjacent -->
-      <div class="tooltip-container">
-        <span class="source-popup">SOURCE</span>
-        <span class="tooltip">
-          {localAction.sources[0]}
-        </span>
+      <div class="center"
+        ><div class="tooltip-container">
+          <span class="source-popup">SOURCE</span>
+          <span class="tooltip">
+            <div class="center">
+              {localAction.sources[0]}
+            </div>
+          </span>
+        </div>
       </div>
       <button
         style={`background-color: ${content};`}
