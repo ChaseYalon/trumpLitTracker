@@ -7,9 +7,9 @@ const { citation } = Astro.props;
     <style>
       /* Tooltip Styles */
       .tooltip-container {
-        position: relative;
-        white-space: nowrap;
+        /* no longer position: relative, so the tooltip can be centered on screen */
         display: inline-block;
+        white-space: nowrap;
       }
 
       .source-popup {
@@ -18,11 +18,11 @@ const { citation } = Astro.props;
       }
 
       .tooltip {
-        position: absolute;
-        top: 100%;
-        left: 10vw;
+        /* Use fixed positioning so it's always centered on the viewport */
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
         width: 80vw;
-        transform: translateX(-50vw);
         background: #333;
         color: #fff;
         padding: 8px 16px;
@@ -35,7 +35,7 @@ const { citation } = Astro.props;
         z-index: 10;
       }
 
-      /* Show the tooltip when hovering over the source-popup or the tooltip itself */
+      /* Show the tooltip on hover */
       .source-popup:hover + .tooltip,
       .tooltip:hover {
         opacity: 1;
