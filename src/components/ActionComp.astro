@@ -82,19 +82,58 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
         margin-left: 1.8rem;
         margin-right: 1.8rem;
         border-radius: 1.7rem;
-        padding-bottom: 0rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
       }
+
       .content-dialog {
         padding-left: 1rem;
         padding-right: 1rem;
       }
+
       .close-button {
         width: 100%;
         font-size: 3rem;
         border-bottom-left-radius: 1.7rem;
         border-bottom-right-radius: 1.7rem;
+      }
+
+      /* Tooltip Styles */
+      .tooltip-container {
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+      }
+
+      .source-popup {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .tooltip {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        background: #333;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 4px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease-in-out;
+        word-break: break-word;
+        white-space: normal;
+        z-index: 10;
+      }
+
+      /* Show the tooltip when hovering over the source-popup or the tooltip itself */
+      .source-popup:hover + .tooltip,
+      .tooltip:hover {
+        opacity: 1;
+        pointer-events: auto;
       }
     </style>
   </head>
@@ -103,9 +142,9 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
       class="dropdown"
       id={`dropdown-${localAction.id}`}
       style={`--button-bg: ${backgroundColor}; --content: ${content};`}>
-      <button id={`button-${localAction.id}`} class="dropdown-header"
-        >{localAction.name}</button
-      >
+      <button id={`button-${localAction.id}`} class="dropdown-header">
+        {localAction.name}
+      </button>
       <div class="dropdown-content">
         <p>
           {
@@ -118,13 +157,14 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
       </div>
       <button
         id={`seeMore-${localAction.id}`}
-        style={`--bottom-bg: ${buttonColor}`}
-        class="dropdown-bottom">See More</button
-      >
+        style={`--bottom-bg: ${buttonColor};`}
+        class="dropdown-bottom">
+        See More
+      </button>
     </div>
     <dialog
       class="expand-dialog"
-      style={`--dialog-bg: ${content}`}
+      style={`--dialog-bg: ${content};`}
       id={`dialog-${localAction.id}`}>
       <div class="content-dialog">
         <h1>{localAction.name}</h1>
@@ -138,11 +178,20 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
         </ol>
         <h2>{localAction.opinion}</h2>
       </div>
+      <br />
+      <!-- Wrap the source-popup and tooltip in a container to ensure they're adjacent -->
+      <div class="tooltip-container">
+        <span class="source-popup">SOURCE</span>
+        <span class="tooltip">
+          {localAction.sources[0]}
+        </span>
+      </div>
       <button
-        style={`background-color: --content: ${content};`}
+        style={`background-color: ${content};`}
         class="close-button"
-        id={`close-${localAction.id}`}>Close</button
-      >
+        id={`close-${localAction.id}`}>
+        Close
+      </button>
     </dialog>
 
     <script define:vars={{ localAction }}>
@@ -152,12 +201,10 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
         const seeMore = document.getElementById(`seeMore-${localAction.id}`);
         const dialog = document.getElementById(`dialog-${localAction.id}`);
         const close = document.getElementById(`close-${localAction.id}`);
-        console.log("LocalAction oppinion is ", localAction.opinion);
+        console.log("LocalAction opinion is ", localAction.opinion);
         if (button && dropdown && seeMore && dialog && close) {
           button.addEventListener("click", () => {
-            dropdown.classList.toggle("open"); // Toggle on parent div
-
-            // Ensure the 'open' class is applied to both content and 'seeMore' button
+            dropdown.classList.toggle("open");
             seeMore.classList.toggle("open");
           });
           seeMore.addEventListener("click", () => {
