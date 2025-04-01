@@ -6,7 +6,7 @@ import Header from "../components/Header.astro";
 
 <html>
   <head>
-    <title>Tracking Trumps Exeuctive Orders</title>
+    <title>Tracking Trumps Executive Orders</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./favicon.jpg" />
@@ -21,20 +21,97 @@ import Header from "../components/Header.astro";
         background-image: url("trump_final.png");
         background-size: 100% 100%;
       }
-
       .actions-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
       }
+      .center {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .sorter {
+        font-size: 1.9rem;
+        color: rgb(200, 200, 200);
+        background-color: rgb(30, 30, 30);
+        border-radius: 3rem;
+        padding: 0.3rem;
+        margin-top: 0.1rem;
+      }
+      option:hover {
+        background-color: rgb(200, 200, 200);
+        color: rgb(30, 30, 30);
+      }
+      .select-label {
+        font-size: 1.7rem;
+        color: rgb(200, 200, 200);
+        margin-bottom: 0.1rem;
+      }
     </style>
   </head>
   <body>
     <Header />
-
-    <div class="actions-container">
-      {actions.map((action) => <ActionComp localAction={action} />)}
+    <div class="center" style="margin-bottom:1.1rem;">
+      <span class="select-label">Sort By:</span>
+      <select class="sorter" name="sort" id="sort-select">
+        <option value="">--Default--</option>
+        <option value="Evilness">Evilness</option>
+        <option value="Date">Date</option>
+      </select>
     </div>
+
+    <div class="actions-container" id="action-container">
+      {
+        actions.map((action) => (
+          // Wrap each ActionComp in a div with data attributes.
+          <div
+            class="action-wrapper"
+            data-evilness={action.evilness}
+            data-date={action.start}>
+            <ActionComp id={action.id} localAction={action} />
+          </div>
+        ))
+      }
+    </div>
+
+    <script define:vars={{}}>
+      document.addEventListener("DOMContentLoaded", () => {
+        const select = document.getElementById("sort-select");
+        const container = document.getElementById("action-container");
+
+        // Save the original order so we can restore it when needed.
+        const originalOrder = Array.from(container.children);
+
+        select.addEventListener("change", () => {
+          const sortValue = select.value;
+          const wrappers = Array.from(container.children);
+
+          if (sortValue === "Evilness") {
+            wrappers.sort((a, b) => {
+              const aValue = parseFloat(a.getAttribute("data-evilness")) || 0;
+              const bValue = parseFloat(b.getAttribute("data-evilness")) || 0;
+              return aValue - bValue;
+            });
+          } else if (sortValue === "Date") {
+            wrappers.sort((a, b) => {
+              const aDate = new Date(a.getAttribute("data-date"));
+              const bDate = new Date(b.getAttribute("data-date"));
+              return aDate - bDate;
+            });
+          } else {
+            // Restore original order.
+            wrappers.sort(
+              (a, b) => originalOrder.indexOf(a) - originalOrder.indexOf(b),
+            );
+          }
+
+          // Clear the container and append the sorted wrappers.
+          container.innerHTML = "";
+          wrappers.forEach((wrapper) => container.appendChild(wrapper));
+        });
+      });
+    </script>
   </body>
 </html>
