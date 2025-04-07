@@ -705,7 +705,7 @@ actions = [
       new timelineEvent(
         "Elon Musk indicated at a fundraiser dinner that he had an intrest in cutting goverment beuracracy.",
         new Date(2023, 9, 23),
-        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.‌",
+        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.",
       ),
       new timelineEvent(
         "Elon Musk endorses then Former President, Donald John Trump for President of the United States after he narrowly escaped assiantion in Buttler PA.",
@@ -746,9 +746,37 @@ actions = [
       ),
       //missing sevral events
       new timelineEvent(
-        "Vlodomyr Zelensky, president of Ukraine was coming to the United States",
+        "Vlodomyr Zelensky, president of Ukraine was coming to the United States to sign some mineral deal, Presidents, Trump and Zlensky and Vice Preident Vance, held some press confrence in the oval offfice, the sort that shold have been forgoten by hisotry, instead Vance ended up screaming at Zelensky and Zelensky refusing to back down. Either way, that did not end well for anyone involved and Trump frose all aid and itelegence with Ukraine.",
+        new Date(
+          2025,
+          1,
+          28
+        ),
+        "\"2025 Trump–Zelenskyy Oval Office Meeting - Wikipedia.\" Wikipedia.org, 2025, en.wikipedia.org/wiki/2025_Trump%E2%80%93Zelenskyy_Oval_Office_meeting#:~:text=On%20February%2028%2C%202025%2C%20Donald,White%20House%20in%20Washington%2C%20D.C.. Accessed 7 Apr. 2025."
       ),
+      new timelineEvent(
+        "Preident of the United States, Donald J. Trump orders CIA Director, John Radcliffe and Secratry of Deffense Pete Hegeth to stop all aid and intelegece sharing to Ukraine. This crippled Ukraines abilit to defend itself and resulted in hudreds of civilian deaths because the Ukraines where not able to take down enemey missles.",
+        new Date(
+          2025,
+          2,
+          3
+        ),
+        "Liptak, Kevin, et al. “Trump Pauses Military Aid to Ukraine after Oval Office Argument with Zelensky, White House Official Says.” CNN, 4 Mar. 2025, www.cnn.com/2025/03/03/politics/trump-administration-ukraine-aid/index.html. Accessed 7 Apr. 2025."
+      ),
+      new timelineEvent(
+        "After hundreds of unnescary civlian deaths and major battlefeild setbacks Trump aggred to resume aid having accoplished nothing except killing innocents",
+        new Date(
+          2025,
+          2,
+          11
+        ),
+        "LEE, MATTHEW. “Trump Administration to Resume Military Aid to Ukraine and Intelligence Sharing.” TIME, Time, 11 Mar. 2025, time.com/7266942/trump-administration-resume-military-aid-ukraine/. Accessed 7 Apr. 2025."
+      )
     ],
+    0.7,
+    new Date(2019, 6, 25),
+    "We stand up to the weak, give voice to the voicelss and freedom to the oppressed. That is our national ethos and has been for 250 years. It is disgracefull that the Presient would abandon a loyal ally in their time of need and for policial reaons, it is disgrasefull.."
+
   ),
 ];
 
