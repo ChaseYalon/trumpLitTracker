@@ -695,6 +695,61 @@ actions = [
     new Date(2025, 0, 20),
     "Project 2025 is a problem. Many of its proposal are just evil and Trump repeatedly denied any connection. That was a lie", // I am embarrassed to have written this.
   ),
+  new Action(
+    "The Department of Goverment Efficency (DOGE)",
+    "The Department of Goverment Efficency or U.S. Doge Service is realy the U.S. Digital service and is in theory focused on streamling goverment beuracuracy. In reality it has become a black box for all of Trumps policy agenda",
+    [
+      "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.",
+    ],
+    [
+      new timelineEvent(
+        "Elon Musk indicated at a fundraiser dinner that he had an intrest in cutting goverment beuracracy.",
+        new Date(2023, 9, 23),
+        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.‌",
+      ),
+      new timelineEvent(
+        "Elon Musk endorses then Former President, Donald John Trump for President of the United States after he narrowly escaped assiantion in Buttler PA.",
+        new Date(2024, 5, 14),
+        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.",
+      ),
+      new timelineEvent(
+        'In a podcast interview, Elon Musk first mentioned "DOGE", named after a cryptocurrency / meme.',
+        new Date(2024, 6, 2),
+        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.",
+      ),
+      new timelineEvent(
+        "Donald Trump endorses the idea of some extra-goveremtnal pannel to promote efficency",
+        new Date(2024, 9, 5),
+        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.",
+      ),
+      new timelineEvent(
+        "After Election Day (Nov 5), President Elect Trump announces a DOGE commission to be co-led by Musk and Vivek Ramaswamy. You can see the rest of DOGE's actions across the website.",
+        new Date(2024, 10, 12),
+        "The. “How Elon Musk Built His DOGE Operation: Timeline and Key Takeaways.” The New York Times, 28 Feb. 2025, www.nytimes.com/2025/02/28/us/politics/musk-doge-timeline-takeaways.html.",
+      ),
+    ],
+    0.7,
+    new Date(2023, 9, 23),
+    'There is nothing inheritnly wrong with cutting beuracracy or spending but as Senator John Curtis (R-Utah) said "Do it with a dose of compassion". DOGE is relentless and unaccountable, the work in the shadows destorying our carrear civil service and destorying nesscary goverment functions like ebola prevention or nulear power plant safety. Things we can all agree are nesscary.',
+  ),
+  new Action(
+    "Vlodomyr Zelensky",
+    "Presidents Trump and Zlensky have had a ... rocky relationship. In his first term a call with Zelensky was the crux of his first impeachment and in is second term his most notable foregin policy achivement was bullying Zelensky and chasing him out of Washington.",
+    [
+      "The. “Full Document: Trump’s Call with the Ukrainian President.” Nytimes.com, The New York Times, 25 Sept. 2019, www.nytimes.com/interactive/2019/09/25/us/politics/trump-ukraine-transcript.html. Accessed 6 Apr. 2025.",
+    ],
+    [
+      new timelineEvent(
+        "President of the United States, Donald J. Trump, called newly elected President of Ukraine, Vlodomyr Zelensky. He then indicated that US aid for Ukraine was contigent on Zelensky, providing dirt on one of Trumps political opponents, Then Former Vice President, Joe Biden",
+        new Date(2019, 6, 25),
+        "The. “Full Document: Trump’s Call with the Ukrainian President.” Nytimes.com, The New York Times, 25 Sept. 2019, www.nytimes.com/interactive/2019/09/25/us/politics/trump-ukraine-transcript.html. Accessed 6 Apr. 2025.",
+      ),
+      //missing sevral events
+      new timelineEvent(
+        "Vlodomyr Zelensky, president of Ukraine was coming to the United States",
+      ),
+    ],
+  ),
 ];
 
 export default actions;
