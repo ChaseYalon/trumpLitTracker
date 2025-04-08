@@ -1,6 +1,6 @@
 ---
 const { localAction } = Astro.props;
-import { timelineEvent } from "../source/main.mts";
+import { timelineEvent } from "../source/classes.mts";
 import Source from "./Source.astro";
 
 // Calculate colors based on evilness property (0-1 scale)
@@ -169,7 +169,6 @@ const buttonColor = `hsl(${(1 - localAction.evilness) * 117}, 60%, 70%)`;
         const seeMore = document.getElementById(`seeMore-${localAction.id}`);
         const dialog = document.getElementById(`dialog-${localAction.id}`);
         const close = document.getElementById(`close-${localAction.id}`);
-        console.log("LocalAction opinion is ", localAction.opinion);
         if (button && dropdown && seeMore && dialog && close) {
           button.addEventListener("click", () => {
             dropdown.classList.toggle("open");
