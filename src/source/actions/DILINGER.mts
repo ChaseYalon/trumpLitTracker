@@ -1,4 +1,3 @@
-import { time } from "console";
 import { Action, timelineEvent } from "../classes.mts"
 const action = new Action(
     "Firing Hapmpton Dellinger",
