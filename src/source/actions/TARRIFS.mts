@@ -59,7 +59,7 @@ const action = new Action(
                 2025,
                 1,
                 7
-            ),
+            ), 
             "Minsberg, Talya. \"A Timeline of Trump\'s Tariff Fight with Canada, Mexico, China and the E.U.\" The New York Times, 13 Mar. 2025, www.nytimes.com/2025/03/13/business/economy/trump-tariff-timeline.html."
         ),
         new timelineEvent(
